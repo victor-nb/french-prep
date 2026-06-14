@@ -21,17 +21,16 @@ La **troisième** et dernière tâche de l'Expression Orale, et la plus exigeant
 
 ## 🧭 Par où commencer (les ressources de ce dossier)
 
-Ce fichier n'est qu'un point d'entrée. Tout le détail est ici :
+Ce fichier n'est qu'un point d'entrée. Les ressources sont **numérotées dans l'ordre conseillé** — suivez-les **1 → 2 → 3 → 4 → 5** :
 
 | Ressource | À quoi ça sert |
 |---|---|
-| [`structure-type.md`](structure-type.md) | **La structure passe-partout en 5 parties** + le modèle express à mémoriser. **Commencez par là.** |
-| [`guide-pas-a-pas.md`](guide-pas-a-pas.md) | Le déroulé minute par minute le jour J + les **critères de notation** + le plan d'entraînement. |
-| [`exemples.md`](exemples.md) | **5 réponses modèles** rédigées et annotées partie par partie. |
-| [`banque-sujets-arguments.md`](banque-sujets-arguments.md) | **10 thèmes × 10 sujets**, chacun avec 5 arguments *pour*, 5 *contre* et 3 nuances (≈ 1 300 arguments). |
-| [`sujets-par-frequence.md`](sujets-par-frequence.md) | Les **thèmes classés par fréquence** (analyse de 703 sujets, 2022–2026). |
+| [`1-structure-type.md`](1-structure-type.md) | **La structure passe-partout en 5 parties** + le modèle express à mémoriser. **Commencez par là.** |
+| [`2-guide-pas-a-pas.md`](2-guide-pas-a-pas.md) | Le déroulé minute par minute le jour J + les **critères de notation** + le plan d'entraînement. |
+| [`3-exemples.md`](3-exemples.md) | **6 réponses modèles** rédigées et annotées partie par partie. |
+| [`4-banque-sujets-arguments.md`](4-banque-sujets-arguments.md) | **10 thèmes × 10 sujets**, chacun avec 5 arguments *pour*, 5 *contre* et 3 nuances (≈ 1 300 arguments). |
+| [`5-sujets-par-frequence.md`](5-sujets-par-frequence.md) | Les **thèmes classés par fréquence** (analyse de 703 sujets, 2022–2026). |
 | [`data/corpus.txt`](data/corpus.txt) | Le **corpus brut** des 703 vrais sujets + les scripts d'analyse. |
-| [`brouillon-travail-a-l-etranger.md`](brouillon-travail-a-l-etranger.md) | Un brouillon de réponse travaillé (sujet « travailler à l'étranger »). |
 | [`../vocabulaire/`](../vocabulaire/) | **Vocabulaire par thème** + **connecteurs et expressions** B2 (ressource partagée). |
 
 ---

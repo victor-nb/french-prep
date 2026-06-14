@@ -1,6 +1,6 @@
 # Exemples de réponses rédigées (Tâche 3) — une seule trame fixe
 
-Les 5 modèles ci-dessous suivent **exactement la même trame** (voir [`structure-type.md`](structure-type.md)). Dans chaque réponse, ce qui est **en gras est fixe** — vous le dites mot pour mot, quel que soit le sujet. Le reste est la seule partie qui change : votre position, vos arguments, vos exemples.
+Les 6 modèles ci-dessous suivent **exactement la même trame** (voir [`1-structure-type.md`](1-structure-type.md)). Dans chaque réponse, ce qui est **en gras est fixe** — vous le dites mot pour mot, quel que soit le sujet. Le reste est la seule partie qui change : votre position, vos arguments, vos exemples.
 
 ## 🧱 La trame fixe (à mémoriser une seule fois)
 
@@ -90,6 +90,20 @@ En conclusion, je pense que _______, car _______.
 > **4️⃣ Nuance — Cependant, certaines personnes pensent qu'**un simple voyage touristique de quelques jours ne change pas vraiment quelqu'un. **Je comprends ce point de vue, mais je crois que** même un court séjour laisse toujours une trace, à condition de rester curieux et ouvert.
 >
 > **5️⃣ Conclusion — En conclusion, je pense que** voyager à l'étranger peut véritablement transformer une personne, **car** cela enrichit l'esprit, renforce le caractère et change durablement notre façon de voir le monde.
+
+---
+
+## 6. « Il est facile de travailler à l'étranger. Êtes-vous d'accord ? »
+
+> **1️⃣ Introduction — À mon avis, c'est un sujet très actuel et important,** à une époque où de plus en plus de personnes partent travailler à l'étranger. **Personnellement, je pense que** ce n'est pas si facile : c'est une expérience enrichissante, mais elle est loin d'être simple, surtout au début. **Pour justifier mon opinion, je vous donnerai quelques arguments, suivis de quelques exemples.**
+>
+> **2️⃣ Premier argument — Tout d'abord,** la barrière de la langue rend le travail épuisant, même avec un bon niveau. **En effet,** au travail, il ne suffit pas de se débrouiller : il faut convaincre, négocier et comprendre les nuances et l'humour des collègues. **Par exemple,** une personne qui travaille dans une langue étrangère constate souvent qu'une simple réunion lui demande beaucoup plus d'énergie que dans sa langue maternelle.
+>
+> **3️⃣ Deuxième argument — Ensuite,** il y a les obstacles administratifs et la reconnaissance des diplômes. **Cela permet de** comprendre pourquoi beaucoup d'immigrés qualifiés doivent recommencer en bas de l'échelle. **C'est notamment le cas** des médecins ou des ingénieurs étrangers, qui doivent souvent refaire des études ou accepter un poste moins qualifié à leur arrivée.
+>
+> **4️⃣ Nuance — Cependant, certaines personnes pensent que** c'est plus facile qu'avant : dans certains secteurs comme l'informatique, les entreprises recrutent à l'international et l'anglais suffit souvent. **Je comprends ce point de vue, mais je crois qu'**il n'en reste pas moins que l'adaptation demande du temps, des efforts et beaucoup de patience — car chaque pays a aussi ses codes professionnels (la hiérarchie, la ponctualité, la façon de donner son avis), et il faut du temps pour les décoder.
+>
+> **5️⃣ Conclusion — En conclusion, je pense que** travailler à l'étranger n'est pas facile, **car** il faut surmonter la barrière de la langue, les démarches administratives et les différences culturelles. Mais ces difficultés sont temporaires et formatrices : le jeu en vaut la chandelle.
 
 ---
 

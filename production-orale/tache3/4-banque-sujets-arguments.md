@@ -2,7 +2,7 @@
 
 Pour chaque thème : **10 sujets** de type Tâche 3, et pour chaque sujet une **boîte à arguments** — **5 arguments « pour »**, **5 « contre »** et **3 contre-arguments / nuances** (le réflexe de concession B2). Au total : **10 thèmes · 100 sujets · ~1 300 arguments**.
 
-> **Comment s'en servir le jour J :** choisissez le **camp le plus facile à défendre** (pas forcément votre vraie opinion), piochez **2-3 arguments** de la colonne choisie, ajoutez **1 nuance** (« Certes…, il n'en reste pas moins que… »), et **illustrez chaque idée d'un exemple** (réel ou inventé — seule compte la façon de vous exprimer). Pour la trame complète, voir [`structure-type.md`](structure-type.md) ; pour des réponses entièrement rédigées, [`exemples.md`](exemples.md).
+> **Comment s'en servir le jour J :** choisissez le **camp le plus facile à défendre** (pas forcément votre vraie opinion), piochez **2-3 arguments** de la colonne choisie, ajoutez **1 nuance** (« Certes…, il n'en reste pas moins que… »), et **illustrez chaque idée d'un exemple** (réel ou inventé — seule compte la façon de vous exprimer). Pour la trame complète, voir [`1-structure-type.md`](1-structure-type.md) ; pour des réponses entièrement rédigées, [`3-exemples.md`](3-exemples.md).
 
 ## Sommaire
 

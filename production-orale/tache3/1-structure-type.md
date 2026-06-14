@@ -75,7 +75,7 @@ Je comprends ce point de vue, mais je crois que _______.
 En conclusion, je pense que _______, car _______.
 ```
 
-> 📄 **Exemples complets rédigés** (4 sujets traités du début à la fin, annotés partie par partie) : voir **[`exemples.md`](exemples.md)**.
+> 📄 **Exemples complets rédigés** (4 sujets traités du début à la fin, annotés partie par partie) : voir **[`3-exemples.md`](3-exemples.md)**.
 
 ---
 

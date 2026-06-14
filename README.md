@@ -9,21 +9,20 @@ french/
 ├── comprehension-orale/
 │   └── comprehension-orale.md      → le test d'écoute + conseils + site d'entraînement
 │
-├── production-orale/               (= Expression Orale, 3 tâches)
-│   ├── vocabulaire/                (ressource partagée)
-│   │   ├── vocabulaire-par-theme.md          → lexique bilingue, 16 thèmes
-│   │   └── connecteurs-et-expressions.md     → connecteurs, opinion, concession, proverbes
-│   ├── tache1/  tache1.md          → Entretien dirigé (se présenter)
-│   ├── tache2/  tache2.md          → Exercice en interaction (obtenir des infos)
-│   └── tache3/                     → Expression d'un point de vue
-│       ├── tache3.md               → vue d'ensemble + conseils + index du dossier
-│       ├── structure-type.md       → la structure passe-partout en 5 parties
-│       ├── guide-pas-a-pas.md      → déroulé jour J + critères de notation (EN)
-│       ├── exemples.md             → 5 réponses modèles annotées
-│       ├── sujets-par-frequence.md → thèmes classés par fréquence (703 sujets)
-│       └── data/                   → corpus brut + scripts d'analyse
-│
-└── AMELIORATIONS.md                → feuille de route (recherche, pistes d'amélioration)
+└── production-orale/               (= Expression Orale, 3 tâches)
+    ├── vocabulaire/                (ressource partagée)
+    │   ├── vocabulaire-par-theme.md          → lexique bilingue, 16 thèmes
+    │   └── connecteurs-et-expressions.md     → connecteurs, opinion, concession, proverbes
+    ├── tache1/  tache1.md          → Présentation (se présenter)
+    ├── tache2/  tache2.md          → Exercice en interaction (obtenir des infos)
+    └── tache3/                     → Expression d'un point de vue
+        ├── tache3.md               → vue d'ensemble + conseils + index du dossier
+        ├── 1-structure-type.md       → la structure passe-partout en 5 parties
+        ├── 2-guide-pas-a-pas.md      → déroulé jour J + critères de notation (EN)
+        ├── 3-exemples.md             → 6 réponses modèles annotées
+        ├── 4-banque-sujets-arguments.md → 10 thèmes × 10 sujets, ~1 300 arguments
+        ├── 5-sujets-par-frequence.md → thèmes classés par fréquence (703 sujets)
+        └── data/                   → corpus brut + scripts d'analyse
 ```
 
 ## 🎧 Compréhension Orale
@@ -48,7 +47,7 @@ Un **entretien individuel enregistré** d'environ **12 minutes**, en **3 tâches
 
 1. **Compréhension Orale** : entraînement régulier en conditions réelles (un audio = une écoute), puis lecture des transcriptions pour combler le vocabulaire manquant.
 2. **Tâches 1 & 2** : mémoriser les réflexes (développer ses réponses ; poser des questions variées et polies) et le bon registre `tu`/`vous`.
-3. **Tâche 3** : mémoriser la **structure passe-partout** ([`structure-type.md`](production-orale/tache3/structure-type.md)), réviser les **6 thèmes prioritaires** (~78 % des sujets : Immigration, Travail, Éducation, Santé, Médias, Technologie), puis s'entraîner **chronomètre en main** (~4 min 30 sans préparation).
+3. **Tâche 3** : mémoriser la **structure passe-partout** ([`1-structure-type.md`](production-orale/tache3/1-structure-type.md)), réviser les **6 thèmes prioritaires** (~78 % des sujets : Immigration, Travail, Éducation, Santé, Médias, Technologie), puis s'entraîner **chronomètre en main** (~4 min 30 sans préparation).
 
 ## 🗣️ S'entraîner avec Claude (professeur de français)
 
@@ -75,7 +74,7 @@ Les **6 thèmes les plus fréquents** couvrent ~78 % de tous les sujets posés d
 5. Télévision / médias / information — **9 %**
 6. Technologie / Internet / réseaux sociaux — **9 %**
 
-*Source : [reussir-tcfcanada.com](https://reussir-tcfcanada.com/expression-orale/), sessions de janvier 2022 à juin 2026. Détail : [`production-orale/tache3/sujets-par-frequence.md`](production-orale/tache3/sujets-par-frequence.md).*
+*Source : [reussir-tcfcanada.com](https://reussir-tcfcanada.com/expression-orale/), sessions de janvier 2022 à juin 2026. Détail : [`production-orale/tache3/5-sujets-par-frequence.md`](production-orale/tache3/5-sujets-par-frequence.md).*
 
 ## 🖨️ Générer les PDF
 

@@ -1,6 +1,6 @@
 # Tâche 3 — Step-by-step guide to a successful B2 performance
 
-The complete playbook: what happens on exam day (the ~5 minutes themselves), and what "B2" actually requires. Based on [`structure-type.md`](structure-type.md), [`../../AMELIORATIONS.md`](../../AMELIORATIONS.md) and the corpus analysis in [`sujets-par-frequence.md`](sujets-par-frequence.md).
+The complete playbook: what happens on exam day (the ~5 minutes themselves), and what "B2" actually requires. Based on [`1-structure-type.md`](1-structure-type.md) and the corpus analysis in [`5-sujets-par-frequence.md`](5-sujets-par-frequence.md).
 
 ---
 
@@ -98,10 +98,10 @@ Tâche 3 is a monologue — plan to fill the full 4 min 30 yourself. There's no 
 
 ## How to train between now and the exam
 
-1. **Memorize the express template** in [`structure-type.md`](structure-type.md) until it's automatic — it works for ~every topic.
+1. **Memorize the express template** in [`1-structure-type.md`](1-structure-type.md) until it's automatic — it works for ~every topic.
 2. **Cover the top 6 themes** (Immigration, Travail, Éducation, Santé, Médias, Technologie = ~78 % of all prompts) with 5–8 « → » collocations each from [`../vocabulaire/vocabulaire-par-theme.md`](../vocabulaire/vocabulaire-par-theme.md).
 3. **Drill the most recurrent subjects** first — « Vivre dans un pays étranger est difficile » is the #1 prompt in the whole corpus.
 4. **Practice the real format**: `/tcf-pratique examen` — random subject, zero prep, 4 min 30 timed, then feedback. Do 2–3 of these per week.
-5. **Read the 5 model answers** in [`exemples.md`](exemples.md) aloud to internalize the rhythm — imitate, don't memorize.
+5. **Read the 5 model answers** in [`3-exemples.md`](3-exemples.md) aloud to internalize the rhythm — imitate, don't memorize.
 
 > **The key insight:** since there's no prep time, the skill you're really training is **sustaining structured speech for 4½ minutes on autopilot**. The template + pre-loaded examples are what make that possible.
