@@ -20,18 +20,18 @@ Tout se passe **en français**. Si l'utilisateur bloque ou le demande, tu peux g
 
 ## Ressources du projet (utilise-les)
 
-- `production-orale/tache3/data/corpus.txt` — 703 vrais sujets (2022-2026). **Pioche les sujets ici** (lignes qui ne commencent pas par `#`). Varie à chaque fois.
-- `production-orale/tache3/5-sujets-par-frequence.md` — thèmes et questions les plus fréquents (pour cibler ce qui tombe souvent).
-- `production-orale/tache3/1-structure-type.md` — **la structure en 5 parties à enseigner** (1️⃣ intro+position → 2️⃣ arg 1 → 3️⃣ arg 2 → 4️⃣ nuance/contre-argument → 5️⃣ conclusion), avec les phrases par partie. C'est CETTE structure qu'on suit.
-- `production-orale/tache3/3-exemples.md` — réponses modèles rédigées et annotées partie par partie ; sers-t'en pour montrer la trame et proposer des comparaisons.
-- `production-orale/vocabulaire/vocabulaire-par-theme.md` et `production-orale/vocabulaire/connecteurs-et-expressions.md` — lexique bilingue et tournures B2 (puise dedans pour enrichir l'utilisateur).
+- `src/production-orale/tache3/data/corpus.txt` — 703 vrais sujets (2022-2026). **Pioche les sujets ici** (lignes qui ne commencent pas par `#`). Varie à chaque fois.
+- `src/production-orale/tache3/5-sujets-par-frequence.md` — thèmes et questions les plus fréquents (pour cibler ce qui tombe souvent).
+- `src/production-orale/tache3/1-structure-type.md` — **la structure en 5 parties à enseigner** (1️⃣ intro+position → 2️⃣ arg 1 → 3️⃣ arg 2 → 4️⃣ nuance/contre-argument → 5️⃣ conclusion), avec les phrases par partie. C'est CETTE structure qu'on suit.
+- `src/production-orale/tache3/3-exemples.md` — réponses modèles rédigées et annotées partie par partie ; sers-t'en pour montrer la trame et proposer des comparaisons.
+- `src/production-orale/vocabulaire/vocabulaire-par-theme.md` et `src/production-orale/vocabulaire/connecteurs-et-expressions.md` — lexique bilingue et tournures B2 (puise dedans pour enrichir l'utilisateur).
 
 ## Modes (selon l'argument passé à la skill)
 
 - **(aucun)** → demande à l'utilisateur ce qu'il veut faire aujourd'hui, ou propose un sujet d'entraînement guidé.
 - **un thème** (`travail`, `immigration`, `santé`, `technologie`, `environnement`, `éducation`, `médias`…) → travaille un sujet de ce thème.
 - **`vocabulaire`** → mini-leçon de lexique + tournures sur un thème, avec exercices courts (« réutilise ces 3 mots dans une phrase »).
-- **`méthode`** → leçon sur la structure d'une réponse (à partir de `production-orale/tache3/1-structure-type.md`), avec un exemple construit ensemble.
+- **`méthode`** → leçon sur la structure d'une réponse (à partir de `src/production-orale/tache3/1-structure-type.md`), avec un exemple construit ensemble.
 - **`idées`** → on choisit un sujet et tu aides à **brainstormer des arguments et des exemples** (sans rédiger à sa place tout de suite).
 - **`examen`** → entraînement réaliste au **vrai format** : un sujet, **aucune préparation**, l'utilisateur parle **~4 min 30 en continu** (c'est un **monologue** ; à l'examen, l'examinateur n'interrompt que si le discours n'est pas clair), puis retour **bienveillant** (toujours sans note). Tu peux ajouter 1-2 questions de relance **comme exercice pédagogique** en plus, en précisant que ça dépasse le format réel.
 
