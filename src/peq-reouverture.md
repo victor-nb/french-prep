@@ -7,10 +7,14 @@
 
 1. **The PEQ is back — temporarily.** On Wednesday, June 10, 2026, Immigration Minister François Bonnardel announced the Programme de l'expérience québécoise (PEQ) will be reactivated for two years, **July 2, 2026 to July 2, 2028**, in both streams (Diplômés du Québec and Travailleurs étrangers temporaires), after which it is slated to close permanently in favour of the PSTQ. **[official]** (quebec.ca communiqué 71021 + program pages, all dated June 10, 2026)
 2. **First application window: July 2 – October 31, 2026**, with the Arrima platform opening at **8:30 a.m. Montreal time on July 2**. **[official]**
+
 3. **Grandfathering rule:** the first window is reserved for people who **already held an eligible Quebec diploma or had accumulated eligible work experience as of November 19, 2025** — the date the PEQ was abolished. **[official]**
+
 4. **No cap on applications** in the first window: "Il n'y a pas de plafond" — every conforming application received will be processed. But **admissions** still fit inside the ~29,000/year economic-immigration envelope (~14,500/year via PEQ targeted), and the old 6-month processing commitment is **not renewed**. **[official]** (no-cap and 6-month withdrawal are in the communiqué; the 14,500 split is **[reported]**, minister's verbal statement)
 5. **French requirements (key for test-takers):** oral **level 7** on the Échelle québécoise (≈ B2) for principal applicants in **both** streams; graduates additionally need **written level 5** (≈ B1); accompanying spouse needs **oral level 4** (≈ high A2). **[official]** On TCF Canada, level 7 oral means **≥ 400/699 in compréhension orale AND ≥ 10/20 in expression orale** (per the official MIFI correspondence table — pre-existing, not re-published for the PEQ). **[official table / unconfirmed carry-over]**
+
 6. **Full program details and the NEW application forms arrive June 17, 2026**; old forms (A-0520-GF / A-0520-IF) will make an application non-receivable. **[official]**
+
 7. **The ministry expects 8,000–12,000 (possibly ~14,000) first-window applicants** — far below the 125,000 figure floated during the CAQ leadership race, a gap Bonnardel could not explain ("C'était des prévisions à très haut niveau"). **[reported]** (press conference figure; appears in no official written document)
 8. **No legal instrument exists yet.** As of June 10 evening, no regulation, arrêté or Gazette officielle publication implements the reopening — verified by full-text search of Gazette Partie 2 No. 23 (June 10) and the MIFI decisions page (frozen at May 19, 2026). The reopening currently rests on web pages and communiqués alone. **[official negative finding]**
 
@@ -57,9 +61,11 @@ The MIFI explicitly distinguishes **critères de réception** (who may file duri
 - **Not eligible** (per the pre-suspension form, expected to carry over): AEP, AEC, DESS, postdoctorate, DES, general DEC, university certificates. **[official pre-suspension / unconfirmed for reopened program]**
 
 **Selection conditions (as listed in communiqué 71021):** **[official]**
+
 1. Be staying in Quebec ("séjourner au Québec") at the time of application.
 2. Have stayed temporarily in Quebec mainly to study, for at least half the program's duration.
 3. Diploma obtained **within the three years preceding the application** (anchored at application date — combined with the Nov 19, 2025 ceiling, a first-window applicant needs a diploma dated roughly between mid/late 2023 and Nov 19, 2025; pre-mid-2023 graduates appear excluded as written, with no accommodation mentioned). **[official text; the exclusion effect is analysis]**
+
 4. French: **written level 5 AND oral level 7** (see §5).
 5. No scholarship with a return-home condition (unless fulfilled).
 6. Common conditions: intention to settle in Quebec to hold a job; demonstrated learning of democratic and Quebec values (also spouse and adult dependants); financial self-sufficiency commitment.
@@ -76,6 +82,7 @@ The MIFI explicitly distinguishes **critères de réception** (who may file duri
 - ⚠️ **Lookback-window ambiguity:** the official texts say only *"d'une durée d'au moins deux ans, en date du 19 novembre 2025"* — **no 3-year window is stated**. La Presse and Moving2Canada both add "**within the previous three years**" anchored at Nov 19, 2025 (≈ Nov 19, 2022 – Nov 19, 2025). The pre-suspension regulation (RIQ art. 35) anchored a 2-of-3-years window **at the application date**. Which anchor governs is **unresolved** pending the legal text/forms. **[official text vs reported gloss — flag]**
 
 **Selection conditions (as listed June 10):** **[official]**
+
 1. **Occupy an eligible job at the time of application** — people who lost their job or left Quebec during the freeze would fail this condition as announced; no remedy mentioned.
 2. French: **oral level 7** (no written requirement for workers).
 3. Common conditions (intention to settle and work; values; self-sufficiency).
@@ -156,11 +163,16 @@ Same bands apply to TCF and TCF-Québec.
 ## 6. Application process & what happens after
 
 1. **File a demande de sélection permanente in Arrima** starting July 2, 2026, 8:30 a.m. (direct application; no invitation needed for the PEQ). **[official]**
+
 2. Use the **new forms published June 17, 2026** — *"Veuillez ne pas utiliser les anciens formulaires pour présenter votre demande, car elle ne sera pas recevable."* **[official]**
+
 3. **Fees:** spouse/common-law partner **$201** and each dependent child **$201** (2026 rates, non-refundable, indexed each January 1). **[official]** The **principal-applicant fee for the reopened PEQ is not published**; the official 2026 tariff's single "Travailleur qualifié" permanent-selection line is **$940** (up from $921), and the PEQ has historically always used that line — so **$940 is the strong best estimate, but it is a derivation, not a verbatim PEQ statement**. **[official tariff / unconfirmed PEQ application]** Processing starts only once payment is received; personal cheques not accepted.
 4. **Incomplete files:** 60 days to supply missing elements, otherwise rejection. **Values attestation:** 60 days for added adults. **[official]**
+
 5. **Processing times:** the MIFI's former **6-month service commitment is explicitly NOT renewed** — *"l'engagement de traiter les demandes dans un délai de six mois … n'est pas reconduit"* — and high volumes over the four-month window may cause longer delays. **[official]** Bonnardel said processing could stretch **over two years** if volumes exceed forecasts **[reported — verbal]**; Moving2Canada expects many 2026 filings to be decided only in **2027** **[reported]**. No prioritization order has been announced. **[official negative]**
+
 6. **After selection:** successful applicants receive a **Certificat de sélection du Québec (CSQ)**, then apply to **IRCC** for permanent residence (federal stage: admissibility, security, medicals). **[official]**
+
 7. **During processing, you are on your own for status:** *"Pendant le traitement de votre demande, vous devrez vous assurer de conserver un permis de travail valide et de le renouveler si nécessaire."* **[official]**
 
 ---
@@ -224,6 +236,7 @@ Same bands apply to TCF and TCF-Québec.
 ## 10. What remains unconfirmed
 
 **No official source yet exists for:**
+
 1. **The legal instrument.** No regulation re-enacting the PEQ in the RIQ and no ministerial reception-period decision (arrêté under arts. 50/52 LIQ) has been published — Gazette Partie 2 through No. 23 (June 10) searched negative; MIFI decisions page frozen at May 19, 2026. Under art. 104 LIQ such a regulation needs no draft publication and can take effect on Gazette publication — **watch Gazette No. 24 (June 17), No. 25 (June 24) or No. 26 (~July 1)**, the latest lawful slots before July 2.
 2. **Principal-applicant fee** for the reopened PEQ ($940 is a derivation from the program-neutral 2026 "Travailleur qualifié" tariff line, not a PEQ-specific statement).
 3. **Accepted French-test list and 2-year validity for the reopened program** (pre-suspension framework expected to carry over; due June 17), and **any accommodation for tests that expired during the closure** (flagged grey zone, no answer).

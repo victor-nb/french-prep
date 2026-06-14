@@ -95,6 +95,7 @@ Site **gratuit** de préparation au TCF Canada, monté en réaction aux services
 - l'**explication** de pourquoi votre réponse est juste ou fausse, + le **vocabulaire** important.
 
 **Méthode d'entraînement conseillée :**
+
 1. Écoutez l'audio **à l'oreille seule** — ne regardez pas la transcription tout de suite.
 2. **Engagez-vous** sur une réponse.
 3. Révélez la correction : lisez la transcription, repérez la **phrase-clé**, notez le vocabulaire qui vous a piégé.
