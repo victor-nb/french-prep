@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Track the project skill even though ~/.gitignore ignores .claude globally
+!.claude/
+!.claude/**
+aula1.txt
+tache1.txt

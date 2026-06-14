@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+make build
+
+# PDFs are tracked, so stage the freshly built ones — otherwise the commit
+# would keep the old PDFs while the .md sources move ahead.
+git add '*.pdf'
