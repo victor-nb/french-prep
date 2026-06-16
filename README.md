@@ -22,7 +22,14 @@ french/
 │           ├── 3-exemples.md           → 6 réponses modèles annotées
 │           ├── 4-banque-sujets-arguments.md → 10 thèmes × 10 sujets, ~1 300 arguments
 │           ├── 5-sujets-par-frequence.md → thèmes classés par fréquence (703 sujets)
-│           └── data/                   → corpus brut + scripts d'analyse
+│           ├── examples/               → 214 réponses modèles B2 (tous les sujets 2026)
+│           │   ├── 0-index.md          → index trié par priorité (fréquence d'apparition)
+│           │   ├── NNN-slug.md         → 1 sujet = 1 réponse rédigée + bloc audio
+│           │   └── audio/              → MP3 générés par `make speak` (NNN-slug.mp3)
+│           ├── tts.py                  → synthèse vocale des réponses (voix humaine clonée)
+│           ├── build_site.py           → génère index.html (site GitHub Pages)
+│           └── data/                   → corpus brut + scripts d'analyse + voix de référence
+├── index.html                          ← site statique (make site) — GitHub Pages
 ├── pdf/                                ← PDF générés (make build) — même arborescence que src/
 ├── Makefile
 └── README.md
@@ -78,6 +85,29 @@ Les **6 thèmes les plus fréquents** couvrent ~78 % de tous les sujets posés d
 6. Technologie / Internet / réseaux sociaux — **9 %**
 
 *Source : [reussir-tcfcanada.com](https://reussir-tcfcanada.com/expression-orale/), sessions de janvier 2022 à juin 2026. Détail : [`src/production-orale/tache3/5-sujets-par-frequence.md`](src/production-orale/tache3/5-sujets-par-frequence.md).*
+
+## 🎙️ Réponses modèles & audios (Tâche 3)
+
+Le dossier [`src/production-orale/tache3/examples/`](src/production-orale/tache3/examples/) contient **une réponse modèle B2 rédigée pour chacun des 214 sujets de 2026** (structure passe-partout en 5 parties, ~390 mots ≈ 4 min de parole). Les sujets sont **dédupliqués** (les reformulations quasi identiques sont fusionnées) et **classés par priorité** : plus un sujet est revenu souvent, plus il risque de retomber — voir [`examples/0-index.md`](src/production-orale/tache3/examples/0-index.md).
+
+Chaque réponse peut être **lue à voix haute par une IA**, pour s'entraîner à la **compréhension** et au **shadowing** :
+
+| Commande | Effet |
+|---|---|
+| `make voice` | Télécharge la **voix de référence humaine** (extrait FLEURS, CC-BY) qui sera clonée |
+| `make speak-test` | Génère **3 audios** (test rapide de la voix) |
+| `make speak` | Génère **tous** les audios manquants → `examples/audio/*.mp3` (reprend où il s'est arrêté) |
+| `make speak ARGS="--ranks 1-20"` | Génère seulement une plage de sujets |
+| `make speak ARGS="--speed 0.85"` | Change la vitesse de lecture (défaut `0.9`, plus lent < 1) |
+| `make clean-audio` | Supprime les audios générés |
+
+> 🔊 **Voix « la moins synthétique possible » :** on utilise **Higgs Audio v3** (modèle ~4B, tourne en local sur Apple Silicon via MLX) en **clonant une vraie voix humaine** (`data/voix-reference.wav`) plutôt que la voix par défaut. Pour changer de voix, remplacez simplement `data/voix-reference.wav` + `data/voix-reference.txt` par votre propre extrait (~8-15 s) et sa transcription. Installation : `pip install mlx-audio soundfile datasets scipy`.
+>
+> ⚙️ **Régénérer l'index des sujets** (après une mise à jour du corpus) : `make examples`.
+
+## 🌐 Site web (GitHub Pages)
+
+`make site` génère un **`index.html`** autonome (recherche, filtre par thème, texte de chaque réponse + lecteur audio). Aperçu local : `open index.html`. Mis en ligne via **GitHub Pages** (*Settings → Pages → branche `main`, dossier `/`*) → **https://victor-nb.github.io/french-prep/**. Les audios (`examples/audio/`) sont **versionnés** pour que Pages puisse les jouer.
 
 ## 🖨️ Générer les PDF
 
