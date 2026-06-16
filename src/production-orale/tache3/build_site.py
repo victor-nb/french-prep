@@ -426,10 +426,6 @@ function viewAccueil(){
     +'</div>'
     +'<div style="display:flex;flex-direction:column;gap:13px">'+themes.map(t=>'<div class="theme-row"><div class="top"><span class="name"><span class="dot" style="background:'+t.color+'"></span>'+t.label+'</span><span class="pct">'+t.pct+'&nbsp;%</span></div><div class="track"><span class="fill" style="width:'+(t.pct*4)+'%;background:'+t.color+'"></span></div></div>').join('')+'</div>'
   +'</div></section>'
-
-  +'<section class="section"><div class="cta-band"><div style="max-width:46ch"><h2>Entraînez-vous avec un professeur</h2>'
-    +'<p>Claude joue un professeur bienveillant : il pioche un vrai sujet, vous laisse parler 4 min 30, puis corrige sans jamais vous noter.</p></div>'
-    +'<button class="btn btn-accent btn-lg">'+ic('sparkles',17)+' Commencer un entraînement</button></div></section>'
   +'</div>';
 }
 
