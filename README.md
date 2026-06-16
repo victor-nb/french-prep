@@ -2,6 +2,8 @@
 
 Projet personnel de préparation aux épreuves **orales** du **TCF Canada** : la **Compréhension Orale** (écoute) et la **Production / Expression Orale** (les 3 tâches). Objectif : **niveau B2** (NCLC 7+).
 
+> 🌐 **Site en ligne → https://victor-nb.github.io/french-prep**
+
 ## 📁 Structure
 
 ```
@@ -27,7 +29,8 @@ french/
 │           │   ├── NNN-slug.md         → 1 sujet = 1 réponse rédigée + bloc audio
 │           │   └── audio/              → MP3 générés par `make speak` (NNN-slug.mp3)
 │           ├── tts.py                  → synthèse vocale des réponses (voix humaine clonée)
-│           ├── build_site.py           → génère index.html (site GitHub Pages)
+│           ├── build_site.py           → génère index.html (le manuel, site GitHub Pages)
+│           ├── content/                → contenu des chapitres T2/T3 + annexes (JSON lu par build_site.py)
 │           └── data/                   → corpus brut + scripts d'analyse + voix de référence
 ├── index.html                          ← site statique (make site) — GitHub Pages
 ├── pdf/                                ← PDF générés (make build) — même arborescence que src/
@@ -107,7 +110,15 @@ Chaque réponse peut être **lue à voix haute par une IA**, pour s'entraîner �
 
 ## 🌐 Site web (GitHub Pages)
 
-`make site` génère un **`index.html`** autonome (recherche, filtre par thème, texte de chaque réponse + lecteur audio). Aperçu local : `open index.html`. Mis en ligne via **GitHub Pages** (*Settings → Pages → branche `main`, dossier `/`*) → **https://victor-nb.github.io/french-prep/**. Les audios (`examples/audio/`) sont **versionnés** pour que Pages puisse les jouer.
+`make site` génère un **`index.html`** autonome : un **manuel complet de l'Expression orale**, en HTML/CSS/JS pur (sans build). Il contient :
+
+- **un chapitre par tâche** (1, 2, 3), chacun structuré en **Comprendre → Voir → S'entraîner** : format, méthode, simulations, réflexes, et banques de phrases **copiables** ;
+- la **Banque des 214 réponses** (recherche, filtre par thème, lecteur audio) ;
+- un **trouveur d'arguments** à la demande (10 thèmes × 10 sujets : *pour / contre / nuances*) ;
+- les annexes **Vocabulaire** (16 thèmes, FR→EN) et **Connecteurs** (par fonction, concession en vedette) ;
+- une page **« Avant d'entrer »** : l'essentiel à relire la veille de l'examen.
+
+Aperçu local : `open index.html`. Mis en ligne via **GitHub Pages** (*Settings → Pages → branche `main`, dossier `/`*) → **https://victor-nb.github.io/french-prep**. Le contenu rédactionnel des chapitres vit dans `src/production-orale/tache3/content/*.json` (lu par `build_site.py`) ; les audios (`examples/audio/`) sont **versionnés** pour que Pages puisse les jouer.
 
 ## 🖨️ Générer les PDF
 
