@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+*.tmp.wav
 
 # Track the project skill even though ~/.gitignore ignores .claude globally
 !.claude/

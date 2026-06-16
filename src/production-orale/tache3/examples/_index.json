@@ -1,0 +1,3328 @@
+[
+  {
+    "rank": 1,
+    "id": "001",
+    "slug": "pensez-qu-soit-possible-vivre-sans-voiture",
+    "filename": "001-pensez-qu-soit-possible-vivre-sans-voiture.md",
+    "frequency": 2,
+    "subject": "Pensez-vous qu'il soit possible de vivre sans voiture ?",
+    "themes": [
+      "Environnement / pollution / écologie"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": [
+      "De nos jours, il est possible de vivre sans voiture. Qu'en pensez-vous ?"
+    ]
+  },
+  {
+    "rank": 2,
+    "id": "002",
+    "slug": "transports-commun-doivent-etre-accessibles-gratuitement",
+    "filename": "002-transports-commun-doivent-etre-accessibles-gratuitement.md",
+    "frequency": 2,
+    "subject": "Pensez-vous que les transports en commun doivent être accessibles gratuitement ?",
+    "themes": [
+      "Environnement / pollution / écologie"
+    ],
+    "months": [
+      "2026-04",
+      "2026-02"
+    ],
+    "variants": [
+      "Faut-il que les transports en commun soient accessibles gratuitement à tout le monde ?"
+    ]
+  },
+  {
+    "rank": 3,
+    "id": "003",
+    "slug": "suffisant-maitriser-langue-pays-d-accueil-reussir",
+    "filename": "003-suffisant-maitriser-langue-pays-d-accueil-reussir.md",
+    "frequency": 2,
+    "subject": "Est-il suffisant de maîtriser la langue du pays d'accueil pour réussir son intégration ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Langues étrangères"
+    ],
+    "months": [
+      "2026-04",
+      "2026-03"
+    ],
+    "variants": [
+      "Est-ce que maîtriser la langue du pays d'accueil est suffisant pour réussir son intégration ?"
+    ]
+  },
+  {
+    "rank": 4,
+    "id": "004",
+    "slug": "relations-distance-peuvent-elles-etre-aussi-solides",
+    "filename": "004-relations-distance-peuvent-elles-etre-aussi-solides.md",
+    "frequency": 2,
+    "subject": "Les relations à distance peuvent-elles être aussi solides que les relations directes ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-05",
+      "2026-03"
+    ],
+    "variants": [
+      "De nos jours, grâce à Internet, les relations à distance peuvent-elles être aussi solides que les relations directes ?"
+    ]
+  },
+  {
+    "rank": 5,
+    "id": "005",
+    "slug": "jeunes-ont-ils-facilite-apprendre-langue-etrangere",
+    "filename": "005-jeunes-ont-ils-facilite-apprendre-langue-etrangere.md",
+    "frequency": 2,
+    "subject": "Les jeunes ont-ils plus de facilité à apprendre une langue étrangère ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Éducation / école / études / diplômes",
+      "Langues étrangères",
+      "Générations / jeunes / personnes âgées"
+    ],
+    "months": [
+      "2026-05",
+      "2026-03"
+    ],
+    "variants": [
+      "Selon vous, est-ce que les jeunes ont plus de facilité à apprendre une langue étrangère que les personnes âgées ?"
+    ]
+  },
+  {
+    "rank": 6,
+    "id": "006",
+    "slug": "vivre-ville-provoque-t-toujours-stress",
+    "filename": "006-vivre-ville-provoque-t-toujours-stress.md",
+    "frequency": 2,
+    "subject": "Vivre en ville provoque-t-il toujours du stress ?",
+    "themes": [
+      "Santé / alimentation / mode de vie",
+      "Ville / campagne / logement"
+    ],
+    "months": [
+      "2026-05",
+      "2026-03"
+    ],
+    "variants": [
+      "Pensez-vous que vivre en ville provoque toujours du stress ?"
+    ]
+  },
+  {
+    "rank": 7,
+    "id": "007",
+    "slug": "necessaire-d-avoir-experience-l-etranger-durant",
+    "filename": "007-necessaire-d-avoir-experience-l-etranger-durant.md",
+    "frequency": 2,
+    "subject": "Est-il nécessaire d'avoir une expérience à l'étranger durant sa carrière ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-05",
+      "2026-03"
+    ],
+    "variants": [
+      "Pensez-vous qu'il est nécessaire d'avoir une expérience à l'étranger durant sa carrière professionnelle ?"
+    ]
+  },
+  {
+    "rank": 8,
+    "id": "008",
+    "slug": "tout-monde-peut-participer-tri-dechets",
+    "filename": "008-tout-monde-peut-participer-tri-dechets.md",
+    "frequency": 2,
+    "subject": "Tout le monde peut participer au tri des déchets.",
+    "themes": [
+      "Environnement / pollution / écologie",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05",
+      "2026-02"
+    ],
+    "variants": [
+      "Tout le monde peut agir pour produire moins de déchets. Qu'en pensez-vous ?"
+    ]
+  },
+  {
+    "rank": 9,
+    "id": "009",
+    "slug": "necessaire-suivre-longues-etudes-reussir-vie",
+    "filename": "009-necessaire-suivre-longues-etudes-reussir-vie.md",
+    "frequency": 2,
+    "subject": "Selon vous, est-il nécessaire de suivre de longues études pour réussir dans la vie ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Argent / bonheur / réussite",
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": [
+      "Est-il nécessaire de faire de longues études pour réussir dans sa vie professionnelle ?"
+    ]
+  },
+  {
+    "rank": 10,
+    "id": "010",
+    "slug": "l-autorite-indispensable-bien-eduquer-enfants",
+    "filename": "010-l-autorite-indispensable-bien-eduquer-enfants.md",
+    "frequency": 2,
+    "subject": "L'autorité est-elle indispensable pour bien éduquer les enfants ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité"
+    ],
+    "months": [
+      "2026-06",
+      "2026-05"
+    ],
+    "variants": [
+      "Pensez-vous que l'autorité soit indispensable pour bien éduquer les enfants ?"
+    ]
+  },
+  {
+    "rank": 11,
+    "id": "011",
+    "slug": "peut-vivre-sans-utiliser-medicaments",
+    "filename": "011-peut-vivre-sans-utiliser-medicaments.md",
+    "frequency": 1,
+    "subject": "Peut-on vivre sans utiliser de médicaments ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 12,
+    "id": "012",
+    "slug": "parents-devraient-ils-permettre-enfants-d-etre",
+    "filename": "012-parents-devraient-ils-permettre-enfants-d-etre.md",
+    "frequency": 1,
+    "subject": "Les parents devraient-ils permettre à leurs enfants d'être sur les réseaux sociaux ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 13,
+    "id": "013",
+    "slug": "entreprises-doivent-elles-accepter-employes-reposent-travail",
+    "filename": "013-entreprises-doivent-elles-accepter-employes-reposent-travail.md",
+    "frequency": 1,
+    "subject": "Les entreprises doivent-elles accepter que les employés se reposent au travail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 14,
+    "id": "014",
+    "slug": "chacun-puisse-assumer-role-responsable",
+    "filename": "014-chacun-puisse-assumer-role-responsable.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que chacun puisse assumer un rôle de responsable ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 15,
+    "id": "015",
+    "slug": "pratique-continuer-vivre-parents-apres-l-age",
+    "filename": "015-pratique-continuer-vivre-parents-apres-l-age.md",
+    "frequency": 1,
+    "subject": "Est-il pratique de continuer à vivre avec ses parents après l'âge de 25 ans ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 16,
+    "id": "016",
+    "slug": "quelle-maniere-entreprises-peuvent-elles-faciliter-l",
+    "filename": "016-quelle-maniere-entreprises-peuvent-elles-faciliter-l.md",
+    "frequency": 1,
+    "subject": "De quelle manière les entreprises peuvent-elles faciliter l'intégration des nouveaux employés ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 17,
+    "id": "017",
+    "slug": "fait-resider-plusieurs-pays-puisse-ameliorer-perspectives",
+    "filename": "017-fait-resider-plusieurs-pays-puisse-ameliorer-perspectives.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que le fait de résider dans plusieurs pays puisse améliorer les perspectives professionnelles ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 18,
+    "id": "018",
+    "slug": "quelle-etait-votre-matiere-preferee-l-ecole",
+    "filename": "018-quelle-etait-votre-matiere-preferee-l-ecole.md",
+    "frequency": 1,
+    "subject": "Quelle était votre matière préférée à l'école ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 19,
+    "id": "019",
+    "slug": "quelles-lecons-matieres-devraient-avoir-place-programmes",
+    "filename": "019-quelles-lecons-matieres-devraient-avoir-place-programmes.md",
+    "frequency": 1,
+    "subject": "Quelles leçons ou matières devraient avoir plus de place dans les programmes scolaires ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 20,
+    "id": "020",
+    "slug": "preferable-d-avoir-grande-famille-vrais-amis",
+    "filename": "020-preferable-d-avoir-grande-famille-vrais-amis.md",
+    "frequency": 1,
+    "subject": "Selon vous, est-il préférable d'avoir une grande famille ou de vrais amis ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 21,
+    "id": "021",
+    "slug": "pensez-qu-internet-joue-role-benefique-l",
+    "filename": "021-pensez-qu-internet-joue-role-benefique-l.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'Internet joue un rôle bénéfique dans l'éducation des enfants ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 22,
+    "id": "022",
+    "slug": "plupart-gens-essaient-ils-paraitre-jeunes-age",
+    "filename": "022-plupart-gens-essaient-ils-paraitre-jeunes-age.md",
+    "frequency": 1,
+    "subject": "La plupart des gens essaient-ils de paraître plus jeunes que leur âge ?",
+    "themes": [
+      "Apparence / beauté / célébrités",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 23,
+    "id": "023",
+    "slug": "tourisme-permet-pays-developper-progresser-economiquement",
+    "filename": "023-tourisme-permet-pays-developper-progresser-economiquement.md",
+    "frequency": 1,
+    "subject": "Le tourisme permet-il à un pays de se développer et de progresser économiquement ?",
+    "themes": [
+      "Tourisme / voyage"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 24,
+    "id": "024",
+    "slug": "jeux-video-constituent-ils-danger-joueurs",
+    "filename": "024-jeux-video-constituent-ils-danger-joueurs.md",
+    "frequency": 1,
+    "subject": "Les jeux vidéo constituent-ils un danger pour les joueurs ?",
+    "themes": [
+      "Jeux vidéo"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 25,
+    "id": "025",
+    "slug": "necessaire-d-avoir-diplomes-reussir-carriere-professionnelle",
+    "filename": "025-necessaire-d-avoir-diplomes-reussir-carriere-professionnelle.md",
+    "frequency": 1,
+    "subject": "Est-il nécessaire d'avoir des diplômes pour réussir dans sa carrière professionnelle ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-01"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 26,
+    "id": "026",
+    "slug": "possible-remettre-etudes-commencer-etudes-tout-age",
+    "filename": "026-possible-remettre-etudes-commencer-etudes-tout-age.md",
+    "frequency": 1,
+    "subject": "Il est possible de se remettre aux études ou de commencer des études à tout âge. Qu'en pensez-vous ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 27,
+    "id": "027",
+    "slug": "metiers-lies-l-art-sont-vus-comme",
+    "filename": "027-metiers-lies-l-art-sont-vus-comme.md",
+    "frequency": 1,
+    "subject": "Les métiers liés à l'art ne sont pas vus comme de vrais emplois. Qu'en pensez-vous ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 28,
+    "id": "028",
+    "slug": "personnes-agees-offrent-souvent-conseils-utiles",
+    "filename": "028-personnes-agees-offrent-souvent-conseils-utiles.md",
+    "frequency": 1,
+    "subject": "Les personnes âgées offrent souvent des conseils utiles. Qu'en pensez-vous ?",
+    "themes": [
+      "Générations / jeunes / personnes âgées"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 29,
+    "id": "029",
+    "slug": "grace-reseaux-sociaux-facile-faire-connaissances-amities",
+    "filename": "029-grace-reseaux-sociaux-facile-faire-connaissances-amities.md",
+    "frequency": 1,
+    "subject": "Grâce aux réseaux sociaux, il est plus facile de se faire des connaissances et des amitiés. Qu'en pensez-vous ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux",
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 30,
+    "id": "030",
+    "slug": "tous-etes-magazines-publient-recommandations-perdre-poids",
+    "filename": "030-tous-etes-magazines-publient-recommandations-perdre-poids.md",
+    "frequency": 1,
+    "subject": "Tous les étés, les magazines publient des recommandations pour perdre du poids. Ces informations sont-elles efficaces et crédibles ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 31,
+    "id": "031",
+    "slug": "personnes-tres-differentes-peuvent-garder-amitie-durable",
+    "filename": "031-personnes-tres-differentes-peuvent-garder-amitie-durable.md",
+    "frequency": 1,
+    "subject": "Selon certains, des personnes très différentes ne peuvent pas garder une amitié durable. Êtes-vous d'accord ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 32,
+    "id": "032",
+    "slug": "voyager-l-etranger-peut-transformer-personne",
+    "filename": "032-voyager-l-etranger-peut-transformer-personne.md",
+    "frequency": 1,
+    "subject": "Voyager à l'étranger peut transformer une personne. Qu'en pensez-vous ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Tourisme / voyage"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 33,
+    "id": "033",
+    "slug": "outils-digitaux-aident-economiser-temps-vie-tous",
+    "filename": "033-outils-digitaux-aident-economiser-temps-vie-tous.md",
+    "frequency": 1,
+    "subject": "Les outils digitaux aident à économiser du temps dans la vie de tous les jours. Partagez-vous cet avis ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 34,
+    "id": "034",
+    "slug": "simple-creer-amities-lorsqu-arrive-pays-etranger",
+    "filename": "034-simple-creer-amities-lorsqu-arrive-pays-etranger.md",
+    "frequency": 1,
+    "subject": "Selon vous, est-ce simple de créer des amitiés lorsqu'on arrive dans un pays étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 35,
+    "id": "035",
+    "slug": "gens-choisissent-devenir-vegetariens-regime-alimentaire",
+    "filename": "035-gens-choisissent-devenir-vegetariens-regime-alimentaire.md",
+    "frequency": 1,
+    "subject": "De plus en plus de gens choisissent de devenir végétariens. Que pensez-vous de ce régime alimentaire ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 36,
+    "id": "036",
+    "slug": "peut-vraiment-tout-acheter-internet",
+    "filename": "036-peut-vraiment-tout-acheter-internet.md",
+    "frequency": 1,
+    "subject": "Peut-on vraiment tout acheter sur Internet ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 37,
+    "id": "037",
+    "slug": "salaire-facteur-principal-emploi",
+    "filename": "037-salaire-facteur-principal-emploi.md",
+    "frequency": 1,
+    "subject": "Le salaire est-il le facteur principal dans un emploi ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 38,
+    "id": "038",
+    "slug": "peut-considerer-membres-famille-comme-meilleurs-amis",
+    "filename": "038-peut-considerer-membres-famille-comme-meilleurs-amis.md",
+    "frequency": 1,
+    "subject": "Peut-on considérer les membres de la famille comme nos meilleurs amis ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 39,
+    "id": "039",
+    "slug": "vie-ville-facile-personnes-agees-vie-campagne",
+    "filename": "039-vie-ville-facile-personnes-agees-vie-campagne.md",
+    "frequency": 1,
+    "subject": "La vie en ville est-elle plus facile pour les personnes âgées que la vie à la campagne ?",
+    "themes": [
+      "Ville / campagne / logement",
+      "Générations / jeunes / personnes âgées"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 40,
+    "id": "040",
+    "slug": "travail-distance-aide-vraiment-mieux-equilibrer-vie",
+    "filename": "040-travail-distance-aide-vraiment-mieux-equilibrer-vie.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que le travail à distance aide vraiment à mieux équilibrer la vie professionnelle et la vie privée ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 41,
+    "id": "041",
+    "slug": "presence-cameras-lieux-publics-permet-reellement-d",
+    "filename": "041-presence-cameras-lieux-publics-permet-reellement-d.md",
+    "frequency": 1,
+    "subject": "La présence de caméras dans les lieux publics permet-elle réellement d'améliorer la sécurité ?",
+    "themes": [
+      "Sécurité / surveillance / libertés"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 42,
+    "id": "042",
+    "slug": "l-habillement-t-influence-vie-chaque-jour",
+    "filename": "042-l-habillement-t-influence-vie-chaque-jour.md",
+    "frequency": 1,
+    "subject": "L'habillement a-t-il une influence dans la vie de chaque jour ?",
+    "themes": [
+      "Apparence / beauté / célébrités"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 43,
+    "id": "043",
+    "slug": "actions-simples-chaque-jour-puissent-reellement-avoir",
+    "filename": "043-actions-simples-chaque-jour-puissent-reellement-avoir.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que les actions simples de chaque jour puissent réellement avoir un impact sur la protection de la planète ?",
+    "themes": [
+      "Environnement / pollution / écologie"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 44,
+    "id": "044",
+    "slug": "faisable-vivre-sans-television",
+    "filename": "044-faisable-vivre-sans-television.md",
+    "frequency": 1,
+    "subject": "De nos jours, est-il faisable de vivre sans télévision ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 45,
+    "id": "045",
+    "slug": "beaucoup-gens-cherchent-ameliorer-apparence",
+    "filename": "045-beaucoup-gens-cherchent-ameliorer-apparence.md",
+    "frequency": 1,
+    "subject": "Actuellement, beaucoup de gens cherchent à améliorer leur apparence. Qu'en pensez-vous ?",
+    "themes": [
+      "Apparence / beauté / célébrités"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 46,
+    "id": "046",
+    "slug": "stress-peut-devenir-facteur-motivation",
+    "filename": "046-stress-peut-devenir-facteur-motivation.md",
+    "frequency": 1,
+    "subject": "Est-ce que le stress peut devenir un facteur de motivation ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 47,
+    "id": "047",
+    "slug": "metiers-difficiles-devraient-ils-etre-mieux-payes",
+    "filename": "047-metiers-difficiles-devraient-ils-etre-mieux-payes.md",
+    "frequency": 1,
+    "subject": "Les métiers les plus difficiles devraient-ils être mieux payés ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 48,
+    "id": "048",
+    "slug": "quelles-mesures-pays-peut-adopter-faciliter-l",
+    "filename": "048-quelles-mesures-pays-peut-adopter-faciliter-l.md",
+    "frequency": 1,
+    "subject": "D'après vous, quelles mesures un pays peut-il adopter pour faciliter l'intégration des étrangers ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 49,
+    "id": "049",
+    "slug": "vaut-mieux-immigrer-seul-famille",
+    "filename": "049-vaut-mieux-immigrer-seul-famille.md",
+    "frequency": 1,
+    "subject": "Vaut-il mieux immigrer seul ou avec sa famille ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 50,
+    "id": "050",
+    "slug": "habitudes-alimentaires-transforment-fil-annees",
+    "filename": "050-habitudes-alimentaires-transforment-fil-annees.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que nos habitudes alimentaires se transforment au fil des années ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 51,
+    "id": "051",
+    "slug": "pensez-qu-faille-maitriser-metier-progresser-hierarchie",
+    "filename": "051-pensez-qu-faille-maitriser-metier-progresser-hierarchie.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'il faille maîtriser son métier pour progresser dans la hiérarchie d'une entreprise ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 52,
+    "id": "052",
+    "slug": "diversite-ecoles-aide-t-tous-eleves-mieux",
+    "filename": "052-diversite-ecoles-aide-t-tous-eleves-mieux.md",
+    "frequency": 1,
+    "subject": "La diversité dans les écoles aide-t-elle tous les élèves à mieux s'épanouir ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 53,
+    "id": "053",
+    "slug": "employeurs-devraient-ils-offrir-formations-employes-tout",
+    "filename": "053-employeurs-devraient-ils-offrir-formations-employes-tout.md",
+    "frequency": 1,
+    "subject": "Les employeurs devraient-ils offrir des formations à leurs employés tout au long de leur carrière ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Éducation / école / études / diplômes",
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 54,
+    "id": "054",
+    "slug": "possible-fier-rendez-medicaux-distance",
+    "filename": "054-possible-fier-rendez-medicaux-distance.md",
+    "frequency": 1,
+    "subject": "Est-il possible de se fier aux rendez-vous médicaux à distance ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 55,
+    "id": "055",
+    "slug": "doit-apprendre-technologies-l-ecole-jeune-age",
+    "filename": "055-doit-apprendre-technologies-l-ecole-jeune-age.md",
+    "frequency": 1,
+    "subject": "Doit-on apprendre les technologies à l'école dès le plus jeune âge ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 56,
+    "id": "056",
+    "slug": "existe-t-professions-utiles-d-autres",
+    "filename": "056-existe-t-professions-utiles-d-autres.md",
+    "frequency": 1,
+    "subject": "Existe-t-il des professions plus utiles que d'autres ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 57,
+    "id": "057",
+    "slug": "consommation-d-objets-comme-vetements-telephones-excessive",
+    "filename": "057-consommation-d-objets-comme-vetements-telephones-excessive.md",
+    "frequency": 1,
+    "subject": "La consommation d'objets comme les vêtements et les téléphones est-elle excessive ?",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans",
+      "Santé / alimentation / mode de vie",
+      "Apparence / beauté / célébrités"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 58,
+    "id": "058",
+    "slug": "entreprises-devraient-elles-reduire-teletravail-salaries",
+    "filename": "058-entreprises-devraient-elles-reduire-teletravail-salaries.md",
+    "frequency": 1,
+    "subject": "Les entreprises devraient-elles réduire le télétravail pour leurs salariés ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 59,
+    "id": "059",
+    "slug": "approprie-d-offrir-telephone-portable-enfant",
+    "filename": "059-approprie-d-offrir-telephone-portable-enfant.md",
+    "frequency": 1,
+    "subject": "Est-il approprié d'offrir un téléphone portable à un enfant ?",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 60,
+    "id": "060",
+    "slug": "faut-reduire-temps-travail-vivre-pleinement",
+    "filename": "060-faut-reduire-temps-travail-vivre-pleinement.md",
+    "frequency": 1,
+    "subject": "Faut-il réduire le temps de travail pour vivre plus pleinement ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 61,
+    "id": "061",
+    "slug": "plaisant-vivre-campagne-qu-ville",
+    "filename": "061-plaisant-vivre-campagne-qu-ville.md",
+    "frequency": 1,
+    "subject": "Est-il plus plaisant de vivre à la campagne qu'en ville ?",
+    "themes": [
+      "Ville / campagne / logement"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 62,
+    "id": "062",
+    "slug": "voyager-uniquement-reserve-personnes-riches",
+    "filename": "062-voyager-uniquement-reserve-personnes-riches.md",
+    "frequency": 1,
+    "subject": "Est-ce que voyager est uniquement réservé pour les personnes riches ?",
+    "themes": [
+      "Tourisme / voyage",
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 63,
+    "id": "063",
+    "slug": "possible-changer-metier-tout-age",
+    "filename": "063-possible-changer-metier-tout-age.md",
+    "frequency": 1,
+    "subject": "De nos jours, est-il possible de changer de métier à tout âge ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 64,
+    "id": "064",
+    "slug": "possible-vivre-pays-sans-connaitre-langue",
+    "filename": "064-possible-vivre-pays-sans-connaitre-langue.md",
+    "frequency": 1,
+    "subject": "Est-il possible de vivre dans un pays sans connaître sa langue ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 65,
+    "id": "065",
+    "slug": "croissance-tourisme-contradiction-protection-nature",
+    "filename": "065-croissance-tourisme-contradiction-protection-nature.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que la croissance du tourisme est en contradiction avec la protection de la nature ?",
+    "themes": [
+      "Tourisme / voyage"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 66,
+    "id": "066",
+    "slug": "faut-parents-surveillent-amis-enfants",
+    "filename": "066-faut-parents-surveillent-amis-enfants.md",
+    "frequency": 1,
+    "subject": "Faut-il que les parents surveillent les amis de leurs enfants ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 67,
+    "id": "067",
+    "slug": "offrir-gratuite-transports-commun-villes-solution-interessante",
+    "filename": "067-offrir-gratuite-transports-commun-villes-solution-interessante.md",
+    "frequency": 1,
+    "subject": "Offrir la gratuité des transports en commun dans les villes est-il une solution intéressante ?",
+    "themes": [
+      "Environnement / pollution / écologie",
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-02"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 68,
+    "id": "068",
+    "slug": "faut-developper-encore-secteur-tourisme-votre-pays",
+    "filename": "068-faut-developper-encore-secteur-tourisme-votre-pays.md",
+    "frequency": 1,
+    "subject": "Faut-il développer encore plus le secteur du tourisme dans votre pays ?",
+    "themes": [
+      "Tourisme / voyage"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 69,
+    "id": "069",
+    "slug": "s-installer-l-etranger-necessite-beaucoup-courage",
+    "filename": "069-s-installer-l-etranger-necessite-beaucoup-courage.md",
+    "frequency": 1,
+    "subject": "S'installer à l'étranger nécessite beaucoup de courage. Partagez-vous cet avis ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 70,
+    "id": "070",
+    "slug": "quelles-raisons-peuvent-amener-quelqu-exercer-emploi",
+    "filename": "070-quelles-raisons-peuvent-amener-quelqu-exercer-emploi.md",
+    "frequency": 1,
+    "subject": "À votre avis, quelles raisons peuvent amener quelqu'un à exercer un emploi à l'étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 71,
+    "id": "071",
+    "slug": "faut-absolument-vivre-pays-bien-comprendre-culture",
+    "filename": "071-faut-absolument-vivre-pays-bien-comprendre-culture.md",
+    "frequency": 1,
+    "subject": "Faut-il absolument vivre dans un pays pour bien comprendre sa culture ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Langues étrangères"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 72,
+    "id": "072",
+    "slug": "gentillesse-garantit-chaque-fois-l-ecoute-respect",
+    "filename": "072-gentillesse-garantit-chaque-fois-l-ecoute-respect.md",
+    "frequency": 1,
+    "subject": "La gentillesse garantit-elle à chaque fois l'écoute et le respect des autres ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 73,
+    "id": "073",
+    "slug": "possible-sentir-heureux-restant-celibataire",
+    "filename": "073-possible-sentir-heureux-restant-celibataire.md",
+    "frequency": 1,
+    "subject": "Est-il possible de se sentir heureux en restant célibataire ?",
+    "themes": [
+      "Famille / amitié / relations / célibat",
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 74,
+    "id": "074",
+    "slug": "pensez-qu-soit-necessaire-reserver-journee-droits",
+    "filename": "074-pensez-qu-soit-necessaire-reserver-journee-droits.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'il soit nécessaire de réserver une journée pour les droits des femmes ?",
+    "themes": [
+      "Égalité hommes-femmes / droits des femmes"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 75,
+    "id": "075",
+    "slug": "television-bon-outil-acquerir-connaissances",
+    "filename": "075-television-bon-outil-acquerir-connaissances.md",
+    "frequency": 1,
+    "subject": "La télévision est-elle un bon outil pour acquérir des connaissances ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 76,
+    "id": "076",
+    "slug": "pensez-qu-soit-necessaire-d-apprecier-metier",
+    "filename": "076-pensez-qu-soit-necessaire-d-apprecier-metier.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'il soit nécessaire d'apprécier son métier pour réussir professionnellement ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 77,
+    "id": "077",
+    "slug": "preferable-tous-employes-d-entreprise-gagnent-meme",
+    "filename": "077-preferable-tous-employes-d-entreprise-gagnent-meme.md",
+    "frequency": 1,
+    "subject": "À votre avis, est-il préférable que tous les employés d'une entreprise gagnent le même salaire ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 78,
+    "id": "078",
+    "slug": "gouvernement-devrait-interdire-vente-cigarettes-d-alcool",
+    "filename": "078-gouvernement-devrait-interdire-vente-cigarettes-d-alcool.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que le gouvernement devrait interdire la vente de cigarettes et d'alcool ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 79,
+    "id": "079",
+    "slug": "possible-d-etre-heureux-sans-avoir-d",
+    "filename": "079-possible-d-etre-heureux-sans-avoir-d.md",
+    "frequency": 1,
+    "subject": "Selon vous, est-il possible d'être heureux sans avoir d'amis ?",
+    "themes": [
+      "Famille / amitié / relations / célibat",
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 80,
+    "id": "080",
+    "slug": "l-exploration-l-espace-trop-chere-qu",
+    "filename": "080-l-exploration-l-espace-trop-chere-qu.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que l'exploration de l'espace est trop chère et qu'elle n'est pas nécessaire ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 81,
+    "id": "081",
+    "slug": "pensez-qu-serait-preferable-d-interdire-l",
+    "filename": "081-pensez-qu-serait-preferable-d-interdire-l.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'il serait préférable d'interdire l'utilisation des téléphones portables aux enfants ?",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 82,
+    "id": "082",
+    "slug": "certaines-personnes-preferent-vivre-sans-servir-technologie",
+    "filename": "082-certaines-personnes-preferent-vivre-sans-servir-technologie.md",
+    "frequency": 1,
+    "subject": "Certaines personnes préfèrent vivre sans se servir de la technologie. Qu'en pensez-vous ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 83,
+    "id": "083",
+    "slug": "nombreuses-personnes-tournent-vers-chirurgie-esthetique-sembler",
+    "filename": "083-nombreuses-personnes-tournent-vers-chirurgie-esthetique-sembler.md",
+    "frequency": 1,
+    "subject": "De nombreuses personnes se tournent vers la chirurgie esthétique pour sembler plus jeunes. Qu'en pensez-vous ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 84,
+    "id": "084",
+    "slug": "obtenir-emploi-quand-jeune-peut-poser-difficultes",
+    "filename": "084-obtenir-emploi-quand-jeune-peut-poser-difficultes.md",
+    "frequency": 1,
+    "subject": "Obtenir un emploi quand on est jeune peut poser plus de difficultés. Êtes-vous d'accord ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 85,
+    "id": "085",
+    "slug": "faut-forcer-enfants-faire-sport",
+    "filename": "085-faut-forcer-enfants-faire-sport.md",
+    "frequency": 1,
+    "subject": "Faut-il forcer les enfants à faire du sport ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité",
+      "Sport / sportifs"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 86,
+    "id": "086",
+    "slug": "croissance-tourisme-peut-deteriorer-certaines-regions",
+    "filename": "086-croissance-tourisme-peut-deteriorer-certaines-regions.md",
+    "frequency": 1,
+    "subject": "La croissance du tourisme peut détériorer certaines régions. Qu'en pensez-vous ?",
+    "themes": [
+      "Tourisme / voyage"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 87,
+    "id": "087",
+    "slug": "certaines-personnes-decident-vivre-sans-telephone-portable",
+    "filename": "087-certaines-personnes-decident-vivre-sans-telephone-portable.md",
+    "frequency": 1,
+    "subject": "De nos jours, certaines personnes décident de vivre sans téléphone portable.",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 88,
+    "id": "088",
+    "slug": "doit-donner-education-differente-filles-garcons",
+    "filename": "088-doit-donner-education-differente-filles-garcons.md",
+    "frequency": 1,
+    "subject": "Selon vous, doit-on donner une éducation différente aux filles et aux garçons ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 89,
+    "id": "089",
+    "slug": "pensez-qu-devrait-interdire-jeux-d-argent",
+    "filename": "089-pensez-qu-devrait-interdire-jeux-d-argent.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'on devrait interdire les jeux d'argent et de hasard ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 90,
+    "id": "090",
+    "slug": "quelles-raisons-quelqu-deciderait-s-installer-l",
+    "filename": "090-quelles-raisons-quelqu-deciderait-s-installer-l.md",
+    "frequency": 1,
+    "subject": "Pour quelles raisons quelqu'un déciderait-il de s'installer à l'étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 91,
+    "id": "091",
+    "slug": "pensez-qu-animal-compagnie-peut-etre-positif",
+    "filename": "091-pensez-qu-animal-compagnie-peut-etre-positif.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'un animal de compagnie peut être positif pour une personne âgée ?",
+    "themes": [
+      "Animaux"
+    ],
+    "months": [
+      "2026-03"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 92,
+    "id": "092",
+    "slug": "doit-proteger-tous-animaux-voie-disparition",
+    "filename": "092-doit-proteger-tous-animaux-voie-disparition.md",
+    "frequency": 1,
+    "subject": "Selon vous, doit-on protéger tous les animaux en voie de disparition ?",
+    "themes": [
+      "Animaux"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 93,
+    "id": "093",
+    "slug": "l-essentiel-vie-trouver-bonheur-travail",
+    "filename": "093-l-essentiel-vie-trouver-bonheur-travail.md",
+    "frequency": 1,
+    "subject": "L'essentiel dans la vie est-il de trouver du bonheur au travail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 94,
+    "id": "094",
+    "slug": "lire-activite-inutile",
+    "filename": "094-lire-activite-inutile.md",
+    "frequency": 1,
+    "subject": "Selon vous, lire est-il une activité inutile ?",
+    "themes": [
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 95,
+    "id": "095",
+    "slug": "l-puisse-etre-epanoui-vivant-seul",
+    "filename": "095-l-puisse-etre-epanoui-vivant-seul.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que l'on puisse être épanoui en vivant seul ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 96,
+    "id": "096",
+    "slug": "important-conserver-sante-bien-nourrir",
+    "filename": "096-important-conserver-sante-bien-nourrir.md",
+    "frequency": 1,
+    "subject": "Le plus important pour conserver la santé est-il de bien se nourrir ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 97,
+    "id": "097",
+    "slug": "universites-devraient-elles-beneficier-financements",
+    "filename": "097-universites-devraient-elles-beneficier-financements.md",
+    "frequency": 1,
+    "subject": "Les universités devraient-elles bénéficier de plus de financements ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 98,
+    "id": "098",
+    "slug": "quelles-experiences-sites-recommanderiez-etranger-visitant-votre",
+    "filename": "098-quelles-experiences-sites-recommanderiez-etranger-visitant-votre.md",
+    "frequency": 1,
+    "subject": "Quelles expériences ou sites recommanderiez-vous à un étranger visitant votre pays ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 99,
+    "id": "099",
+    "slug": "benefices-vivre-l-etranger-surpassent-inconvenients",
+    "filename": "099-benefices-vivre-l-etranger-surpassent-inconvenients.md",
+    "frequency": 1,
+    "subject": "Est-ce que les bénéfices de vivre à l'étranger surpassent ses inconvénients ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 100,
+    "id": "100",
+    "slug": "quelles-mesures-pourrait-prendre-inciter-personnes-faire",
+    "filename": "100-quelles-mesures-pourrait-prendre-inciter-personnes-faire.md",
+    "frequency": 1,
+    "subject": "Quelles mesures pourrait-on prendre pour inciter les personnes à faire davantage de sport ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 101,
+    "id": "101",
+    "slug": "employes-sont-ils-surtout-motives-par-salaire",
+    "filename": "101-employes-sont-ils-surtout-motives-par-salaire.md",
+    "frequency": 1,
+    "subject": "Les employés sont-ils surtout motivés par leur salaire ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 102,
+    "id": "102",
+    "slug": "personnes-n-echangent-presque-lettres-c-dommage",
+    "filename": "102-personnes-n-echangent-presque-lettres-c-dommage.md",
+    "frequency": 1,
+    "subject": "Aujourd'hui, les personnes n'échangent presque plus de lettres. Pensez-vous que c'est dommage ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 103,
+    "id": "103",
+    "slug": "pensez-qu-soit-simple-vivre-seul-vivre",
+    "filename": "103-pensez-qu-soit-simple-vivre-seul-vivre.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'il soit plus simple de vivre seul que de vivre en famille ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 104,
+    "id": "104",
+    "slug": "raisonnable-faire-travailler-personnes-jusqu-l-age",
+    "filename": "104-raisonnable-faire-travailler-personnes-jusqu-l-age.md",
+    "frequency": 1,
+    "subject": "Est-il raisonnable de faire travailler les personnes jusqu'à l'âge de 70 ans ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 105,
+    "id": "105",
+    "slug": "vivre-experience-l-etranger-apporte-toujours-avantages",
+    "filename": "105-vivre-experience-l-etranger-apporte-toujours-avantages.md",
+    "frequency": 1,
+    "subject": "Vivre une expérience à l'étranger apporte toujours des avantages. Qu'en pensez-vous ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 106,
+    "id": "106",
+    "slug": "certaines-personnes-preferent-regarder-actualites-televisees",
+    "filename": "106-certaines-personnes-preferent-regarder-actualites-televisees.md",
+    "frequency": 1,
+    "subject": "Certaines personnes préfèrent ne plus regarder les actualités télévisées. Qu'en pensez-vous ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 107,
+    "id": "107",
+    "slug": "jeunes-canadiens-choisissent-d-habiter-chez-parents",
+    "filename": "107-jeunes-canadiens-choisissent-d-habiter-chez-parents.md",
+    "frequency": 1,
+    "subject": "De jeunes Canadiens choisissent d'habiter chez leurs parents. Qu'en pensez-vous ?",
+    "themes": [
+      "Ville / campagne / logement"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 108,
+    "id": "108",
+    "slug": "l-utilisation-d-internet-peut-amener-personnes",
+    "filename": "108-l-utilisation-d-internet-peut-amener-personnes.md",
+    "frequency": 1,
+    "subject": "L'utilisation d'Internet peut amener les personnes à se sentir seules ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux",
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 109,
+    "id": "109",
+    "slug": "parmi-principaux-enjeux-actuels-laquelle-merite-d",
+    "filename": "109-parmi-principaux-enjeux-actuels-laquelle-merite-d.md",
+    "frequency": 1,
+    "subject": "Selon vous, parmi les principaux enjeux actuels, laquelle mérite d'être priorisée ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 110,
+    "id": "110",
+    "slug": "quelles-sont-trois-principales-choses-reflechir-avant",
+    "filename": "110-quelles-sont-trois-principales-choses-reflechir-avant.md",
+    "frequency": 1,
+    "subject": "Quelles sont les trois principales choses à réfléchir avant de se lancer dans un projet d'immigration ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 111,
+    "id": "111",
+    "slug": "pensez-qu-puisse-vivre-sans-internet",
+    "filename": "111-pensez-qu-puisse-vivre-sans-internet.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'on puisse vivre aujourd'hui sans Internet ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 112,
+    "id": "112",
+    "slug": "faut-l-autorite-elever-correctement-enfant",
+    "filename": "112-faut-l-autorite-elever-correctement-enfant.md",
+    "frequency": 1,
+    "subject": "À votre avis, faut-il de l'autorité pour élever correctement un enfant ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 113,
+    "id": "113",
+    "slug": "bonne-sante-exige-t-consommer-seulement-produits",
+    "filename": "113-bonne-sante-exige-t-consommer-seulement-produits.md",
+    "frequency": 1,
+    "subject": "La bonne santé exige-t-elle de consommer seulement des produits biologiques ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 114,
+    "id": "114",
+    "slug": "faut-avoir-niveau-d-etudes-eleve-reussir",
+    "filename": "114-faut-avoir-niveau-d-etudes-eleve-reussir.md",
+    "frequency": 1,
+    "subject": "Faut-il avoir un niveau d'études élevé pour réussir dans la vie ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 115,
+    "id": "115",
+    "slug": "developpement-teletravail-amelioration-tous",
+    "filename": "115-developpement-teletravail-amelioration-tous.md",
+    "frequency": 1,
+    "subject": "Le développement du télétravail en est une amélioration pour tous. Qu'en pensez-vous ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 116,
+    "id": "116",
+    "slug": "peut-vivre-sans-telephone-portable",
+    "filename": "116-peut-vivre-sans-telephone-portable.md",
+    "frequency": 1,
+    "subject": "Peut-on vivre aujourd'hui sans téléphone portable ?",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 117,
+    "id": "117",
+    "slug": "personnes-celebres-devraient-jouer-role-actif-vie",
+    "filename": "117-personnes-celebres-devraient-jouer-role-actif-vie.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que les personnes célèbres devraient jouer un rôle plus actif dans la vie publique ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 118,
+    "id": "118",
+    "slug": "vivre-l-etranger-implique-t-rester-proche",
+    "filename": "118-vivre-l-etranger-implique-t-rester-proche.md",
+    "frequency": 1,
+    "subject": "Vivre à l'étranger implique-t-il de rester proche de la communauté de son pays natal ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 119,
+    "id": "119",
+    "slug": "s-installer-l-etranger-changer-culture",
+    "filename": "119-s-installer-l-etranger-changer-culture.md",
+    "frequency": 1,
+    "subject": "S'installer à l'étranger, est-ce changer de culture ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 120,
+    "id": "120",
+    "slug": "jeunes-sont-respectueux",
+    "filename": "120-jeunes-sont-respectueux.md",
+    "frequency": 1,
+    "subject": "Aujourd'hui, les jeunes sont de moins en moins respectueux. Êtes-vous d'accord ?",
+    "themes": [
+      "Générations / jeunes / personnes âgées"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 121,
+    "id": "121",
+    "slug": "n-facile-vivre-solitaire",
+    "filename": "121-n-facile-vivre-solitaire.md",
+    "frequency": 1,
+    "subject": "Il n'est pas facile de vivre en solitaire. Êtes-vous d'accord ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 122,
+    "id": "122",
+    "slug": "pensez-qu-facile-faire-amis-pays-etranger",
+    "filename": "122-pensez-qu-facile-faire-amis-pays-etranger.md",
+    "frequency": 1,
+    "subject": "Pensez-vous qu'il est facile de se faire des amis dans un pays étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 123,
+    "id": "123",
+    "slug": "peut-passer-d-internet-vie-quotidienne",
+    "filename": "123-peut-passer-d-internet-vie-quotidienne.md",
+    "frequency": 1,
+    "subject": "Peut-on se passer d'Internet dans la vie quotidienne ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 124,
+    "id": "124",
+    "slug": "nombreuses-personnes-n-apprecient-voyager-seuls",
+    "filename": "124-nombreuses-personnes-n-apprecient-voyager-seuls.md",
+    "frequency": 1,
+    "subject": "De nombreuses personnes n'apprécient pas de voyager seuls. Partagez-vous cette opinion ?",
+    "themes": [
+      "Tourisme / voyage",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 125,
+    "id": "125",
+    "slug": "gens-s-interessent-ils-voyages-train-avion",
+    "filename": "125-gens-s-interessent-ils-voyages-train-avion.md",
+    "frequency": 1,
+    "subject": "Pourquoi les gens s'intéressent-ils aux voyages en train, en avion ou en bus ?",
+    "themes": [
+      "Environnement / pollution / écologie",
+      "Tourisme / voyage"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 126,
+    "id": "126",
+    "slug": "important-d-apprendre-utiliser-nouvelles-technologies-l",
+    "filename": "126-important-d-apprendre-utiliser-nouvelles-technologies-l.md",
+    "frequency": 1,
+    "subject": "Est-il important d'apprendre à utiliser les nouvelles technologies dès l'enfance ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 127,
+    "id": "127",
+    "slug": "quelles-sont-raisons-peuvent-pousser-personne-s",
+    "filename": "127-quelles-sont-raisons-peuvent-pousser-personne-s.md",
+    "frequency": 1,
+    "subject": "Quelles sont les raisons qui peuvent pousser une personne à s'engager dans une action humanitaire ?",
+    "themes": [
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 128,
+    "id": "128",
+    "slug": "faut-maitriser-langue-pays-l-reside",
+    "filename": "128-faut-maitriser-langue-pays-l-reside.md",
+    "frequency": 1,
+    "subject": "Faut-il maîtriser la langue du pays où l'on réside ?",
+    "themes": [
+      "Langues étrangères"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 129,
+    "id": "129",
+    "slug": "telephone-portable-personnel-devrait-etre-interdit-travail",
+    "filename": "129-telephone-portable-personnel-devrait-etre-interdit-travail.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que le téléphone portable personnel devrait être interdit au travail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 130,
+    "id": "130",
+    "slug": "ong-associations-sont-elles-seules-capables-d",
+    "filename": "130-ong-associations-sont-elles-seules-capables-d.md",
+    "frequency": 1,
+    "subject": "Les ONG et les associations sont-elles les seules capables d'aider les personnes pauvres ?",
+    "themes": [
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 131,
+    "id": "131",
+    "slug": "disciplines-culturelles-devraient-faire-partie-l-enseignement",
+    "filename": "131-disciplines-culturelles-devraient-faire-partie-l-enseignement.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que les disciplines culturelles ne devraient pas faire partie de l'enseignement scolaire ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 132,
+    "id": "132",
+    "slug": "television-indispensable-l-education-enfants",
+    "filename": "132-television-indispensable-l-education-enfants.md",
+    "frequency": 1,
+    "subject": "Selon vous, la télévision est-elle indispensable à l'éducation des enfants ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité",
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 133,
+    "id": "133",
+    "slug": "reussir-carriere-depend-surtout-etudes-diplome",
+    "filename": "133-reussir-carriere-depend-surtout-etudes-diplome.md",
+    "frequency": 1,
+    "subject": "Selon vous, réussir sa carrière dépend-il surtout des études et du diplôme ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 134,
+    "id": "134",
+    "slug": "positif-personnes-agees-restent-actives-monde-travail",
+    "filename": "134-positif-personnes-agees-restent-actives-monde-travail.md",
+    "frequency": 1,
+    "subject": "Selon vous, est-ce positif que les personnes âgées restent actives dans le monde du travail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Générations / jeunes / personnes âgées"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 135,
+    "id": "135",
+    "slug": "nombreuses-personnes-consacrent-temps-libre-activites-benevoles",
+    "filename": "135-nombreuses-personnes-consacrent-temps-libre-activites-benevoles.md",
+    "frequency": 1,
+    "subject": "De nombreuses personnes consacrent leur temps libre à des activités bénévoles. Qu'en pensez-vous ?",
+    "themes": [
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 136,
+    "id": "136",
+    "slug": "preferez-regarder-films-aller-theatre",
+    "filename": "136-preferez-regarder-films-aller-theatre.md",
+    "frequency": 1,
+    "subject": "Préférez-vous regarder des films ou aller au théâtre ?",
+    "themes": [
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 137,
+    "id": "137",
+    "slug": "quel-age-preferable-d-emigrer",
+    "filename": "137-quel-age-preferable-d-emigrer.md",
+    "frequency": 1,
+    "subject": "Selon vous, à quel âge est-il préférable d'émigrer ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-04"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 138,
+    "id": "138",
+    "slug": "actions-prises-votre-pays-diminuer-pollution",
+    "filename": "138-actions-prises-votre-pays-diminuer-pollution.md",
+    "frequency": 1,
+    "subject": "Quel est votre avis sur les actions prises dans votre pays pour diminuer la pollution ?",
+    "themes": [
+      "Environnement / pollution / écologie"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 139,
+    "id": "139",
+    "slug": "vivre-longtemps-l-etranger-fait-oublier-culture",
+    "filename": "139-vivre-longtemps-l-etranger-fait-oublier-culture.md",
+    "frequency": 1,
+    "subject": "Vivre longtemps à l'étranger fait-il oublier sa culture d'origine ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 140,
+    "id": "140",
+    "slug": "jeux-video-peuvent-ils-nuire-enfants",
+    "filename": "140-jeux-video-peuvent-ils-nuire-enfants.md",
+    "frequency": 1,
+    "subject": "Les jeux vidéo peuvent-ils nuire aux enfants ?",
+    "themes": [
+      "Jeux vidéo"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 141,
+    "id": "141",
+    "slug": "connaitre-pays-d-accueil-essentiel-immigrant",
+    "filename": "141-connaitre-pays-d-accueil-essentiel-immigrant.md",
+    "frequency": 1,
+    "subject": "Connaître le pays d'accueil est-il essentiel pour un immigrant ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 142,
+    "id": "142",
+    "slug": "recherchent-gens-lorsqu-ils-choisissent-vivre-autre",
+    "filename": "142-recherchent-gens-lorsqu-ils-choisissent-vivre-autre.md",
+    "frequency": 1,
+    "subject": "Que recherchent les gens lorsqu'ils choisissent de vivre dans un autre pays ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 143,
+    "id": "143",
+    "slug": "simple-preserver-culture-d-origine-vivant-l",
+    "filename": "143-simple-preserver-culture-d-origine-vivant-l.md",
+    "frequency": 1,
+    "subject": "Est-il simple de préserver sa culture d'origine en vivant à l'étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 144,
+    "id": "144",
+    "slug": "faut-toujours-dire-toute-verite-enfants",
+    "filename": "144-faut-toujours-dire-toute-verite-enfants.md",
+    "frequency": 1,
+    "subject": "Faut-il toujours dire toute la vérité aux enfants ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 145,
+    "id": "145",
+    "slug": "etablissements-scolaires-devraient-ils-valoriser-davantage-activites",
+    "filename": "145-etablissements-scolaires-devraient-ils-valoriser-davantage-activites.md",
+    "frequency": 1,
+    "subject": "Les établissements scolaires devraient-ils valoriser davantage les activités liées à l'art ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 146,
+    "id": "146",
+    "slug": "habitudes-consommation-pays-riches",
+    "filename": "146-habitudes-consommation-pays-riches.md",
+    "frequency": 1,
+    "subject": "Que pensez-vous des habitudes de consommation dans les pays riches ?",
+    "themes": [
+      "Santé / alimentation / mode de vie",
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 147,
+    "id": "147",
+    "slug": "enfants-peuvent-ils-aider-mieux-s-integrer",
+    "filename": "147-enfants-peuvent-ils-aider-mieux-s-integrer.md",
+    "frequency": 1,
+    "subject": "Les enfants peuvent-ils aider à mieux s'intégrer dans un pays étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 148,
+    "id": "148",
+    "slug": "personnes-passent-presque-tout-temps-travail",
+    "filename": "148-personnes-passent-presque-tout-temps-travail.md",
+    "frequency": 1,
+    "subject": "Quel est votre avis sur les personnes qui passent presque tout leur temps au travail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 149,
+    "id": "149",
+    "slug": "parents-s-occupent-eux-memes-l-education",
+    "filename": "149-parents-s-occupent-eux-memes-l-education.md",
+    "frequency": 1,
+    "subject": "Les parents qui s'occupent eux-mêmes de l'éducation à la maison font un bon choix.",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 150,
+    "id": "150",
+    "slug": "donner-telephone-portable-enfant-n-conseille",
+    "filename": "150-donner-telephone-portable-enfant-n-conseille.md",
+    "frequency": 1,
+    "subject": "Donner un téléphone portable à un enfant n'est pas conseillé.",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 151,
+    "id": "151",
+    "slug": "faut-etre-riche-etre-heureux",
+    "filename": "151-faut-etre-riche-etre-heureux.md",
+    "frequency": 1,
+    "subject": "Faut-il être riche pour être heureux ?",
+    "themes": [
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 152,
+    "id": "152",
+    "slug": "universites-doivent-accepter-tous-etudiants-sans-processus",
+    "filename": "152-universites-doivent-accepter-tous-etudiants-sans-processus.md",
+    "frequency": 1,
+    "subject": "Les universités doivent accepter tous les étudiants sans processus de sélection.",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 153,
+    "id": "153",
+    "slug": "vetements-l-porte-ont-ils-l-importance",
+    "filename": "153-vetements-l-porte-ont-ils-l-importance.md",
+    "frequency": 1,
+    "subject": "Les vêtements que l'on porte ont-ils de l'importance dans la vie ?",
+    "themes": [
+      "Apparence / beauté / célébrités"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 154,
+    "id": "154",
+    "slug": "teletravail-aide-t-trouver-bon-equilibre-entre",
+    "filename": "154-teletravail-aide-t-trouver-bon-equilibre-entre.md",
+    "frequency": 1,
+    "subject": "Le télétravail aide-t-il à trouver un bon équilibre entre travail et vie privée ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 155,
+    "id": "155",
+    "slug": "efforts-chaque-personne-sont-ils-necessaires-proteger",
+    "filename": "155-efforts-chaque-personne-sont-ils-necessaires-proteger.md",
+    "frequency": 1,
+    "subject": "Les efforts de chaque personne sont-ils nécessaires pour protéger la planète ?",
+    "themes": [
+      "Environnement / pollution / écologie"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 156,
+    "id": "156",
+    "slug": "partir-vivre-l-etranger-facile-quand-jeune",
+    "filename": "156-partir-vivre-l-etranger-facile-quand-jeune.md",
+    "frequency": 1,
+    "subject": "Partir vivre à l'étranger est-il plus facile quand on est jeune ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 157,
+    "id": "157",
+    "slug": "cameras-lieux-publics-ameliorent-elles-securite",
+    "filename": "157-cameras-lieux-publics-ameliorent-elles-securite.md",
+    "frequency": 1,
+    "subject": "Les caméras dans les lieux publics améliorent-elles la sécurité ?",
+    "themes": [
+      "Sécurité / surveillance / libertés"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 158,
+    "id": "158",
+    "slug": "gens-decident-jamais-regarder-television",
+    "filename": "158-gens-decident-jamais-regarder-television.md",
+    "frequency": 1,
+    "subject": "Que pensez-vous des gens qui décident de ne jamais regarder la télévision ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 159,
+    "id": "159",
+    "slug": "salaires-sportifs-professionnels-sont-ils-excessifs",
+    "filename": "159-salaires-sportifs-professionnels-sont-ils-excessifs.md",
+    "frequency": 1,
+    "subject": "Les salaires des sportifs professionnels sont-ils excessifs ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Sport / sportifs"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 160,
+    "id": "160",
+    "slug": "enfants-restent-ils-trop-longtemps-devant-ecrans",
+    "filename": "160-enfants-restent-ils-trop-longtemps-devant-ecrans.md",
+    "frequency": 1,
+    "subject": "Les enfants restent-ils trop longtemps devant les écrans ?",
+    "themes": [
+      "Téléphone portable / smartphone / écrans",
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 161,
+    "id": "161",
+    "slug": "faut-adapter-mode-vie-quand-vit-nouveau",
+    "filename": "161-faut-adapter-mode-vie-quand-vit-nouveau.md",
+    "frequency": 1,
+    "subject": "Faut-il adapter son mode de vie quand on vit dans un nouveau pays ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 162,
+    "id": "162",
+    "slug": "serait-simple-trouver-travail-si-installez-canada",
+    "filename": "162-serait-simple-trouver-travail-si-installez-canada.md",
+    "frequency": 1,
+    "subject": "Serait-il simple de trouver un travail si vous vous installez au Canada ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 163,
+    "id": "163",
+    "slug": "parite-hommes-femmes-imposee-domaine-politique",
+    "filename": "163-parite-hommes-femmes-imposee-domaine-politique.md",
+    "frequency": 1,
+    "subject": "Qu'en pensez-vous de la parité hommes-femmes imposée dans le domaine politique ?",
+    "themes": [
+      "Égalité hommes-femmes / droits des femmes",
+      "Politique / engagement des jeunes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 164,
+    "id": "164",
+    "slug": "faut-avoir-beaucoup-d-argent-etre-heureux",
+    "filename": "164-faut-avoir-beaucoup-d-argent-etre-heureux.md",
+    "frequency": 1,
+    "subject": "Il faut avoir beaucoup d'argent pour être heureux dans la vie.",
+    "themes": [
+      "Argent / bonheur / réussite"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 165,
+    "id": "165",
+    "slug": "internet-t-change-habitudes-monde-travail",
+    "filename": "165-internet-t-change-habitudes-monde-travail.md",
+    "frequency": 1,
+    "subject": "Internet a-t-il changé les habitudes dans le monde du travail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 166,
+    "id": "166",
+    "slug": "quel-media-utilisez-informer",
+    "filename": "166-quel-media-utilisez-informer.md",
+    "frequency": 1,
+    "subject": "Quel média utilisez-vous le plus pour vous informer ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 167,
+    "id": "167",
+    "slug": "important-faire-connaissance-habitants-bien-vivre-l",
+    "filename": "167-important-faire-connaissance-habitants-bien-vivre-l.md",
+    "frequency": 1,
+    "subject": "Est-il important de faire connaissance avec les habitants pour bien vivre à l'étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 168,
+    "id": "168",
+    "slug": "faut-parler-enfants-langue-pays-d-accueil",
+    "filename": "168-faut-parler-enfants-langue-pays-d-accueil.md",
+    "frequency": 1,
+    "subject": "Faut-il parler aux enfants dans la langue du pays d'accueil ou d'origine ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Langues étrangères"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 169,
+    "id": "169",
+    "slug": "certains-parents-donnent-l-argent-enfants-quand",
+    "filename": "169-certains-parents-donnent-l-argent-enfants-quand.md",
+    "frequency": 1,
+    "subject": "Certains parents donnent de l'argent à leurs enfants quand ils réussissent bien à l'école.",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Éducation des enfants / parentalité / autorité"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 170,
+    "id": "170",
+    "slug": "possible-developper-l-economie-tout-preservant-l",
+    "filename": "170-possible-developper-l-economie-tout-preservant-l.md",
+    "frequency": 1,
+    "subject": "Est-il possible de développer l'économie tout en préservant l'environnement ?",
+    "themes": [
+      "Environnement / pollution / écologie"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 171,
+    "id": "171",
+    "slug": "possible-connaitre-pays-uniquement-lisant-livres",
+    "filename": "171-possible-connaitre-pays-uniquement-lisant-livres.md",
+    "frequency": 1,
+    "subject": "Est-il possible de connaître un pays uniquement en lisant des livres ?",
+    "themes": [
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 172,
+    "id": "172",
+    "slug": "bien-s-integrer-nouveau-pays-faudrait-renoncer",
+    "filename": "172-bien-s-integrer-nouveau-pays-faudrait-renoncer.md",
+    "frequency": 1,
+    "subject": "Pour bien s'intégrer dans un nouveau pays, faudrait-il renoncer à ses traditions ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 173,
+    "id": "173",
+    "slug": "important-qu-entreprise-privilegie-bien-etre-salaries",
+    "filename": "173-important-qu-entreprise-privilegie-bien-etre-salaries.md",
+    "frequency": 1,
+    "subject": "Est-il important qu'une entreprise privilégie le bien-être de ses salariés ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 174,
+    "id": "174",
+    "slug": "personnes-continuent-elles-cuisiner-regulierement",
+    "filename": "174-personnes-continuent-elles-cuisiner-regulierement.md",
+    "frequency": 1,
+    "subject": "Les personnes continuent-elles à cuisiner régulièrement aujourd'hui ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 175,
+    "id": "175",
+    "slug": "complique-s-habituer-vivre-autre-pays",
+    "filename": "175-complique-s-habituer-vivre-autre-pays.md",
+    "frequency": 1,
+    "subject": "Est-il compliqué de s'habituer à vivre dans un autre pays ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 176,
+    "id": "176",
+    "slug": "faites-confiance-informations-consultees-web",
+    "filename": "176-faites-confiance-informations-consultees-web.md",
+    "frequency": 1,
+    "subject": "Faites-vous confiance aux informations consultées sur le web ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Télévision / médias / information",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 177,
+    "id": "177",
+    "slug": "famille-occupe-t-place-importante-vie",
+    "filename": "177-famille-occupe-t-place-importante-vie.md",
+    "frequency": 1,
+    "subject": "La famille occupe-t-elle la place la plus importante dans la vie ?",
+    "themes": [
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 178,
+    "id": "178",
+    "slug": "important-filles-garcons-recoivent-meme-education",
+    "filename": "178-important-filles-garcons-recoivent-meme-education.md",
+    "frequency": 1,
+    "subject": "Est-il important que filles et garçons reçoivent la même éducation ?",
+    "themes": [
+      "Éducation des enfants / parentalité / autorité",
+      "Égalité hommes-femmes / droits des femmes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 179,
+    "id": "179",
+    "slug": "certaines-personnes-montrent-elles-d-interet-politique",
+    "filename": "179-certaines-personnes-montrent-elles-d-interet-politique.md",
+    "frequency": 1,
+    "subject": "Pourquoi certaines personnes ne montrent-elles pas d'intérêt pour la politique ?",
+    "themes": [
+      "Politique / engagement des jeunes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 180,
+    "id": "180",
+    "slug": "suivre-etudes-tout-ayant-travail-difficile",
+    "filename": "180-suivre-etudes-tout-ayant-travail-difficile.md",
+    "frequency": 1,
+    "subject": "Suivre des études tout en ayant un travail est difficile.",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 181,
+    "id": "181",
+    "slug": "doit-aider-personnes-situation-difficile-gouvernement-citoyens",
+    "filename": "181-doit-aider-personnes-situation-difficile-gouvernement-citoyens.md",
+    "frequency": 1,
+    "subject": "Qui doit aider les personnes en situation difficile : le gouvernement ou les citoyens ?",
+    "themes": [
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 182,
+    "id": "182",
+    "slug": "devrait-empecher-l-usage-telephone-portable-l",
+    "filename": "182-devrait-empecher-l-usage-telephone-portable-l.md",
+    "frequency": 1,
+    "subject": "Devrait-on empêcher l'usage du téléphone portable à l'école ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 183,
+    "id": "183",
+    "slug": "faut-aimer-l-fait-travailler-bonnes-conditions",
+    "filename": "183-faut-aimer-l-fait-travailler-bonnes-conditions.md",
+    "frequency": 1,
+    "subject": "Faut-il aimer ce que l'on fait pour travailler dans de bonnes conditions ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 184,
+    "id": "184",
+    "slug": "reussite-scolaire-garantie-succes-vie",
+    "filename": "184-reussite-scolaire-garantie-succes-vie.md",
+    "frequency": 1,
+    "subject": "La réussite scolaire est-elle une garantie de succès dans la vie ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 185,
+    "id": "185",
+    "slug": "immigrants-apportent-ils-beaucoup-societe-d-pays",
+    "filename": "185-immigrants-apportent-ils-beaucoup-societe-d-pays.md",
+    "frequency": 1,
+    "subject": "Les immigrants apportent-ils beaucoup à la société d'un pays ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 186,
+    "id": "186",
+    "slug": "utile-s-informer-chaque-jour-mieux-connaitre",
+    "filename": "186-utile-s-informer-chaque-jour-mieux-connaitre.md",
+    "frequency": 1,
+    "subject": "Est-il utile de s'informer chaque jour pour mieux connaître le monde ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 187,
+    "id": "187",
+    "slug": "l-utilisation-reseaux-sociaux-fait-perdre-temps",
+    "filename": "187-l-utilisation-reseaux-sociaux-fait-perdre-temps.md",
+    "frequency": 1,
+    "subject": "L'utilisation des réseaux sociaux fait-elle perdre un temps précieux ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 188,
+    "id": "188",
+    "slug": "preferable-travailler-proches",
+    "filename": "188-preferable-travailler-proches.md",
+    "frequency": 1,
+    "subject": "Il est préférable de ne pas travailler avec ses proches.",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Famille / amitié / relations / célibat"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 189,
+    "id": "189",
+    "slug": "passer-temps-devant-television-temps-perdu",
+    "filename": "189-passer-temps-devant-television-temps-perdu.md",
+    "frequency": 1,
+    "subject": "Passer du temps devant la télévision est-il du temps perdu ?",
+    "themes": [
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 190,
+    "id": "190",
+    "slug": "smartphones-rendent-ils-echanges-simples",
+    "filename": "190-smartphones-rendent-ils-echanges-simples.md",
+    "frequency": 1,
+    "subject": "Les smartphones rendent-ils les échanges plus simples ?",
+    "themes": [
+      "Téléphone portable / smartphone / écrans",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 191,
+    "id": "191",
+    "slug": "quand-habite-l-etranger-faut-rencontrer-personnes",
+    "filename": "191-quand-habite-l-etranger-faut-rencontrer-personnes.md",
+    "frequency": 1,
+    "subject": "Quand on habite à l'étranger, faut-il rencontrer des personnes de son pays d'origine ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 192,
+    "id": "192",
+    "slug": "presence-produits-bio-augmente-grandes-surfaces-evolution",
+    "filename": "192-presence-produits-bio-augmente-grandes-surfaces-evolution.md",
+    "frequency": 1,
+    "subject": "La présence des produits bio augmente dans les grandes surfaces. Est-ce une évolution bénéfique ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 193,
+    "id": "193",
+    "slug": "faut-inclure-l-enseignement-technologies-modernes-programme",
+    "filename": "193-faut-inclure-l-enseignement-technologies-modernes-programme.md",
+    "frequency": 1,
+    "subject": "Faut-il inclure l'enseignement des technologies modernes dans le programme scolaire ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 194,
+    "id": "194",
+    "slug": "certaines-personnes-estiment-qu-impossible-combattre-stress",
+    "filename": "194-certaines-personnes-estiment-qu-impossible-combattre-stress.md",
+    "frequency": 1,
+    "subject": "Certaines personnes estiment qu'il est impossible de combattre le stress.",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 195,
+    "id": "195",
+    "slug": "quelles-peuvent-etre-motivations-d-personne-etudier",
+    "filename": "195-quelles-peuvent-etre-motivations-d-personne-etudier.md",
+    "frequency": 1,
+    "subject": "Quelles peuvent être les motivations d'une personne pour étudier à l'étranger ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 196,
+    "id": "196",
+    "slug": "fait-posseder-animal-domestique-chez-soi",
+    "filename": "196-fait-posseder-animal-domestique-chez-soi.md",
+    "frequency": 1,
+    "subject": "Quel est votre avis sur le fait de posséder un animal domestique chez soi ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 197,
+    "id": "197",
+    "slug": "comment-jeux-video-influencent-ils-enfants",
+    "filename": "197-comment-jeux-video-influencent-ils-enfants.md",
+    "frequency": 1,
+    "subject": "Comment les jeux vidéo influencent-ils les enfants ?",
+    "themes": [
+      "Jeux vidéo"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 198,
+    "id": "198",
+    "slug": "diversite-sociale-culturelle-l-ecole-favorise-t",
+    "filename": "198-diversite-sociale-culturelle-l-ecole-favorise-t.md",
+    "frequency": 1,
+    "subject": "La diversité sociale et culturelle à l'école favorise-t-elle l'esprit de tolérance chez les élèves ?",
+    "themes": [
+      "Éducation / école / études / diplômes",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 199,
+    "id": "199",
+    "slug": "partir-vivre-l-etranger-proches-difficile-s",
+    "filename": "199-partir-vivre-l-etranger-proches-difficile-s.md",
+    "frequency": 1,
+    "subject": "Partir vivre à l'étranger avec ses proches est-ce moins difficile que de s'y rendre seul ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Famille / amitié / relations / célibat",
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 200,
+    "id": "200",
+    "slug": "necessaire-organisations-fournissent-opportunites-d-apprentissage-regulieres",
+    "filename": "200-necessaire-organisations-fournissent-opportunites-d-apprentissage-regulieres.md",
+    "frequency": 1,
+    "subject": "Est-il nécessaire que les organisations fournissent des opportunités d'apprentissage régulières ?",
+    "themes": [
+      "Éducation / école / études / diplômes"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 201,
+    "id": "201",
+    "slug": "principal-facteur-succes-professionnel-compagnie-maitrise-metier",
+    "filename": "201-principal-facteur-succes-professionnel-compagnie-maitrise-metier.md",
+    "frequency": 1,
+    "subject": "Le principal facteur de succès professionnel dans sa compagnie est la maîtrise de son métier.",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 202,
+    "id": "202",
+    "slug": "reellement-possible-changer-coutumes-alimentaires-l-age",
+    "filename": "202-reellement-possible-changer-coutumes-alimentaires-l-age.md",
+    "frequency": 1,
+    "subject": "Est-il réellement possible de changer ses coutumes alimentaires à l'âge adulte ?",
+    "themes": [
+      "Divers"
+    ],
+    "months": [
+      "2026-05"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 203,
+    "id": "203",
+    "slug": "livres-ont-ils-perdu-utilite-societe-actuelle",
+    "filename": "203-livres-ont-ils-perdu-utilite-societe-actuelle.md",
+    "frequency": 1,
+    "subject": "Selon vous, les livres ont-ils perdu leur utilité dans la société actuelle ?",
+    "themes": [
+      "Lecture / livres / culture / art"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 204,
+    "id": "204",
+    "slug": "possible-passer-medicaments",
+    "filename": "204-possible-passer-medicaments.md",
+    "frequency": 1,
+    "subject": "Est-il possible de se passer de médicaments aujourd'hui ?",
+    "themes": [
+      "Santé / alimentation / mode de vie"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 205,
+    "id": "205",
+    "slug": "facile-s-adapter-nouveau-pays-quand-jeune",
+    "filename": "205-facile-s-adapter-nouveau-pays-quand-jeune.md",
+    "frequency": 1,
+    "subject": "Est-ce plus facile de s'adapter à un nouveau pays quand on est jeune ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 206,
+    "id": "206",
+    "slug": "prestations-sociales-reduisent-elles-solidarite-entre-membres",
+    "filename": "206-prestations-sociales-reduisent-elles-solidarite-entre-membres.md",
+    "frequency": 1,
+    "subject": "Selon vous, les prestations sociales réduisent-elles la solidarité entre les membres d'une famille ?",
+    "themes": [
+      "Famille / amitié / relations / célibat",
+      "Citoyenneté / solidarité / bénévolat / État"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 207,
+    "id": "207",
+    "slug": "quels-impacts-quels-risques-peuvent-avoir-l",
+    "filename": "207-quels-impacts-quels-risques-peuvent-avoir-l.md",
+    "frequency": 1,
+    "subject": "Quels impacts et quels risques peuvent avoir l'usage régulier des téléphones, des ordinateurs et des tablettes ?",
+    "themes": [
+      "Télévision / médias / information",
+      "Téléphone portable / smartphone / écrans"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 208,
+    "id": "208",
+    "slug": "favoriser-l-egalite-certains-pays-imposent-parite",
+    "filename": "208-favoriser-l-egalite-certains-pays-imposent-parite.md",
+    "frequency": 1,
+    "subject": "Pour favoriser l'égalité, certains pays imposent la parité hommes-femmes dans le domaine politique. Qu'en pensez-vous ?",
+    "themes": [
+      "Égalité hommes-femmes / droits des femmes",
+      "Politique / engagement des jeunes"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 209,
+    "id": "209",
+    "slug": "necessaire-vivre-pays-vraiment-comprendre-culture",
+    "filename": "209-necessaire-vivre-pays-vraiment-comprendre-culture.md",
+    "frequency": 1,
+    "subject": "Est-il nécessaire de vivre dans un pays pour vraiment comprendre sa culture ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Langues étrangères"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 210,
+    "id": "210",
+    "slug": "facile-travailler-autre-pays",
+    "filename": "210-facile-travailler-autre-pays.md",
+    "frequency": 1,
+    "subject": "Est-il facile de travailler dans un autre pays ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 211,
+    "id": "211",
+    "slug": "developpement-achats-internet-pourrait-entrainer-disparition-magasins",
+    "filename": "211-developpement-achats-internet-pourrait-entrainer-disparition-magasins.md",
+    "frequency": 1,
+    "subject": "Le développement des achats sur Internet pourrait-il entraîner la disparition des magasins physiques ?",
+    "themes": [
+      "Technologie / Internet / réseaux sociaux"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 212,
+    "id": "212",
+    "slug": "jeunes-s-impliquent-domaines-comme-l-environnement",
+    "filename": "212-jeunes-s-impliquent-domaines-comme-l-environnement.md",
+    "frequency": 1,
+    "subject": "Pensez-vous que les jeunes s'impliquent moins aujourd'hui dans des domaines comme l'environnement, la politique ou la santé ?",
+    "themes": [
+      "Environnement / pollution / écologie",
+      "Santé / alimentation / mode de vie",
+      "Générations / jeunes / personnes âgées",
+      "Politique / engagement des jeunes"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 213,
+    "id": "213",
+    "slug": "devrait-obliger-toutes-personnes-pouvant-travailler-depuis",
+    "filename": "213-devrait-obliger-toutes-personnes-pouvant-travailler-depuis.md",
+    "frequency": 1,
+    "subject": "Devrait-on obliger toutes les personnes pouvant travailler depuis chez elles à pratiquer le télétravail ?",
+    "themes": [
+      "Travail / emploi / salaire / carrière",
+      "Télévision / médias / information"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  },
+  {
+    "rank": 214,
+    "id": "214",
+    "slug": "vivre-plusieurs-mois-pays-etranger-necessaire-aider",
+    "filename": "214-vivre-plusieurs-mois-pays-etranger-necessaire-aider.md",
+    "frequency": 1,
+    "subject": "Vivre plusieurs mois dans un pays étranger est-il nécessaire pour aider les jeunes à devenir indépendants ?",
+    "themes": [
+      "Immigration / vivre à l'étranger / intégration",
+      "Générations / jeunes / personnes âgées"
+    ],
+    "months": [
+      "2026-06"
+    ],
+    "variants": []
+  }
+]
