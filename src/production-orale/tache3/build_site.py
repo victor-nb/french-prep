@@ -715,7 +715,7 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 const DATA = /*__DATA__*/null;
 const CONTENT = /*__CONTENT__*/null;
 const SUBJECT_COUNT = __COUNT__;
-const ANKI_DECK = 'downloads/TCF_production_orale_B2.apkg';
+const ANKI_DECK = 'downloads/TCF_B2_cogni.apkg';
 function ankiCard(){
   return '<a class="card card-pad-lg anki-card" href="'+ANKI_DECK+'" download>'
     +'<span class="anki-ic">'+ic('layers',24)+'</span>'
