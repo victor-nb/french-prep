@@ -8,10 +8,13 @@ T3_DIR := $(SRC_DIR)/production-orale/tache3
 TTS := $(T3_DIR)/tts.py
 VOICE_REF := $(T3_DIR)/data/voix-reference.wav
 
+ANKI_SRC := ../epub-translation/anki/final
+DOWNLOADS := downloads
+
 MD_FILES := $(shell find $(SRC_DIR) -name '*.md')
 PDF_FILES := $(patsubst $(SRC_DIR)/%.md,$(PDF_DIR)/%.pdf,$(MD_FILES))
 
-.PHONY: build clean examples voice speak speak-test clean-audio site
+.PHONY: build clean examples voice speak speak-test clean-audio decks site
 
 build: $(PDF_FILES)
 
@@ -50,6 +53,15 @@ clean-audio:
 	@rm -rf $(T3_DIR)/examples/audio
 	@echo "Removed $(T3_DIR)/examples/audio"
 
-## site : (re)génère index.html (GitHub Pages) à partir des réponses + audios
-site:
+## decks : synchronise les paquets Anki (.apkg) depuis $(ANKI_SRC) vers downloads/
+decks:
+	@mkdir -p $(DOWNLOADS)
+	@rm -f $(DOWNLOADS)/*.apkg
+	@if ls $(ANKI_SRC)/*.apkg >/dev/null 2>&1; then \
+		cp -f $(ANKI_SRC)/*.apkg $(DOWNLOADS)/; \
+		echo "Paquets Anki synchronisés : $$(ls $(DOWNLOADS)/*.apkg 2>/dev/null | wc -l | tr -d ' ')"; \
+	else echo "Aucun .apkg trouvé dans $(ANKI_SRC)"; fi
+
+## site : (re)génère index.html (GitHub Pages) à partir des réponses + audios + paquets Anki
+site: decks
 	@cd $(T3_DIR) && $(PY) build_site.py

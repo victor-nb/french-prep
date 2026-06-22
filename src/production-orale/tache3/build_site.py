@@ -19,6 +19,9 @@ from __future__ import annotations
 
 import json
 import re
+import sqlite3
+import tempfile
+import zipfile
 from pathlib import Path
 
 __all__ = ["build_site"]
@@ -30,6 +33,8 @@ INDEX_JSON = EXAMPLES_DIR / "_index.json"
 REPO_ROOT = HERE.parents[2]
 OUT_HTML = REPO_ROOT / "index.html"
 AUDIO_REL = "src/production-orale/tache3/examples/audio"
+DOWNLOADS_DIR = REPO_ROOT / "downloads"
+DOWNLOADS_REL = "downloads"
 
 _AUDIO_RE = re.compile(r"<!--\s*AUDIO:START\s*-->(.*?)<!--\s*AUDIO:END\s*-->", re.S)
 
@@ -59,6 +64,57 @@ def _collect() -> list[dict[str, object]]:
             }
         )
     return items
+
+
+def _human_size(num_bytes: int) -> str:
+    mb = num_bytes / (1024 * 1024)
+    return f"{mb:.1f} Mo".replace(".", ",")
+
+
+def _deck_names(con: sqlite3.Connection) -> list[str]:
+    has_table = con.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='decks'"
+    ).fetchone()
+    if has_table:
+        return [r[0] for r in con.execute("SELECT name FROM decks").fetchall()]
+    row = con.execute("SELECT decks FROM col").fetchone()
+    if not row or not row[0]:
+        return []
+    return [d["name"] for d in json.loads(row[0]).values()]
+
+
+def _deck_meta(apkg: Path) -> dict[str, object]:
+    with zipfile.ZipFile(apkg) as zf:
+        db_name = next(
+            (n for n in ("collection.anki21", "collection.anki2") if n in zf.namelist()),
+            None,
+        )
+        if db_name is None:
+            title = apkg.stem.replace("_", " ")
+            return {"file": f"{DOWNLOADS_REL}/{apkg.name}", "title": title, "cards": 0, "size": _human_size(apkg.stat().st_size)}
+        with tempfile.NamedTemporaryFile(suffix=".anki2") as tmp:
+            tmp.write(zf.read(db_name))
+            tmp.flush()
+            con = sqlite3.connect(tmp.name)
+            try:
+                cards = con.execute("SELECT count(*) FROM cards").fetchone()[0]
+                names = _deck_names(con)
+            finally:
+                con.close()
+    tops = sorted({n.split("::", 1)[0] for n in names if n != "Default"})
+    title = tops[0] if len(tops) == 1 else (apkg.stem.replace("_", " ") if not tops else " · ".join(tops))
+    return {
+        "file": f"{DOWNLOADS_REL}/{apkg.name}",
+        "title": title,
+        "cards": cards,
+        "size": _human_size(apkg.stat().st_size),
+    }
+
+
+def _collect_decks() -> list[dict[str, object]]:
+    if not DOWNLOADS_DIR.is_dir():
+        return []
+    return [_deck_meta(p) for p in sorted(DOWNLOADS_DIR.glob("*.apkg"))]
 
 
 # --------------------------------------------------------------------------- #
@@ -301,10 +357,12 @@ def build_site() -> Path:
     items = _collect()
     payload = json.dumps(items, ensure_ascii=False, separators=(",", ":"))
     content = json.dumps(_content(), ensure_ascii=False, separators=(",", ":"))
+    decks = json.dumps(_collect_decks(), ensure_ascii=False, separators=(",", ":"))
     html = (
         _TEMPLATE
         .replace("/*__DATA__*/null", payload)
         .replace("/*__CONTENT__*/null", content)
+        .replace("/*__DECKS__*/null", decks)
         .replace("__COUNT__", str(len(items)))
     )
     OUT_HTML.write_text(html, encoding="utf-8")
@@ -579,7 +637,9 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 .tbl td{padding:10px 13px;border-top:1px solid var(--border-soft);color:var(--text-secondary);vertical-align:top;line-height:1.5}
 .tbl td strong{color:var(--text-strong)}
 
-/* ---- anki download card ---- */
+/* ---- anki download cards ---- */
+.anki-block{margin-bottom:26px}
+.anki-list{display:flex;flex-direction:column;gap:12px}
 .anki-card{display:flex;align-items:center;gap:18px;text-decoration:none;color:inherit;border:1px solid var(--border-default);transition:border-color var(--t-fast),box-shadow var(--t-fast),transform var(--t-fast)}
 .anki-card:hover{border-color:var(--brand);box-shadow:var(--shadow-md);transform:translateY(-1px)}
 .anki-card .anki-ic{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:var(--radius-md);background:var(--bleu-050);color:var(--brand)}
@@ -715,15 +775,20 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 const DATA = /*__DATA__*/null;
 const CONTENT = /*__CONTENT__*/null;
 const SUBJECT_COUNT = __COUNT__;
-const ANKI_DECK = 'downloads/TCF_B2_cogni.apkg';
-function ankiCard(){
-  return '<a class="card card-pad-lg anki-card" href="'+ANKI_DECK+'" download>'
+const ANKI_DECKS = /*__DECKS__*/null;
+function ankiDecksBlock(){
+  const decks=ANKI_DECKS||[];
+  if(!decks.length) return '';
+  const cards=decks.map(d=>'<a class="card card-pad-lg anki-card" href="'+esc(d.file)+'" download>'
     +'<span class="anki-ic">'+ic('layers',24)+'</span>'
-    +'<span class="anki-txt"><span class="eyebrow" style="display:block;margin-bottom:6px">Anki · Révision espacée</span>'
-      +'<strong>Télécharger le paquet Anki</strong>'
-      +'<span class="anki-sub">228 cartes — les réponses modèles B2 avec audio, à réviser hors ligne. Fichier .apkg (~15 Mo).</span></span>'
+    +'<span class="anki-txt"><strong>'+esc(d.title)+'</strong>'
+      +'<span class="anki-sub">'+d.cards+' carte'+(d.cards>1?'s':'')+' · .apkg ('+esc(d.size)+')</span></span>'
     +'<span class="btn btn-primary anki-btn">'+ic('download',16)+' Télécharger</span>'
-  +'</a>';
+  +'</a>').join('');
+  return '<section class="anki-block"><span class="eyebrow" style="display:block;margin-bottom:8px">Anki · Révision espacée</span>'
+    +'<h2 style="margin:0 0 8px">Réviser avec Anki</h2>'
+    +'<p style="color:var(--text-secondary);margin:0 0 18px;max-width:60ch;line-height:1.55">Importez ces paquets dans Anki pour réviser en répétition espacée, même hors ligne — démarreurs, connecteurs et phrases prêtes à l\'emploi pour la Production orale B2.</p>'
+    +'<div class="anki-list">'+cards+'</div></section>';
 }
 
 /* ---------- icons ---------- */
@@ -939,7 +1004,7 @@ function viewAccueil(){
       +'<div style="display:flex;gap:12px;flex-wrap:wrap">'
         +'<button class="btn btn-primary btn-lg" data-nav="t1">Commencer par la Tâche 1 '+ic('arrow-right',17)+'</button>'
         +'<button class="btn btn-outline btn-lg" data-nav="banque">Banque des '+SUBJECT_COUNT+' sujets</button>'
-        +'<a class="btn btn-outline btn-lg" href="'+ANKI_DECK+'" download>'+ic('download',17)+' Paquet Anki</a>'
+        +'<button class="btn btn-outline btn-lg" data-nav="banque">'+ic('download',17)+' Paquets Anki</button>'
       +'</div>'
     +'</div>'
     +'<div class="card card-floating card-pad-lg">'
@@ -1019,7 +1084,7 @@ function renderBanque(){
     +'<div style="margin-bottom:22px"><span class="eyebrow" style="display:block;margin-bottom:10px">Tâche 3 · Expression d\'un point de vue</span>'
     +'<h1 style="margin:0 0 10px">Banque des '+SUBJECT_COUNT+' réponses</h1>'
     +'<p style="color:var(--text-secondary);font-size:var(--text-md);margin:0;max-width:60ch;line-height:1.55">Les sujets 2026 dédupliqués et triés par <strong>priorité</strong> (fréquence d\'apparition). Texte modèle B2 + audio à écouter — astuce&nbsp;: écoutez, puis faites du <em>shadowing</em>.</p></div>'
-    +'<div style="margin-bottom:22px">'+ankiCard()+'</div>'
+    +ankiDecksBlock()
     +'<div class="filter-bar"><div class="row">'
       +'<label class="search">'+ic('search',16)+'<input type="search" data-q placeholder="Rechercher un sujet…" value="'+esc(filt.q)+'"></label>'
       +'<span class="select"><select data-theme>'+opts+'</select><span class="chev chevron">'+ic('chevron-down',13)+'</span></span>'
