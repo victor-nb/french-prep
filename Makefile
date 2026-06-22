@@ -54,13 +54,16 @@ clean-audio:
 	@echo "Removed $(T3_DIR)/examples/audio"
 
 ## decks : synchronise les paquets Anki (.apkg) depuis $(ANKI_SRC) vers downloads/
+##         (les fichiers *SAMPLE* / brouillons sont ignorés)
 decks:
 	@mkdir -p $(DOWNLOADS)
 	@rm -f $(DOWNLOADS)/*.apkg
-	@if ls $(ANKI_SRC)/*.apkg >/dev/null 2>&1; then \
-		cp -f $(ANKI_SRC)/*.apkg $(DOWNLOADS)/; \
-		echo "Paquets Anki synchronisés : $$(ls $(DOWNLOADS)/*.apkg 2>/dev/null | wc -l | tr -d ' ')"; \
-	else echo "Aucun .apkg trouvé dans $(ANKI_SRC)"; fi
+	@for f in $(ANKI_SRC)/*.apkg; do \
+		[ -e "$$f" ] || continue; \
+		case "$$f" in *SAMPLE*) continue;; esac; \
+		cp -f "$$f" $(DOWNLOADS)/; \
+	done
+	@echo "Paquets Anki synchronisés : $$(ls $(DOWNLOADS)/*.apkg 2>/dev/null | wc -l | tr -d ' ')"
 
 ## site : (re)génère index.html (GitHub Pages) à partir des réponses + audios + paquets Anki
 site: decks
