@@ -579,6 +579,15 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 .tbl td{padding:10px 13px;border-top:1px solid var(--border-soft);color:var(--text-secondary);vertical-align:top;line-height:1.5}
 .tbl td strong{color:var(--text-strong)}
 
+/* ---- anki download card ---- */
+.anki-card{display:flex;align-items:center;gap:18px;text-decoration:none;color:inherit;border:1px solid var(--border-default);transition:border-color var(--t-fast),box-shadow var(--t-fast),transform var(--t-fast)}
+.anki-card:hover{border-color:var(--brand);box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.anki-card .anki-ic{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:var(--radius-md);background:var(--bleu-050);color:var(--brand)}
+.anki-card .anki-txt{flex:1;min-width:0}
+.anki-card .anki-txt strong{display:block;font-size:var(--text-lg);color:var(--text-heading);margin-bottom:4px}
+.anki-card .anki-sub{display:block;font-size:var(--text-sm);color:var(--text-muted);line-height:1.5}
+.anki-card .anki-btn{flex:0 0 auto;pointer-events:none}
+@media (max-width:640px){.anki-card{flex-wrap:wrap}.anki-card .anki-btn{width:100%;justify-content:center}}
 /* ---- copy chip ---- */
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{display:inline-flex;align-items:center;gap:8px;max-width:100%;text-align:left;background:var(--surface-card);border:1px solid var(--border-default);border-radius:var(--radius-md);padding:7px 12px;font-family:var(--font-sans);font-size:var(--text-sm);color:var(--text-body);cursor:pointer;line-height:1.4;transition:border-color var(--t-fast),background var(--t-fast)}
@@ -706,6 +715,16 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 const DATA = /*__DATA__*/null;
 const CONTENT = /*__CONTENT__*/null;
 const SUBJECT_COUNT = __COUNT__;
+const ANKI_DECK = 'downloads/TCF_production_orale_B2.apkg';
+function ankiCard(){
+  return '<a class="card card-pad-lg anki-card" href="'+ANKI_DECK+'" download>'
+    +'<span class="anki-ic">'+ic('layers',24)+'</span>'
+    +'<span class="anki-txt"><span class="eyebrow" style="display:block;margin-bottom:6px">Anki · Révision espacée</span>'
+      +'<strong>Télécharger le paquet Anki</strong>'
+      +'<span class="anki-sub">228 cartes — les réponses modèles B2 avec audio, à réviser hors ligne. Fichier .apkg (~15 Mo).</span></span>'
+    +'<span class="btn btn-primary anki-btn">'+ic('download',16)+' Télécharger</span>'
+  +'</a>';
+}
 
 /* ---------- icons ---------- */
 const ICONS = {
@@ -728,6 +747,8 @@ const ICONS = {
   'book-open':'<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>',
   'alert-triangle':'<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
   'external-link':'<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
+  download:'<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>',
+  layers:'<path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/>',
 };
 const FILLED = {};
 function ic(n,size){size=size||18;const filled=FILLED[n];return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 24 24" fill="'+(filled?'currentColor':'none')+'" stroke="'+(filled?'none':'currentColor')+'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(ICONS[n]||'')+'</svg>';}
@@ -918,6 +939,7 @@ function viewAccueil(){
       +'<div style="display:flex;gap:12px;flex-wrap:wrap">'
         +'<button class="btn btn-primary btn-lg" data-nav="t1">Commencer par la Tâche 1 '+ic('arrow-right',17)+'</button>'
         +'<button class="btn btn-outline btn-lg" data-nav="banque">Banque des '+SUBJECT_COUNT+' sujets</button>'
+        +'<a class="btn btn-outline btn-lg" href="'+ANKI_DECK+'" download>'+ic('download',17)+' Paquet Anki</a>'
       +'</div>'
     +'</div>'
     +'<div class="card card-floating card-pad-lg">'
@@ -997,6 +1019,7 @@ function renderBanque(){
     +'<div style="margin-bottom:22px"><span class="eyebrow" style="display:block;margin-bottom:10px">Tâche 3 · Expression d\'un point de vue</span>'
     +'<h1 style="margin:0 0 10px">Banque des '+SUBJECT_COUNT+' réponses</h1>'
     +'<p style="color:var(--text-secondary);font-size:var(--text-md);margin:0;max-width:60ch;line-height:1.55">Les sujets 2026 dédupliqués et triés par <strong>priorité</strong> (fréquence d\'apparition). Texte modèle B2 + audio à écouter — astuce&nbsp;: écoutez, puis faites du <em>shadowing</em>.</p></div>'
+    +'<div style="margin-bottom:22px">'+ankiCard()+'</div>'
     +'<div class="filter-bar"><div class="row">'
       +'<label class="search">'+ic('search',16)+'<input type="search" data-q placeholder="Rechercher un sujet…" value="'+esc(filt.q)+'"></label>'
       +'<span class="select"><select data-theme>'+opts+'</select><span class="chev chevron">'+ic('chevron-down',13)+'</span></span>'
