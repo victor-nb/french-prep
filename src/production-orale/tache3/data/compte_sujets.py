@@ -7,7 +7,9 @@ doivent être réunies (ET). Un sujet peut compter pour plusieurs questions cano
 distinctes (ce sont des questions différentes), mais chaque signature est conçue pour
 cibler une idée précise. Comptage accent-insensible sur data/corpus.txt.
 """
+import re
 import unicodedata
+from functools import lru_cache
 from pathlib import Path
 
 def strip(s):
@@ -213,8 +215,13 @@ CANON = [
 raw = [l.strip() for l in Path("data/corpus.txt").read_text(encoding="utf-8").splitlines()]
 subjects = [strip(l) for l in raw if l and not l.startswith("#")]
 
+@lru_cache(maxsize=None)
+def _syn(syn):
+    # frontière gauche : « tele » ne doit pas matcher « téléphone », « ong » ne doit pas matcher « longtemps »…
+    return re.compile(r"(?<![a-z0-9])" + re.escape(syn))
+
 def matches(subj, conds):
-    return all(any(syn in subj for syn in cond) for cond in conds)
+    return all(any(_syn(syn).search(subj) for syn in cond) for cond in conds)
 
 rows = []
 for label, conds in CANON:

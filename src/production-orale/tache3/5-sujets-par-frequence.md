@@ -1,9 +1,10 @@
 # Sujets TCF Canada – Expression Orale Tâche 3, classés par fréquence
 
 **Source :** [reussir-tcfcanada.com/expression-orale](https://reussir-tcfcanada.com/expression-orale/) — toutes les sessions de **janvier 2022 à juin 2026** (54 pages mensuelles).
-**Corpus analysé :** 703 sujets relevés. Voir `data/corpus.txt` (texte brut) et `data/analyse_frequence.py` (script de comptage).
+**Corpus analysé :** 723 sujets relevés. Voir `data/corpus.txt` (texte brut) et `data/analyse_frequence.py` (script de comptage).
+**Dernière mise à jour : 25 juin 2026** — session de juin 2026 complétée (7 parties / 35 sujets, soit +20 par rapport au relevé précédent).
 
-> **Méthode.** Les sujets sont reformulés d'un mois à l'autre (même idée, phrase différente) : un comptage mot-à-mot serait trompeur. J'ai donc classé chaque sujet par **thème**, à l'aide de mots-clés. Un sujet peut compter pour deux thèmes (ex. « interdire le téléphone à l'école » = *numérique* + *éducation*). Les pourcentages se rapportent aux 703 sujets.
+> **Méthode.** Les sujets sont reformulés d'un mois à l'autre (même idée, phrase différente) : un comptage mot-à-mot serait trompeur. J'ai donc classé chaque sujet par **thème**, à l'aide de mots-clés. Un sujet peut compter pour deux thèmes (ex. « interdire le téléphone à l'école » = *numérique* + *éducation*). Les pourcentages se rapportent aux 723 sujets.
 
 ---
 
@@ -11,33 +12,33 @@
 
 | Rang | Thème | Occurrences | % du corpus |
 |----:|-------|----:|----:|
-| 1 | **Immigration / vivre à l'étranger / intégration** | 141 | 20 % |
-| 2 | **Travail / emploi / salaire / carrière** | 131 | 19 % |
-| 3 | **Éducation / école / études / diplômes** | 82 | 12 % |
-| 4 | **Santé / alimentation / mode de vie** | 68 | 10 % |
-| 5 | **Télévision / médias / information** | 64 | 9 % |
-| 6 | **Technologie / Internet / réseaux sociaux** | 62 | 9 % |
-| 7 | **Tourisme / voyage** | 45 | 6 % |
-| 8 | **Famille / amitié / relations / célibat** | 41 | 6 % |
-| 9 | **Environnement / pollution / transports** | 40 | 6 % |
-| 10 | **Téléphone portable / smartphone / écrans** | 32 | 5 % |
-| 11 | **Argent / bonheur / réussite** | 31 | 4 % |
-| 12 | **Célébrités / apparence / beauté** | 29 | 4 % |
-| 13 | **Langues étrangères** | 29 | 4 % |
-| 14 | **Citoyenneté / solidarité / bénévolat / État** | 27 | 4 % |
-| 15 | **Lecture / livres / culture** | 23 | 3 % |
-| 16 | **Éducation des enfants / parentalité / autorité** | 22 | 3 % |
-| 17 | **Ville / campagne / logement** | 21 | 3 % |
-| 18 | **Générations (jeunes / personnes âgées)** | 16 | 2 % |
+| 1 | **Immigration / vivre à l'étranger / intégration** | 142 | 20 % |
+| 2 | **Travail / emploi / salaire / carrière** | 136 | 19 % |
+| 3 | **Éducation / école / études / diplômes** | 83 | 11 % |
+| 4 | **Technologie / Internet / réseaux sociaux** | 63 | 9 % |
+| 5 | **Santé / alimentation / mode de vie** | 49 | 7 % |
+| 6 | **Tourisme / voyage** | 45 | 6 % |
+| 7 | **Environnement / pollution / transports** | 44 | 6 % |
+| 8 | **Famille / amitié / relations / célibat** | 43 | 6 % |
+| 9 | **Téléphone portable / smartphone / écrans** | 33 | 5 % |
+| 10 | **Argent / bonheur / réussite** | 31 | 4 % |
+| 11 | **Langues étrangères** | 31 | 4 % |
+| 12 | **Télévision / médias / information** | 30 | 4 % |
+| 13 | **Célébrités / apparence / beauté** | 29 | 4 % |
+| 14 | **Lecture / livres / culture** | 26 | 4 % |
+| 15 | **Éducation des enfants / parentalité / autorité** | 21 | 3 % |
+| 16 | **Ville / campagne / logement** | 21 | 3 % |
+| 17 | **Citoyenneté / solidarité / bénévolat / État** | 19 | 3 % |
+| 18 | **Générations (jeunes / personnes âgées)** | 17 | 2 % |
 | 19 | **Jeux de hasard / tabac / alcool / espace / libertés** | 13 | 2 % |
 | 20 | **Égalité hommes-femmes / droits des femmes** | 11 | 2 % |
 | 21 | **Sport / sportifs** | 11 | 2 % |
 | 22 | **Politique / engagement des jeunes** | 9 | 1 % |
 | 23 | **Jeux vidéo** | 8 | 1 % |
 | 24 | **Animaux** | 8 | 1 % |
-| 25 | **Tâches ménagères** | 5 | 1 % |
+| 25 | **Tâches ménagères** | 4 | 1 % |
 
-> **À retenir pour réviser :** les **6 premiers thèmes représentent ~78 % de tous les sujets.** Si vous préparez solidement *Immigration, Travail, Éducation, Santé, Médias et Technologie*, vous êtes prêt(e) pour la grande majorité des tirages.
+> **À retenir pour réviser :** les **6 premiers thèmes représentent ~72 % de tous les sujets.** Si vous préparez solidement *Immigration, Travail, Éducation, Technologie, Santé et Tourisme*, vous êtes prêt(e) pour la grande majorité des tirages.
 
 ---
 
@@ -46,7 +47,7 @@
 Ces énoncés précis (ou de très proches variantes) réapparaissent dans de nombreuses sessions différentes — ce sont les **priorités absolues** :
 
 **Immigration / intégration**
-- « Vivre dans un pays étranger est difficile. Êtes-vous d'accord ? » *(le sujet le plus répété de tout le corpus)*
+- « Vivre dans un pays étranger est difficile. Êtes-vous d'accord ? » *(17 occurrences — parmi les 3 idées les plus répétées du corpus)*
 - « Travailler à l'étranger est facile. Qu'en pensez-vous ? »
 - « Est-il nécessaire de vivre dans un pays pour connaître / comprendre sa culture ? »
 - « Changer de pays, c'est changer de culture. Qu'en pensez-vous ? »
@@ -95,27 +96,27 @@ Ces énoncés précis (ou de très proches variantes) réapparaissent dans de no
 
 ## 🔢 Questions précises classées par nombre d'occurrences
 
-Comptage des **questions canoniques** (une « idée de sujet », toutes reformulations confondues) sur les 703 sujets. Script : `data/compte_sujets.py`.
+Comptage des **questions canoniques** (une « idée de sujet », toutes reformulations confondues) sur les 723 sujets. Script : `data/compte_sujets.py`.
 
 > **Lecture.** Le test reformule chaque question d'un mois à l'autre ; le chiffre regroupe donc toutes les variantes d'une même idée. Ce sont des comptages par signature de mots-clés — fiables à ±1, et volontairement prudents (une même idée très reformulée peut être légèrement sous-comptée).
 
 | Occ. | Question canonique |
 |----:|------|
+| 18 | **Apprendre une langue étrangère** (difficulté / dès l'enfance) |
 | 17 | Vivre / s'intégrer dans un pays étranger est **difficile** |
-| 17 | **Apprendre une langue étrangère** (difficulté / dès l'enfance) |
-| 15 | Chacun peut-il **agir pour l'environnement** (déchets, gestes) |
+| 16 | Chacun peut-il **agir pour l'environnement** (déchets, gestes) |
 | 12 | Faut-il des **études / diplômes** pour réussir / gagner sa vie |
+| 11 | Le **télétravail** (avantages / équilibre vie pro-perso) |
+| 11 | Faut-il **interdire le téléphone** aux enfants / à l'école / au travail |
 | 10 | Faut-il **maîtriser la langue** du pays d'accueil pour s'intégrer |
-| 10 | Le **télétravail** (avantages / équilibre vie pro-perso) |
-| 10 | Faut-il **interdire le téléphone** aux enfants / à l'école / au travail |
 | 10 | La **chirurgie esthétique** / vouloir paraître jeune |
 | 10 | Les **transports en commun** devraient être gratuits |
+| 9 | Une **expérience à l'étranger** est-elle nécessaire pour la carrière |
 | 9 | **Internet et l'éducation** des enfants / l'information |
 | 9 | Le **stress** est-il un bon stimulant |
 | 9 | Vivre en **ville ou à la campagne** (stress, qualité de vie) |
-| 9 | Les **jeunes** sont-ils moins polis / les vieux pessimistes |
-| 8 | Une **expérience à l'étranger** est-elle nécessaire pour la carrière |
 | 8 | Peut-on **vivre sans Internet** / Internet rend la vie meilleure |
+| 8 | Peut-on **vivre sans voiture** / interdire les voitures en ville |
 | 8 | Le **tourisme** : bon pour l'économie / nuisible à l'environnement |
 | 8 | Les **jeux vidéo** : dangereux ou utiles au développement de l'enfant |
 | 8 | La **parité hommes-femmes** / les droits des femmes |
@@ -130,27 +131,33 @@ Comptage des **questions canoniques** (une « idée de sujet », toutes reformul
 | 7 | Certaines personnes **ne regardent jamais la télévision** |
 | 7 | **Regarder la télévision** permet de s'instruire / éduque les enfants |
 | 7 | Les **produits bio** (santé / réservés aux riches) |
-| 7 | Peut-on **vivre sans voiture** / interdire les voitures en ville |
 | 6 | Est-il bon de **changer de métier** / faire plusieurs métiers |
-| 6 | Le **travail des personnes âgées** est-il utile à la société |
 | 6 | Les **réseaux sociaux** : perte de temps / isolement |
 | 6 | Pour la santé, faut-il **arrêter la viande** / devenir végétarien |
 | 6 | Faut-il de l'**autorité** pour éduquer les enfants |
+| 6 | L'**école à la maison** |
 | 6 | Les **salaires des sportifs** sont-ils excessifs |
 | 6 | **Voyager seul** ou accompagné |
 | 6 | Les **livres** sont-ils inutiles / faut-il lire pour être cultivé |
+| 6 | Les **jeunes** sont-ils moins polis / les vieux pessimistes |
+| 6 | Qui doit **aider les plus démunis** : l'État ou les citoyens |
 | 5 | Faut-il **connaître le pays** avant d'immigrer |
+| 5 | Travailler **jusqu'à 70 ans** |
+| 5 | Le **travail des personnes âgées** est-il utile à la société |
 | 5 | La **technologie** va-t-elle remplacer le travail humain |
 | 5 | L'**argent** fait-il le bonheur / faut-il être riche |
-| 5 | L'**école à la maison** |
-| 5 | Qui doit **aider les plus démunis** : l'État ou les citoyens |
-| 4 | Travailler **jusqu'à 70 ans** |
+| 5 | Les **musées / la culture** devraient-ils être gratuits |
+| 4 | Il est **facile de travailler à l'étranger** |
+| 4 | Les **bons résultats scolaires** garantissent-ils la réussite |
 | 4 | Faut-il **éviter de travailler avec sa famille** |
+| 4 | La télévision / le **temps d'écran** est-il du temps perdu |
 | 4 | Peut-on **vivre sans médicaments** |
 | 4 | Les **amitiés sur Internet** valent-elles les liens familiaux |
+| 4 | Les **parents** doivent-ils surveiller leurs enfants |
 | 4 | **Forcer les enfants à faire du sport** |
+| 4 | **Voyager** rend-il meilleur / change-t-il la personne |
 | 4 | Les **jeunes restant vivre chez leurs parents** |
-| 3–4 | *(autres)* musées gratuits · célébrités en politique · média préféré · économie vs environnement · célibat & bonheur · filles/garçons · voyage & richesse … |
+| 3 | *(8 idées)* images violentes à la télé · média préféré · économie vs environnement · célibat & bonheur · la famille avant tout · filles/garçons même éducation · pourquoi la vie des célébrités fascine · voyage réservé aux riches |
 
 *(Liste complète et reproductible : `python3 data/compte_sujets.py`.)*
 
@@ -158,5 +165,9 @@ Comptage des **questions canoniques** (une « idée de sujet », toutes reformul
 
 ## 🗂️ Le corpus complet
 
-Tous les 703 sujets, mois par mois (2022→2026), sont dans **[`data/corpus.txt`](data/corpus.txt)**.
+Tous les 723 sujets, mois par mois (2022→2026), sont dans **[`data/corpus.txt`](data/corpus.txt)**.
 Pour relancer ou affiner le comptage : `python3 data/analyse_frequence.py`.
+
+> **Pour réviser par thème :** le **[top 5 des sujets de chaque thème](6-top-sujets-par-theme.md)** (sujets fusionnés quand ils partagent exactement les mêmes arguments pour/contre) est dans **`6-top-sujets-par-theme.md`**.
+
+> **Note méthodo (juin 2026).** Le classement des mots-clés utilise désormais une **frontière de mot à gauche** : un mot-clé ne peut plus matcher collé dans un mot plus long (avant, « tele » comptait *téléphone*/*télétravail* dans *Télévision*, « sport » comptait *transports* dans *Santé*, « ong » comptait *longtemps* dans *Citoyenneté*). Plusieurs thèmes ont donc des comptes plus justes (et plus bas) qu'auparavant.

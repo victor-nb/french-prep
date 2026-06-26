@@ -1,0 +1,283 @@
+{
+  "eyebrow": "Stratégie · Tâche 3",
+  "crumb": "Stratégie",
+  "title": "Thèmes & arguments",
+  "lede": "Quels sujets reviennent le plus, et quels arguments préparer. 723 sujets de la Tâche 3 relevés de 2022 à 2026, classés par thème, et une banque de 260 arguments prêts à l'emploi.",
+  "sections": [
+    {
+      "id": "themes-frequence",
+      "title": "Les thèmes les plus fréquents",
+      "blocks": [
+        {
+          "type": "prose",
+          "html": "<p>Les sujets de la Tâche 3 sont reformulés d'un mois à l'autre, mais ils tournent autour d'un nombre limité de <strong>thèmes</strong>. En classant les 723 sujets relevés de janvier 2022 à juin 2026, on voit nettement lesquels reviennent le plus — et donc lesquels réviser en priorité.</p>"
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "723",
+              "label": "sujets analysés",
+              "hint": "janv. 2022 → juin 2026"
+            },
+            {
+              "value": "26",
+              "label": "thèmes",
+              "hint": "identifiés et comptés"
+            },
+            {
+              "value": "260",
+              "label": "arguments",
+              "hint": "pour & contre",
+              "color": "var(--accent)"
+            }
+          ]
+        },
+        {
+          "type": "frequency",
+          "bars": [
+            {
+              "label": "Immigration / intégration",
+              "pct": 20,
+              "color": "var(--cat-immigration)"
+            },
+            {
+              "label": "Travail / carrière",
+              "pct": 19,
+              "color": "var(--cat-travail)"
+            },
+            {
+              "label": "Éducation / études",
+              "pct": 11,
+              "color": "var(--cat-education)"
+            },
+            {
+              "label": "Technologie / Internet",
+              "pct": 9,
+              "color": "var(--cat-techno)"
+            },
+            {
+              "label": "Santé / mode de vie",
+              "pct": 7,
+              "color": "var(--cat-sante)"
+            },
+            {
+              "label": "Tourisme / voyage",
+              "pct": 6,
+              "color": "var(--cat-societe)"
+            },
+            {
+              "label": "Environnement / transports",
+              "pct": 6,
+              "color": "var(--cat-environ)"
+            },
+            {
+              "label": "Famille / relations",
+              "pct": 6,
+              "color": "var(--cat-medias)"
+            },
+            {
+              "label": "Téléphone / écrans",
+              "pct": 5,
+              "color": "var(--cat-techno)"
+            },
+            {
+              "label": "Argent / réussite",
+              "pct": 4,
+              "color": "var(--cat-societe)"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "accent",
+          "html": "Les <strong>6 premiers thèmes</strong> — Immigration, Travail, Éducation, Technologie, Santé et Tourisme — couvrent à eux seuls <strong>près de 72 %</strong> des sujets. Si vous les préparez solidement, vous êtes prêt(e) pour la grande majorité des tirages."
+        },
+        {
+          "type": "prose",
+          "html": "<p>Le classement complet des 26 thèmes, du plus au moins fréquent :</p>"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Rang",
+            "Thème",
+            "Sujets",
+            "%"
+          ],
+          "rows": [
+            [
+              "1",
+              "<strong>Immigration / vivre à l'étranger / intégration</strong>",
+              "142",
+              "20 %"
+            ],
+            [
+              "2",
+              "<strong>Travail / emploi / salaire / carrière</strong>",
+              "136",
+              "19 %"
+            ],
+            [
+              "3",
+              "<strong>Éducation / école / études / diplômes</strong>",
+              "83",
+              "11 %"
+            ],
+            [
+              "4",
+              "<strong>Technologie / Internet / réseaux sociaux</strong>",
+              "63",
+              "9 %"
+            ],
+            [
+              "5",
+              "<strong>Santé / alimentation / mode de vie</strong>",
+              "49",
+              "7 %"
+            ],
+            [
+              "6",
+              "<strong>Tourisme / voyage</strong>",
+              "45",
+              "6 %"
+            ],
+            [
+              "7",
+              "<strong>Environnement / pollution / transports</strong>",
+              "44",
+              "6 %"
+            ],
+            [
+              "8",
+              "<strong>Famille / amitié / relations / célibat</strong>",
+              "43",
+              "6 %"
+            ],
+            [
+              "9",
+              "<strong>Téléphone portable / smartphone / écrans</strong>",
+              "33",
+              "5 %"
+            ],
+            [
+              "10",
+              "<strong>Argent / bonheur / réussite</strong>",
+              "31",
+              "4 %"
+            ],
+            [
+              "11",
+              "<strong>Langues étrangères</strong>",
+              "31",
+              "4 %"
+            ],
+            [
+              "12",
+              "<strong>Télévision / médias / information</strong>",
+              "30",
+              "4 %"
+            ],
+            [
+              "13",
+              "<strong>Célébrités / apparence / beauté</strong>",
+              "29",
+              "4 %"
+            ],
+            [
+              "14",
+              "<strong>Lecture / livres / culture</strong>",
+              "26",
+              "4 %"
+            ],
+            [
+              "15",
+              "<strong>Éducation des enfants / parentalité / autorité</strong>",
+              "21",
+              "3 %"
+            ],
+            [
+              "16",
+              "<strong>Ville / campagne / logement</strong>",
+              "21",
+              "3 %"
+            ],
+            [
+              "17",
+              "<strong>Citoyenneté / solidarité / bénévolat / État</strong>",
+              "19",
+              "3 %"
+            ],
+            [
+              "18",
+              "<strong>Générations (jeunes / personnes âgées)</strong>",
+              "17",
+              "2 %"
+            ],
+            [
+              "19",
+              "<strong>Jeux de hasard / tabac / alcool / espace / libertés</strong>",
+              "13",
+              "2 %"
+            ],
+            [
+              "20",
+              "<strong>Égalité hommes-femmes / droits des femmes</strong>",
+              "11",
+              "2 %"
+            ],
+            [
+              "21",
+              "<strong>Sport / sportifs</strong>",
+              "11",
+              "2 %"
+            ],
+            [
+              "22",
+              "<strong>Politique / engagement des jeunes</strong>",
+              "9",
+              "1 %"
+            ],
+            [
+              "23",
+              "<strong>Jeux vidéo</strong>",
+              "8",
+              "1 %"
+            ],
+            [
+              "24",
+              "<strong>Animaux</strong>",
+              "8",
+              "1 %"
+            ],
+            [
+              "25",
+              "<strong>Tâches ménagères</strong>",
+              "4",
+              "1 %"
+            ],
+            [
+              "26",
+              "<strong>Valeurs / savoir-vivre</strong>",
+              "2",
+              "0 %"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "themes-arguments",
+      "title": "Arguments pour et contre, par thème",
+      "blocks": [
+        {
+          "type": "prose",
+          "html": "<p>Pour chaque thème, ses <strong>sujets les plus fréquents</strong> puis <strong>5 arguments « pour »</strong> et <strong>5 « contre »</strong>, en français simple (niveau B2) et faciles à mémoriser. Les arguments sont volontairement <strong>généraux</strong> : un même argument peut servir pour la plupart des sujets du thème.</p>"
+        },
+        {
+          "type": "argbank"
+        }
+      ]
+    }
+  ]
+}
