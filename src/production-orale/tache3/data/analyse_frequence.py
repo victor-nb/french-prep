@@ -54,7 +54,7 @@ THEMES = {
         "education differente", "verite aux enfants",
     ],
     "Télévision / médias / information": [
-        "television", "tele", "journaux televises", "actualites", "s'informer", "s'instruire",
+        "televis", "la tele", "journaux televises", "actualites", "s'informer", "s'instruire",
         "medias", "media", "vous informer", "images violentes", "journaux", "tele-realite",
         "etre informe", "mieux informe", "diffuser",
     ],
@@ -68,7 +68,8 @@ THEMES = {
         "sante", "se nourrir", "viande", "vegetarien", "produits bio", "produit bio",
         "le bio", "medicaments", "stress", "chirurgie esthetique", "perdre du poids",
         "habitudes alimentaires", "coutumes alimentaires", "regime", "cuisiner", "alimentation",
-        "soins medicaux", "soins", "rendez-vous medicaux", "sport",
+        "soins medicaux", "soins", "rendez-vous medicaux",
+        "du sport", "de sport", "activite sportive", "commencer un sport",
     ],
     "Tourisme / voyage": [
         "tourisme", "tourist", "voyage", "voyager", "visite", "sorties",
@@ -114,13 +115,13 @@ THEMES = {
     "Lecture / livres / culture": [
         "livre", "lire", "lecture", "musee", "culturel", "matieres culturelles",
         "activites artistiques", "metiers artistiques", "metiers lies a l'art", "theatre",
-        "cinema", "artistes",
+        "cinema", "artistes", "profiter de la culture",
     ],
     "Langues étrangères": [
         "langue etrangere", "langue du pays", "parler la langue", "langues etrangeres",
         "anglais", "maitriser la langue", "langue maternelle", "sans parler sa langue",
         "connaitre sa langue", "parler sa langue", "savoir sa langue", "nouvelle langue",
-        "comprendre la culture d'un pays",
+        "comprendre la culture d'un pays", "plusieurs langues",
     ],
     "Générations / jeunes / personnes âgées": [
         "personnes agees", "les vieux", "les aines", "que leurs aines", "polis", "respectueux",
@@ -143,7 +144,12 @@ THEMES = {
     ],
 }
 
-THEMES_N = {t: [strip(p) for p in pats] for t, pats in THEMES.items()}
+def _boundary(p: str) -> "re.Pattern":
+    # frontière gauche : un mot-clé ne doit pas matcher collé dans un mot plus long
+    # (sinon « tele » matche « téléphone », « sport » matche « transports », « proches » matche « rapprochés »…)
+    return re.compile(r"(?<![a-z0-9])" + re.escape(p))
+
+THEMES_N = {t: [_boundary(strip(p)) for p in pats] for t, pats in THEMES.items()}
 
 lines = [l.strip() for l in Path("data/corpus.txt").read_text(encoding="utf-8").splitlines()]
 subjects = [l for l in lines if l and not l.startswith("#")]
@@ -155,7 +161,7 @@ matched = [False] * len(subjects)
 for i, subj in enumerate(subjects):
     ns = strip(subj)
     for theme, pats in THEMES_N.items():
-        if any(p in ns for p in pats):
+        if any(rx.search(ns) for rx in pats):
             counts[theme] += 1
             matched[i] = True
             if len(examples[theme]) < 4:

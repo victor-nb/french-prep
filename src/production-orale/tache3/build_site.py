@@ -350,6 +350,8 @@ def _content() -> dict[str, object]:
         "connecteurs": _load("connecteurs"),
         "cram": _load("cram"),
         "args": _load("args"),
+        "themes": _load("themes"),
+        "argbank": _load("argbank"),
     }
 
 
@@ -462,6 +464,27 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 .nav-link{font-family:var(--font-sans);font-size:var(--text-sm);font-weight:600;padding:8px 13px;border-radius:var(--radius-sm);border:none;cursor:pointer;background:transparent;color:var(--text-secondary);transition:background var(--t-fast),color var(--t-fast)}
 .nav-link:hover{background:var(--surface-sunken)}
 .nav-link.active{background:var(--brand-tint);color:var(--bleu-800)}
+.site-nav{align-items:center}
+.nav-group{position:relative}
+.nav-group>summary{list-style:none;display:inline-flex;align-items:center;gap:5px;user-select:none}
+.nav-group>summary::-webkit-details-marker{display:none}
+.nav-group>summary::marker{content:""}
+.nav-caret{display:inline-flex;color:var(--text-faint);transition:transform var(--t-fast)}
+.nav-group[open]>summary{background:var(--surface-sunken);color:var(--text-strong)}
+.nav-group[open]>summary .nav-caret{transform:rotate(180deg)}
+.nav-menu{position:absolute;top:calc(100% + 6px);left:0;min-width:235px;background:var(--surface-card);border:1px solid var(--border-default);border-radius:var(--radius-md);box-shadow:var(--shadow-lg);padding:6px;display:none;flex-direction:column;gap:2px;z-index:60}
+.nav-group[open]>.nav-menu{display:flex}
+.nav-menu-item{display:block;width:100%;text-align:left;background:none;border:none;border-radius:var(--radius-sm);cursor:pointer;font-family:var(--font-sans);font-size:var(--text-sm);font-weight:500;color:var(--text-secondary);padding:9px 12px;line-height:1.3;white-space:nowrap;transition:background var(--t-fast),color var(--t-fast)}
+.nav-menu-item:hover{background:var(--surface-sunken);color:var(--text-strong)}
+.nav-menu-item.active{color:var(--bleu-800);background:var(--brand-tint)}
+.arg-cols.two{grid-template-columns:repeat(2,1fr)}
+.ab-subjects{margin-bottom:4px}
+.ab-h{font-family:var(--font-mono);font-size:var(--text-2xs);font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px}
+.ab-h-args{margin:20px 0 9px}
+.ab-note{font-size:var(--text-xs);color:var(--text-muted);font-style:italic;margin:0 0 12px;line-height:1.5;max-width:64ch}
+.ab-sub-list{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.ab-sub-list li{font-family:var(--font-display);font-size:var(--text-md);color:var(--text-strong);line-height:1.4;display:flex;gap:11px;align-items:baseline}
+.ab-count{font-family:var(--font-mono);font-size:var(--text-2xs);font-weight:600;color:var(--brand);background:var(--brand-wash);border:1px solid var(--brand-tint);border-radius:var(--radius-pill);padding:2px 8px;flex:0 0 auto;min-width:34px;text-align:center}
 .nav-annexe{display:inline-flex}
 .header-right{margin-left:auto;display:flex;align-items:center;gap:10px}
 .header-cram{font-family:var(--font-sans);font-size:var(--text-xs);font-weight:600;color:var(--text-secondary);background:none;border:none;cursor:pointer;padding:6px 4px}
@@ -888,6 +911,29 @@ BLK.argfinder=()=>{
     +'<div class="arg-list" data-arg-list>'+argListHtml(argTheme)+'</div></div>';
 };
 
+/* ---------- banque d'arguments par thème (page Thèmes, pour/contre) ---------- */
+let argBankTheme=null;
+const abThemes=()=>(CONTENT&&CONTENT.argbank&&CONTENT.argbank.themes)||[];
+function abCols(t){
+  const col=(label,items,cls)=>'<div class="arg-col"><div class="arg-col-h '+cls+'">'+label+'</div><ul>'+(items||[]).map(x=>'<li><strong>'+esc(x.k)+'</strong> — '+esc(x.t)+'</li>').join('')+'</ul></div>';
+  return '<div class="arg-cols two">'+col('Pour',t.pour,'pour')+col('Contre',t.contre,'contre')+'</div>';
+}
+const abListHtml=(name)=>{
+  const t=abThemes().find(z=>z.theme===name);
+  if(!t)return '';
+  const subs=(t.top5||[]).map(x=>'<li><span class="ab-count">'+esc(x.c)+'×</span><span>'+esc(x.s)+'</span></li>').join('');
+  const subBlock=subs?'<div class="ab-subjects"><div class="ab-h">Sujets les plus fréquents de ce thème</div><p class="ab-note">Ce sont des <strong>formulations générales</strong> qui regroupent toutes les variantes d\'une même idée — pas le libellé exact tiré le jour du test, mais le fond du sujet. Le chiffre indique le nombre d\'apparitions relevées depuis 2022.</p><ol class="ab-sub-list">'+subs+'</ol></div>':'';
+  return subBlock+'<div class="ab-h ab-h-args">Arguments à réutiliser</div>'+abCols(t);
+};
+BLK.argbank=()=>{
+  const themes=abThemes();
+  if(!themes.length)return '';
+  if(!argBankTheme||!themes.some(t=>t.theme===argBankTheme))argBankTheme=themes[0].theme;
+  const opts=themes.map(t=>'<option value="'+esc(t.theme)+'"'+(t.theme===argBankTheme?' selected':'')+'>'+esc(t.theme)+'</option>').join('');
+  return '<div class="block argfinder"><span class="select" style="width:100%;max-width:440px"><select data-argbank-theme aria-label="Choisir un thème">'+opts+'</select><span class="chev chevron">'+ic('chevron-down',13)+'</span></span>'
+    +'<div class="arg-list" data-argbank-list>'+abListHtml(argBankTheme)+'</div></div>';
+};
+
 /* ---------- chapter view ---------- */
 const BANDS=['Comprendre','Voir',"S'entraîner"];
 const taches=()=>(CONTENT&&CONTENT.taches)||[];
@@ -951,7 +997,7 @@ function annexePlaceholder(eyebrow,title,lede){
   +'</main></div>';
 }
 function annexeHead(a){
-  return '<div class="ch-head"><nav class="crumb"><button data-nav="accueil">Manuel</button><span class="sep">/</span><span>Annexe</span></nav>'
+  return '<div class="ch-head"><nav class="crumb"><button data-nav="accueil">Manuel</button><span class="sep">/</span><span>'+esc(a.crumb||'Annexe')+'</span></nav>'
     +'<span class="eyebrow" style="display:block;margin-bottom:10px">'+esc(a.eyebrow)+'</span><h1>'+esc(a.title)+'</h1>'+(a.lede?'<p class="lede">'+esc(a.lede)+'</p>':'')+'</div>';
 }
 function viewAnnexe(a){
@@ -963,6 +1009,7 @@ function viewAnnexe(a){
 }
 const viewVocab=()=>CONTENT&&CONTENT.vocab?viewAnnexe(CONTENT.vocab):annexePlaceholder('Annexe A · Lexique','Vocabulaire par thème','Le lexique bilingue, thème par thème — à venir.');
 const viewConnecteurs=()=>CONTENT&&CONTENT.connecteurs?viewAnnexe(CONTENT.connecteurs):annexePlaceholder('Annexe B · Discours','Connecteurs & expressions','Les connecteurs classés par fonction, la concession en vedette — à venir.');
+const viewThemes=()=>CONTENT&&CONTENT.themes?viewAnnexe(CONTENT.themes):annexePlaceholder('Stratégie · Tâche 3','Thèmes & arguments','Les thèmes les plus fréquents et les arguments par thème — à venir.');
 function viewCram(){
   const a=CONTENT&&CONTENT.cram;
   if(!a)return annexePlaceholder("Veille d'examen","Avant d'entrer","L'essentiel des 3 tâches, sur une seule page — à venir.");
@@ -977,10 +1024,10 @@ function viewAccueil(){
   const themes=[
     {label:'Immigration / intégration',pct:20,color:'var(--cat-immigration)'},
     {label:'Travail / emploi / carrière',pct:19,color:'var(--cat-travail)'},
-    {label:'Éducation / études',pct:12,color:'var(--cat-education)'},
-    {label:'Santé / mode de vie',pct:10,color:'var(--cat-sante)'},
-    {label:'Médias / télévision',pct:9,color:'var(--cat-medias)'},
+    {label:'Éducation / études',pct:11,color:'var(--cat-education)'},
     {label:'Technologie / Internet',pct:9,color:'var(--cat-techno)'},
+    {label:'Santé / mode de vie',pct:7,color:'var(--cat-sante)'},
+    {label:'Tourisme / voyage',pct:6,color:'var(--cat-societe)'},
   ];
   const bands=['A1','A2','B1','B2','C1','C2'];
   const bandColors={A1:'var(--paper-3)',A2:'#E4D9C2',B1:'var(--bleu-200)',B2:'var(--vert-100)',C1:'var(--vert-100)',C2:'var(--ochre-100)'};
@@ -989,6 +1036,7 @@ function viewAccueil(){
   const tocRows=[
     ...list.map(c=>({nav:c.id,n:String(c.num),t:'Tâche '+c.num+' · '+c.title,s:c.duree+' · '+c.prep})),
     {nav:'banque',n:'★',t:'Banque des '+SUBJECT_COUNT+' réponses',s:'Tâche 3 · sujets 2026 triés par fréquence, avec audio'},
+    {nav:'themes',n:'◆',t:'Thèmes & arguments',s:'Tâche 3 · sujets par fréquence + 260 arguments pour / contre'},
     {nav:'vocabulaire',n:'A',t:'Vocabulaire par thème',s:'Annexe · lexique bilingue'},
     {nav:'connecteurs',n:'B',t:'Connecteurs & expressions',s:'Annexe · discours, concession'},
     {nav:'avant',n:'⚑',t:"Avant d'entrer",s:"L'essentiel, la veille de l'examen"},
@@ -1035,10 +1083,11 @@ function viewAccueil(){
 
   +'<section class="section synth-grid" style="display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--space-8);align-items:center">'
     +'<div><span class="eyebrow" style="display:block;margin-bottom:10px">Synthèse du corpus · Tâche 3</span>'
-      +'<h2 style="margin:0 0 14px">Six thèmes couvrent 78&nbsp;% des sujets</h2>'
-      +'<p style="color:var(--text-secondary);line-height:1.6;margin:0 0 24px;max-width:40ch">703 sujets relevés de janvier 2022 à juin 2026, classés par thème. Révisez ces six familles et vous êtes prêt(e) pour la grande majorité des tirages.</p>'
-      +'<div style="display:flex;gap:14px"><div class="stat-card" style="flex:1"><span class="val">703</span><span class="lab">sujets analysés</span><span class="hint">2022 → 2026</span></div>'
+      +'<h2 style="margin:0 0 14px">Six thèmes couvrent 72&nbsp;% des sujets</h2>'
+      +'<p style="color:var(--text-secondary);line-height:1.6;margin:0 0 24px;max-width:40ch">723 sujets relevés de janvier 2022 à juin 2026, classés par thème. Révisez ces six familles et vous êtes prêt(e) pour la grande majorité des tirages.</p>'
+      +'<div style="display:flex;gap:14px;margin-bottom:22px"><div class="stat-card" style="flex:1"><span class="val">723</span><span class="lab">sujets analysés</span><span class="hint">2022 → 2026</span></div>'
       +'<div class="stat-card" style="flex:1"><span class="val" style="color:var(--accent)">'+SUBJECT_COUNT+'</span><span class="lab">réponses modèles B2</span><span class="hint">dédupliquées, audio</span></div></div>'
+      +'<button class="btn btn-primary" data-nav="themes">Voir les thèmes &amp; les arguments '+ic('arrow-right',16)+'</button>'
     +'</div>'
     +'<div style="display:flex;flex-direction:column;gap:13px">'+themes.map(t=>'<div class="theme-row"><div class="top"><span class="name"><span class="dot" style="background:'+t.color+'"></span>'+t.label+'</span><span class="pct">'+t.pct+'&nbsp;%</span></div><div class="track"><span class="fill" style="width:'+(t.pct*4)+'%;background:'+t.color+'"></span></div></div>').join('')+'</div>'
   +'</section>'
@@ -1104,7 +1153,7 @@ function viewFooter(){
       +'<div><div class="eyebrow" style="margin-bottom:12px">Les tâches</div>'
         +'<button class="foot-link" data-nav="t1">Tâche 1 · Présentation</button><button class="foot-link" data-nav="t2">Tâche 2 · Interaction</button><button class="foot-link" data-nav="t3">Tâche 3 · Point de vue</button></div>'
       +'<div><div class="eyebrow" style="margin-bottom:12px">Ressources</div>'
-        +'<button class="foot-link" data-nav="banque">Banque des '+SUBJECT_COUNT+' réponses</button><button class="foot-link" data-nav="vocabulaire">Vocabulaire</button><button class="foot-link" data-nav="connecteurs">Connecteurs</button><button class="foot-link" data-nav="avant">Avant d\'entrer</button></div>'
+        +'<button class="foot-link" data-nav="banque">Banque des '+SUBJECT_COUNT+' réponses</button><button class="foot-link" data-nav="themes">Thèmes &amp; arguments</button><button class="foot-link" data-nav="vocabulaire">Vocabulaire</button><button class="foot-link" data-nav="connecteurs">Connecteurs</button><button class="foot-link" data-nav="avant">Avant d\'entrer</button></div>'
     +'</div></div>'
     +'<div class="bottom"><div class="inner">Projet personnel · Données : reussir-tcfcanada.com (2022–2026) · Design system — recréation</div></div>'
   +'</footer>';
@@ -1113,21 +1162,27 @@ function viewFooter(){
 /* ---------- shell + routing ---------- */
 let view='accueil';
 const VIEWS={
-  accueil:viewAccueil, banque:renderBanque,
+  accueil:viewAccueil, banque:renderBanque, themes:viewThemes,
   vocabulaire:viewVocab, connecteurs:viewConnecteurs, avant:viewCram,
   t1:()=>viewTache('t1'), t2:()=>viewTache('t2'), t3:()=>viewTache('t3'), methode:()=>viewTache('t3'),
 };
 function header(){
-  const links=[['accueil','Accueil'],['t1','Tâche 1'],['t2','Tâche 2'],['t3','Tâche 3'],['vocabulaire','Vocabulaire'],['connecteurs','Connecteurs']];
   const cur=view==='methode'?'t3':view;
-  const mob=[['accueil','Accueil'],['t1','Tâche 1'],['t2','Tâche 2'],['t3','Tâche 3'],['banque','Banque'],['vocabulaire','Vocab.'],['connecteurs','Conn.'],['avant','Avant']];
+  const navlink=(v,label)=>'<button class="nav-link'+(cur===v?' active':'')+'" data-nav="'+v+'">'+label+'</button>';
+  const tasksA=['t1','t2','t3'].includes(cur), annexA=['vocabulaire','connecteurs','avant'].includes(cur);
+  const menu=(label,items,act)=>'<details class="nav-group"><summary class="nav-link'+(act?' active':'')+'">'+label+'<span class="nav-caret">'+ic('chevron-down',13)+'</span></summary><div class="nav-menu">'+items.map(i=>'<button class="nav-menu-item'+(cur===i[0]?' active':'')+'" data-nav="'+i[0]+'">'+i[1]+'</button>').join('')+'</div></details>';
+  const mob=[['accueil','Accueil'],['t1','Tâche 1'],['t2','Tâche 2'],['t3','Tâche 3'],['banque','Banque'],['themes','Thèmes'],['vocabulaire','Vocab.'],['connecteurs','Conn.'],['avant','Avant']];
   return '<header class="site-header"><div class="inner">'
     +'<button data-nav="accueil" style="background:none;border:none;cursor:pointer;padding:0">'+LOGO('')+'</button>'
-    +'<nav class="site-nav">'+links.map(l=>'<button class="nav-link'+(['vocabulaire','connecteurs'].includes(l[0])?' nav-annexe':'')+(cur===l[0]?' active':'')+'" data-nav="'+l[0]+'">'+l[1]+'</button>').join('')+'</nav>'
+    +'<nav class="site-nav">'
+      +navlink('accueil','Accueil')
+      +menu('Tâches',[['t1','Tâche 1 · Présentation'],['t2','Tâche 2 · Interaction'],['t3','Tâche 3 · Point de vue']],tasksA)
+      +navlink('banque','Banque')
+      +navlink('themes','Thèmes')
+      +menu('Annexes',[['vocabulaire','Vocabulaire par thème'],['connecteurs','Connecteurs & expressions'],['avant','Avant d\'entrer']],annexA)
+    +'</nav>'
     +'<div class="header-right">'
-      +'<button class="header-cram" data-nav="avant">Avant d\'entrer</button>'
       +'<span class="objectif-pill"><span class="dot"></span>Objectif&nbsp;B2 · NCLC&nbsp;7</span>'
-      +'<button class="btn btn-accent btn-sm" data-nav="banque">'+ic('book-open',15)+' Banque ('+SUBJECT_COUNT+')</button>'
     +'</div></div>'
     +'<div class="site-mobnav"><div class="scroller">'+mob.map(l=>'<button class="toc-link'+(cur===l[0]?' active':'')+'" data-nav="'+l[0]+'">'+l[1]+'</button>').join('')+'</div></div>'
   +'</header>';
@@ -1196,6 +1251,8 @@ document.addEventListener('click',(e)=>{
   const tog=e.target.closest('[data-toggle]'); if(tog){const dis=tog.closest('.disclosure');const body=dis.querySelector('.body');const open=dis.classList.toggle('open');body.hidden=!open;tog.querySelector('.lbl').textContent=open?'Masquer la réponse':'Voir la réponse modèle';return;}
   const at=e.target.closest('[data-arg-toggle]'); if(at){const it=at.closest('.arg-item');const body=it.querySelector('.arg-body');const open=it.classList.toggle('open');body.hidden=!open;return;}
 });
+/* ferme les menus déroulants de la nav quand on clique ailleurs */
+document.addEventListener('click',(e)=>{document.querySelectorAll('details.nav-group[open]').forEach(d=>{if(!d.contains(e.target))d.removeAttribute('open');});});
 document.addEventListener('input',(e)=>{
   if(e.target.matches('[data-q]')){filt.q=e.target.value;renderCards();}
 });
@@ -1203,6 +1260,7 @@ document.addEventListener('change',(e)=>{
   if(e.target.matches('[data-theme]')){filt.theme=e.target.value;render();}
   if(e.target.matches('[data-prio]')){filt.prio=e.target.checked;render();}
   if(e.target.matches('[data-arg-theme]')){argTheme=e.target.value;const l=document.querySelector('[data-arg-list]');if(l)l.innerHTML=argListHtml(argTheme);}
+  if(e.target.matches('[data-argbank-theme]')){argBankTheme=e.target.value;const l=document.querySelector('[data-argbank-list]');if(l)l.innerHTML=abListHtml(argBankTheme);}
 });
 
 /* live search without losing focus: re-render only the grid + count */
