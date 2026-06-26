@@ -272,7 +272,12 @@
       "blocks": [
         {
           "type": "prose",
-          "html": "<p>Pour chaque thème, ses <strong>sujets les plus fréquents</strong> puis <strong>5 arguments « pour »</strong> et <strong>5 « contre »</strong>, en français simple (niveau B2) et faciles à mémoriser. Les arguments sont volontairement <strong>généraux</strong> : un même argument peut servir pour la plupart des sujets du thème.</p>"
+          "html": "<p>Pour chaque thème : ses <strong>sujets les plus fréquents</strong>, puis <strong>5 arguments « pour »</strong> et <strong>5 « contre »</strong>, en français simple (niveau B2) et faciles à mémoriser. Les arguments sont volontairement <strong>généraux</strong> : un même argument peut servir pour la plupart des sujets du thème.</p>"
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "html": "Les sujets listés sont des <strong>formulations générales</strong> qui regroupent toutes les variantes d'une même idée — ce n'est pas le libellé exact tiré le jour du test, mais le fond du sujet. Le chiffre (ex. « 9× ») indique le nombre d'apparitions relevées depuis 2022."
         },
         {
           "type": "argbank"

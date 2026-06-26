@@ -485,6 +485,20 @@ svg{display:inline-block;vertical-align:middle;flex:0 0 auto}
 .ab-sub-list{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
 .ab-sub-list li{font-family:var(--font-display);font-size:var(--text-md);color:var(--text-strong);line-height:1.4;display:flex;gap:11px;align-items:baseline}
 .ab-count{font-family:var(--font-mono);font-size:var(--text-2xs);font-weight:600;color:var(--brand);background:var(--brand-wash);border:1px solid var(--brand-tint);border-radius:var(--radius-pill);padding:2px 8px;flex:0 0 auto;min-width:34px;text-align:center}
+.argbank-all{display:flex;flex-direction:column;gap:18px}
+.ab-index{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:8px}
+.ab-chip{font-family:var(--font-sans);font-size:var(--text-xs);font-weight:600;color:var(--text-secondary);background:var(--surface-card);border:1px solid var(--border-default);border-radius:var(--radius-pill);padding:6px 12px;cursor:pointer;transition:background var(--t-fast),color var(--t-fast),border-color var(--t-fast)}
+.ab-chip:hover{background:var(--surface-sunken);color:var(--text-strong);border-color:var(--border-strong)}
+.ab-theme{background:var(--surface-card);border:1px solid var(--border-default);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;scroll-margin-top:90px}
+.ab-theme>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:var(--space-5)}
+.ab-theme>summary::-webkit-details-marker{display:none}
+.ab-theme>summary::marker{content:""}
+.ab-theme>summary:hover{background:var(--surface-sunken)}
+.ab-theme-title{font-size:var(--text-xl);margin:0}
+.ab-caret{color:var(--text-muted);transition:transform var(--t-fast);flex:0 0 auto}
+.ab-theme[open]>summary .ab-caret{transform:rotate(180deg)}
+.ab-theme-body{padding:0 var(--space-5) var(--space-5)}
+.ab-allbtn{font-weight:700;color:var(--text-link)}
 .nav-annexe{display:inline-flex}
 .header-right{margin-left:auto;display:flex;align-items:center;gap:10px}
 .header-cram{font-family:var(--font-sans);font-size:var(--text-xs);font-weight:600;color:var(--text-secondary);background:none;border:none;cursor:pointer;padding:6px 4px}
@@ -911,27 +925,24 @@ BLK.argfinder=()=>{
     +'<div class="arg-list" data-arg-list>'+argListHtml(argTheme)+'</div></div>';
 };
 
-/* ---------- banque d'arguments par thème (page Thèmes, pour/contre) ---------- */
-let argBankTheme=null;
+/* ---------- banque d'arguments par thème (page Thèmes : tous affichés) ---------- */
 const abThemes=()=>(CONTENT&&CONTENT.argbank&&CONTENT.argbank.themes)||[];
+const abShort=(s)=>String(s).split(' / ')[0];
 function abCols(t){
   const col=(label,items,cls)=>'<div class="arg-col"><div class="arg-col-h '+cls+'">'+label+'</div><ul>'+(items||[]).map(x=>'<li><strong>'+esc(x.k)+'</strong> — '+esc(x.t)+'</li>').join('')+'</ul></div>';
   return '<div class="arg-cols two">'+col('Pour',t.pour,'pour')+col('Contre',t.contre,'contre')+'</div>';
 }
-const abListHtml=(name)=>{
-  const t=abThemes().find(z=>z.theme===name);
-  if(!t)return '';
+function abThemeCard(t,i){
   const subs=(t.top5||[]).map(x=>'<li><span class="ab-count">'+esc(x.c)+'×</span><span>'+esc(x.s)+'</span></li>').join('');
-  const subBlock=subs?'<div class="ab-subjects"><div class="ab-h">Sujets les plus fréquents de ce thème</div><p class="ab-note">Ce sont des <strong>formulations générales</strong> qui regroupent toutes les variantes d\'une même idée — pas le libellé exact tiré le jour du test, mais le fond du sujet. Le chiffre indique le nombre d\'apparitions relevées depuis 2022.</p><ol class="ab-sub-list">'+subs+'</ol></div>':'';
-  return subBlock+'<div class="ab-h ab-h-args">Arguments à réutiliser</div>'+abCols(t);
-};
+  return '<details class="ab-theme" open id="argtheme-'+i+'"><summary class="ab-theme-head"><h3 class="ab-theme-title">'+esc(t.theme)+'</h3><span class="ab-caret">'+ic('chevron-down',18)+'</span></summary><div class="ab-theme-body">'
+    +(subs?'<div class="ab-h">Sujets les plus fréquents</div><ol class="ab-sub-list">'+subs+'</ol>':'')
+    +'<div class="ab-h ab-h-args">Arguments à réutiliser</div>'+abCols(t)+'</div></details>';
+}
 BLK.argbank=()=>{
   const themes=abThemes();
   if(!themes.length)return '';
-  if(!argBankTheme||!themes.some(t=>t.theme===argBankTheme))argBankTheme=themes[0].theme;
-  const opts=themes.map(t=>'<option value="'+esc(t.theme)+'"'+(t.theme===argBankTheme?' selected':'')+'>'+esc(t.theme)+'</option>').join('');
-  return '<div class="block argfinder"><span class="select" style="width:100%;max-width:440px"><select data-argbank-theme aria-label="Choisir un thème">'+opts+'</select><span class="chev chevron">'+ic('chevron-down',13)+'</span></span>'
-    +'<div class="arg-list" data-argbank-list>'+abListHtml(argBankTheme)+'</div></div>';
+  const idx='<div class="ab-index">'+themes.map((t,i)=>'<button class="ab-chip" data-scroll="argtheme-'+i+'">'+esc(abShort(t.theme))+'</button>').join('')+'<button class="ab-chip ab-allbtn" data-ab-toggleall>Tout replier</button></div>';
+  return '<div class="block argbank-all">'+idx+themes.map(abThemeCard).join('')+'</div>';
 };
 
 /* ---------- chapter view ---------- */
@@ -1250,6 +1261,7 @@ document.addEventListener('click',(e)=>{
   const reset=e.target.closest('[data-reset]'); if(reset){filt.q='';filt.theme='';filt.prio=false;render();return;}
   const tog=e.target.closest('[data-toggle]'); if(tog){const dis=tog.closest('.disclosure');const body=dis.querySelector('.body');const open=dis.classList.toggle('open');body.hidden=!open;tog.querySelector('.lbl').textContent=open?'Masquer la réponse':'Voir la réponse modèle';return;}
   const at=e.target.closest('[data-arg-toggle]'); if(at){const it=at.closest('.arg-item');const body=it.querySelector('.arg-body');const open=it.classList.toggle('open');body.hidden=!open;return;}
+  const ta=e.target.closest('[data-ab-toggleall]'); if(ta){const det=document.querySelectorAll('details.ab-theme');const anyOpen=Array.from(det).some(d=>d.open);det.forEach(d=>{d.open=!anyOpen;});ta.textContent=anyOpen?'Tout déplier':'Tout replier';return;}
 });
 /* ferme les menus déroulants de la nav quand on clique ailleurs */
 document.addEventListener('click',(e)=>{document.querySelectorAll('details.nav-group[open]').forEach(d=>{if(!d.contains(e.target))d.removeAttribute('open');});});
@@ -1260,7 +1272,6 @@ document.addEventListener('change',(e)=>{
   if(e.target.matches('[data-theme]')){filt.theme=e.target.value;render();}
   if(e.target.matches('[data-prio]')){filt.prio=e.target.checked;render();}
   if(e.target.matches('[data-arg-theme]')){argTheme=e.target.value;const l=document.querySelector('[data-arg-list]');if(l)l.innerHTML=argListHtml(argTheme);}
-  if(e.target.matches('[data-argbank-theme]')){argBankTheme=e.target.value;const l=document.querySelector('[data-argbank-list]');if(l)l.innerHTML=abListHtml(argBankTheme);}
 });
 
 /* live search without losing focus: re-render only the grid + count */
