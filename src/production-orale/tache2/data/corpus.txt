@@ -1,0 +1,249 @@
+# Banque de consignes — Tâche 2 (Exercice en interaction)
+# Sujets réels du TCF Canada, janvier–juin 2026.
+# Source : reussir-tcfcanada.com/expression-orale (archives mensuelles).
+# Dédupliqué : chaque consigne est classée sous son mois de PREMIÈRE apparition.
+# Format : une consigne par ligne ; les lignes « # » et vides sont ignorées.
+# Pioche au hasard : python3 src/production-orale/tache2/pick.py
+
+
+# 2026-01 Janvier 2026 (20 nouvelles consignes)
+Je suis chargé(e) de l'accueil dans un centre d'information dédié aux associations de la ville. Vous souhaitez devenir bénévole dans une association proche de chez vous. Vous me demandez des renseignements (domaines d'action, activités, personnes concernées, organisation du temps, etc.).
+Je suis enseignant(e) de français. Vous êtes récemment arrivé(e) au Canada et vous souhaitez prendre des cours individuels. Vous me demandez des informations sur mon expérience professionnelle (parcours, méthodes d'enseignement, prix, etc.).
+Je suis un(e) ami(e) du Canada. Je rentre d'un excellent séjour à la montagne. Vous souhaitez organiser un voyage similaire et vous me demandez des informations sur mon expérience (destination, logement, activités, etc.).
+Je suis un(e) ami(e). Je participe à des cours de théâtre toutes les semaines. Vous voulez vous inscrire et vous me demandez des détails (horaires, prix, fonctionnement, etc.).
+Vous êtes récemment arrivé(e) au Québec. Je suis un(e) voisin(e) et je vous propose un apéritif de bienvenue. Lors de cette rencontre, vous me demandez des détails pour découvrir la vie du quartier (habitants, commerces, activités, etc.).
+Je suis un(e) ami(e). Vous êtes récemment arrivé(e) dans ma ville. Vous cherchez à organiser une sortie économique et vous me demandez des renseignements (endroits, activités, transports, etc.).
+Je suis un(e) voisin(e). Je dispose d'une maison de vacances en bord de mer que je propose à la location. Vous souhaitez en savoir plus et vous me demandez des précisions (aménagements, lieu, tarif, etc.).
+Je suis employé(e) dans une boutique de mobilier. Vous désirez recevoir un meuble et vous me demandez des informations sur la livraison (coût, délai, moyen utilisé, etc.).
+Dans la salle d'attente, nous attendons le train qui a pris du retard et nous discutons un peu. Je vous parle de mon intérêt pour la montagne, et vous me demandez des détails (régions, randonnées, équipement, etc.).
+Nous participons à une soirée et nous venons de faire connaissance. Je vous mentionne que je reviens tout juste d'un séjour, et vous me demandez des informations (période, endroits visités, avis, etc.).
+Je suis employé(e) dans un restaurant. Vous souhaitez préparer un repas d'anniversaire pour votre meilleur(e) ami(e). Interrogez-moi sur les prestations du restaurant (menus, tarifs, horaires, disponibilités, etc.).
+Nous travaillons ensemble. Je propose à la vente des habits pour enfants de seconde main. Vous souhaitez en savoir plus. Interrogez-moi sur ces articles (tailles disponibles, tarifs, quantité, etc.).
+Je suis un(e) voisin(e). Je propose des cours de cuisine. Vous souhaitez en savoir plus. Interrogez-moi afin de savoir comment se déroulent les cours (prix, recettes, participants, etc.).
+Je suis un(e) ami(e). J'ai vécu une croisière en bateau. Vous souhaitez en organiser une. Interrogez-moi pour en savoir plus (prix, activités, services proposés, etc.).
+Je suis un(e) ami(e). Je souhaite vendre mon logement. Vous voulez en savoir plus. Interrogez-moi afin d'obtenir des renseignements (pièces, équipements, tarif, etc.).
+Je suis un(e) ami(e) canadien(ne) que vous n'avez pas vu(e) depuis un long moment. Vous vous informez sur ma situation et vous m'interrogez sur ma vie quotidienne (emploi, proches, passe-temps, etc.).
+Je suis un(e) ami(e). J'ai un paquet à envoyer, mais je ne peux pas m'en occuper. Je vous sollicite pour m'aider. Vous me demandez des informations pour vérifier si vous pouvez le prendre en charge (délai, taille du colis, durée de la démarche, etc.).
+Je suis un(e) ami(e). Je vous propose de venir célébrer l'anniversaire de ma sœur. Vous me demandez des renseignements sur elle afin de choisir un cadeau approprié (goûts, loisirs, personnalité, etc.).
+Je suis un(e) ami(e). Vous avez envie de commencer une série, mais vous êtes indécis(e). Vous me demandez des informations pour faire votre choix (catégorie, acteurs, plateforme de streaming, etc.).
+Vous venez d'emménager au Canada. Je suis un collègue. Vous voulez faire de nouvelles connaissances et vous demandez comment procéder (activités, endroits, sorties, etc.).
+
+# 2026-02 Février 2026 (70 nouvelles consignes)
+Je suis un(e) ami(e). Je dois m'absenter et vous vous occupez de mon animal. Vous me demandez des renseignements (dates, routines, soins nécessaires, etc.).
+Je suis un(e) ami(e). Chaque semaine, je fais appel à un(e) baby-sitter. Vous souhaitez trouver quelqu'un pour votre enfant et vous me demandez des informations sur cette personne (horaires, prix, compétences, activités proposées, etc.).
+Je suis un(e) voisin(e). Je fais partie d'une agence qui propose des balades en forêt autour de Toronto. Vous voulez y participer et vous me demandez des informations (parcours, tarifs, niveau demandé, participants, etc.).
+Je suis un(e) voisin(e). Vous venez de vous installer dans l'immeuble et vous souhaitez en savoir plus sur la vie dans l'immeuble (résidents, règlement, parties communes, ambiance, etc.).
+Je fais partie d'une association franco-canadienne. Vous comptez vous installer au Canada et vous me demandez des renseignements sur le mode de vie des Canadiens (emploi, activités, logement, coutumes, etc.).
+Je travaille dans une agence qui loue des bicyclettes. Vous désirez en louer une. Vous me demandez des renseignements (modèles disponibles, prix, utilisation, etc.).
+Je suis votre ami(e) canadien(ne). Vous êtes nouvellement arrivé(e) dans ma ville et vous êtes hébergé(e) chez moi. Vous souhaitez vous promener en ville et vous me posez des questions sur les transports publics (types, trajets, horaires, prix, etc.).
+Je suis votre ami(e) francophone. Vous devez rédiger un article sur une ville pour un magazine culturel. Vous cherchez de l'inspiration et vous me posez des questions sur les villes que j'apprécie (loisirs, bâtiments, moyens de transport, etc.).
+Je suis votre ami(e). Je mets en place un festival musical dans votre ville. Vous voulez y assister et vous me posez des questions pour en savoir plus (calendrier, horaires, artistes, tarifs, etc.).
+Je suis votre enseignant(e) de français. Vous allez célébrer le prochain Nouvel An au Canada et vous voulez découvrir leurs façons de célébrer. Vous me demandez des renseignements pour mieux comprendre (endroits, animations, etc.).
+Je suis un(e) ami(e) du Québec. Vous venez de vous installer au Québec. Vous allez assister à un mariage au Québec et vous me demandez des informations sur le déroulement (cérémonie, invités, cadeaux, etc.).
+Je suis un(e) ami(e). Je m'absente pour les vacances et vous prenez soin de mon chien pendant mon absence. Vous me demandez des informations pour bien vous en occuper (alimentation, soins, sorties, etc.).
+Je suis un(e) responsable. Vous allez participer à une formation de deux semaines au Québec dans le cadre professionnel. Vous me demandez des renseignements sur le stage (logement, déplacements, emploi du temps, etc.).
+Je suis un(e) voisin(e). Vous êtes récemment arrivé(e) dans le quartier et vous cherchez des idées pour sortir le soir. Vous me demandez des informations sur les différentes options (endroits, activités, prix, etc.).
+Vous possédez un appartement et vous souhaitez trouver un locataire. Mon logement vous attire et vous voulez le louer. Vous me demandez des renseignements pour décider si ma candidature est adaptée (profession, garanties, famille, etc.).
+Je suis votre ami(e) et je vous invite à assister à un concert avec moi. Vous souhaitez en savoir plus et vous me posez des questions sur le concert (genre de musique, endroit, date, etc.).
+Je suis votre ami(e). J'ai participé à un atelier de cuisine. Vous êtes intéressé(e) à y assister. Vous me demandez des informations sur cet atelier (tarifs, horaires, programme, etc.).
+Je suis votre collègue de travail. Vous venez d'arriver à Toronto. Vous voulez organiser votre anniversaire dans un bon restaurant. Vous me posez des questions concernant les restaurants en ville (style culinaire, prix, ambiance, etc.).
+Je suis votre voisin(e). Vous venez de vous installer à Edmonton. Vous désirez inscrire vos enfants à l'école. Vous me demandez des renseignements sur les écoles du quartier (emplacement, enseignants, activités, etc.).
+Je fais partie du service des transports en commun de la ville. Vous venez d'arriver ici. Vous souhaitez vous renseigner et vous me posez des questions sur les moyens de transport, les prix, les horaires, etc.
+Je suis l'un(e) de vos voisin(e)s. Vous avez récemment emménagé dans la résidence et nous nous rencontrons dans l'ascenseur. Vous me demandez des informations sur le quartier (les voisins, les commerces, les activités, l'atmosphère, etc.).
+Je travaille dans une agence immobilière. Vous cherchez à réserver un chalet au bord de la mer pour vos vacances. Vous me demandez des informations (tarif, installations, dates libres et les conditions, etc.).
+Je suis l'un(e) de vos voisin(e)s. Vous êtes récemment arrivé(e) au Canada et vous souhaitez inscrire vos enfants dans une école. Vous me demandez des renseignements (niveaux, matières proposées, horaires, coûts, etc.).
+Je suis un(e) collègue. Je vous offre une chambre dans une colocation et vous êtes intéressé(e). Vous me demandez des renseignements concernant l'appartement (prix du loyer, nombre de pièces, colocataires, règles, etc.).
+Je suis à l'accueil d'un centre de danse. Vous voulez vous inscrire à des cours. Vous me demandez des informations (styles de danse, horaires, prix, niveaux, etc.).
+Je suis enseignant de guitare. Vous êtes intéressé(e) par mes leçons. Vous m'interrogez sur le déroulement des cours (emplois du temps, prix, genres musicaux, etc.).
+Je suis votre collègue. Je loue ma maison pendant les vacances d'été. Vous souhaitez la louer et vous me renseignez sur le logement (nombre de chambres, environnement, tarif, etc.).
+Je suis un(e) ami(e). Je travaille au sein d'une association. Vous souhaitez en savoir plus et vous m'interrogez sur ce que je fais (rôle, tâches, temps de travail, etc.).
+Je suis un(e) collègue. Vous commencez aujourd'hui dans une entreprise canadienne. Vous m'interrogez sur l'organisation de l'entreprise (équipes, structure, repas, etc.).
+Je suis employé(e) au secrétariat d'une université à Calgary. Vous souhaitez suivre des cours de langues pour adultes. Vous me demandez des informations sur les formations offertes (langues, coûts, emplois du temps, etc.).
+Je suis votre ami(e). Vous venez d'arriver au Canada et vous recherchez un logement. Je peux vous proposer une chambre à partager dans mon appartement. Posez-moi vos questions.
+Je suis votre ami(e). J'ai récemment commencé un nouveau poste. Posez-moi des questions sur cette expérience professionnelle.
+Je suis l'assistante de votre médecin de famille. Comme il est en vacances et qu'un autre médecin le remplace, vous pouvez me poser des questions pour obtenir des informations.
+Je suis votre ami(e) et je possède un blog. Vous voulez voyager et vous cherchez des conseils pour créer un blog. Posez-moi toutes vos questions.
+Je suis votre voisin(e). Vous venez d'arriver au Canada et vous voulez préparer l'anniversaire de votre conjoint(e), vous me posez des questions.
+Je suis un(e) ami(e) canadien(ne). Vous réalisez un sondage sur mes activités pendant le week-end au Canada. Vous me posez des questions (mes occupations, les lieux que je visite, le moment, les personnes qui m'accompagnent, etc.).
+Je suis un(e) ami(e). Je viens de me marier au Canada. Vous me posez des questions afin de comparer le mariage dans votre pays et celui au Canada (coutumes, préparation, invités, etc.).
+Je suis un(e) ami(e) francophone. J'ai pris part à une compétition sportive. Vous souhaitez en savoir plus et vous me posez des questions sur mon expérience et sur mon entraînement pour une prochaine compétition.
+Je suis un(e) collègue. Vous êtes en voyage professionnel au Canada. Vous m'interrogez pour découvrir la manière dont les Canadiens passent leurs soirées (endroits, activités, habitudes, etc.).
+Je suis un(e) ami(e). J'ai fait un voyage en famille dans une ville francophone. Vous souhaitez en savoir plus et vous me posez des questions concernant ce voyage (activités, dépenses, organisation, préparatifs, etc.).
+Vous passez vos vacances au Canada et vous voulez aller au cinéma. Votre ami(e), employé(e) dans ce cinéma, peut vous renseigner sur les films à l'affiche, les heures des séances et les prix. Vous lui demandez des précisions pour faire votre choix.
+Un(e) ami(e) vient de passer des vacances au bord de la mer. Vous souhaitez préparer un séjour semblable et vous lui demandez des informations (lieu, activités possibles, coût du voyage, etc.).
+Vous devez rédiger un article sur un livre pour le magazine de votre association littéraire. Afin de trouver des idées, vous échangez avec un(e) ami(e) francophone au sujet de ses lectures récentes.
+Votre ami(e) a pris part à une émission de télévision. Puisque vous souhaitez tenter la même expérience, vous lui demandez des informations (procédure d'inscription, l'organisation, l'intérêt de cette expérience, etc.).
+Vous arrivez dans une nouvelle ville et vous souhaitez vous renseigner sur les transports publics. Vous vous adressez à un(e) employé(e) pour obtenir des renseignements (moyens de transport, horaires, prix, etc.).
+Je propose mes services de cuisine à domicile. Vous organisez un dîner familial et vous me demandez des renseignements concernant mes services (menus proposés, prix, équipements, etc.).
+Je suis un(e) voisin(e) et je prends souvent la voiture pour mes déplacements. Je vous suggère de faire du covoiturage ensemble. Vous êtes intéressé(e) et vous me demandez des précisions (horaires, coût, organisation, etc.).
+Je suis employé(e) à l'accueil d'une école de musique. Vous désirez suivre des cours et vous me demandez des renseignements (tarifs, horaires, instruments, etc.).
+Je suis employé(e) à l'accueil d'un centre sportif. Vous désirez vous inscrire et vous me demandez des informations sur les différents sports disponibles (prix, disciplines, horaires, etc.).
+Je suis employé(e) à la réception d'un hôtel. Vous souhaitez faire une réservation et vous me demandez des renseignements (type de chambre, services, tarifs, etc.).
+Je produis des fruits et légumes biologiques. Je les vends directement aux particuliers. Vous êtes intéressé(e) et vous me posez des questions pour connaître les prix, les produits, la livraison, etc.
+Je suis un(e) ami(e) et je m'engage dans une association qui soutient les personnes âgées. Vous souhaitez en savoir plus et vous me posez des questions (type d'activités, public concerné, comment s'inscrire, etc.).
+Je suis un(e) collègue. J'ai passé dix ans au Canada. Vous pensez partir vivre à Ottawa. Vous me posez des questions sur mon expérience d'intégration (se loger, travailler, s'adapter à la culture, etc.).
+Je suis un(e) voisin(e). J'ai visité le zoo le week-end dernier. Vous pensez y aller en famille. Vous me posez des questions pour préparer votre sortie (jour, animaux à voir, prix, etc.).
+Je suis employé(e) dans une agence de voyages. Vous souhaitez partir au Canada pour profiter des sports d'hiver. Vous me posez des questions (activités, hébergements, tarifs, etc.).
+Je suis un(e) collègue et j'ai effectué un court séjour dans une région canadienne. Vous me demandez des informations sur mon expérience (sites visités, type de logement, activités réalisées, etc.).
+Je suis un(e) collègue. Vous vous êtes récemment installé au Canada et vous m'interrogez sur le système de santé canadien (docteurs, établissements de soins, congés maladie, médicaments, etc.).
+Je travaille dans un bureau de tourisme. Vous souhaitez visiter un parc de loisirs (aquarium, zoo, parc naturel). Vous me demandez des renseignements (heures d'ouverture, prix, services de restauration, etc.).
+Je suis employé(e) dans une agence touristique au Canada. Vous prévoyez une croisière et vous me demandez des informations (coûts, durée, animations proposées, etc.).
+Vous venez voir un logement en location. Je suis l'ancien locataire. Vous me demandez des informations sur l'immeuble, le voisinage, la présence d'un gardien et le secteur.
+Je suis un(e) ami(e) et je dois m'absenter pendant le week-end. Je vous demande de veiller sur ma fille de 3 ans. Vous la connaissez un peu, mais vous n'êtes pas très proches. Je vous donne des explications pour bien s'occuper d'elle. Vous me demandez des informations sur ses habitudes (repas, jeux, sommeil, etc.).
+Je suis un(e) collègue et je vous suggère d'assister ensemble à un spectacle. Vous me demandez des informations sur le spectacle (type, lieu, heure) et sur les détails pratiques de la sortie (transport, participants, etc.).
+Je suis employé(e) au service culturel de la mairie. Vous voulez vous informer sur les différentes activités culturelles de la ville (activités sportives, ateliers, musées, spectacles, etc.). Vous m'interrogez sur les détails pratiques (nature des activités, fréquence, tarifs, durée, etc.).
+Je suis employé(e) dans une agence de voyages. Vous êtes client(e) et vous cherchez des idées pour un voyage au Canada. Vous m'interrogez afin d'obtenir des détails (lieux à visiter, prix, logement, activités, etc.).
+Vous êtes en déplacement en voiture au Canada et votre véhicule ne fonctionne plus. Vous appelez votre assurance afin de connaître les services proposés (assistance, réparations, retour, etc.). Je suis l'agent d'assurance chargé de vous informer.
+Je suis un(e) voisin(e). Je prépare la fête des voisins pour le week-end prochain. Vous souhaitez y assister et vous me posez des questions sur l'organisation (lieu, horaires, nourriture à apporter, etc.).
+Je suis un(e) ami(e). Je vais souvent en vacances dans une station de ski au Canada. Ce type de voyage vous intéresse et vous me posez des questions pour savoir si cela pourrait vous convenir (destination, hébergement, activités, etc.).
+Je suis un(e) voisin(e). Je me déplace au travail à vélo chaque jour. Vous souhaitez adopter ce mode de transport en ville et vous me demandez des renseignements pour savoir si c'est adapté (points positifs, budget, sécurité, etc.).
+Je suis employé(e) à l'office de tourisme de Vancouver. Vous souhaitez aller dans un musée et vous me demandez des informations sur les musées de la ville (types, tarifs, heures d'ouverture, etc.).
+Je suis un(e) collègue. Je fais du télétravail quelques jours chaque semaine. Vous souhaitez en savoir plus et vous me posez des questions sur mon travail à domicile (planning, matériel, organisation, etc.).
+
+# 2026-03 Mars 2026 (30 nouvelles consignes)
+Je suis un(e) ami(e) et j'habite au Canada depuis longtemps. Vous prévoyez de me rendre visite au mois de décembre. Vous me demandez des informations pour organiser votre voyage et vos bagages (climat, températures, habits, activités possibles, etc.).
+Je suis un(e) collègue et je vous propose de partager mon logement. Vous me demandez des informations sur le logement, les règles à respecter et mon mode de vie afin de décider si vous acceptez.
+Je suis un(e) ami(e). Vous avez envie d'aller voir un film et vous me demandez des informations sur les films que j'ai vus dernièrement (genre, durée, acteurs, opinion, etc.).
+Je suis un(e) voisin(e) et je pratique la natation toutes les semaines. Vous souhaitez en savoir plus et vous me demandez des informations sur la piscine où je vais (horaires, prix, équipements, etc.).
+Je suis employé(e) dans une agence de voyage. Vous allez voyager au Canada en avion et vous me demandez des informations sur le voyage (enregistrement, bagages, embarquement, services à bord, etc.).
+Je suis un(e) ami(e). Je me suis installé(e) au Canada il y a quelques mois. Vous me demandez des informations sur ma vie là-bas (logement, loisirs, relations, emploi, etc.).
+Je suis un(e) collègue. J'envisage de changer de service au sein de l'entreprise. Vous me demandez des informations pour savoir ce qui motive ce changement (tâches, horaires, ambiance, collègues, etc.).
+Je suis employé(e) dans une agence de voyages. Vous avez remporté un voyage à la suite d'un concours et vous devez choisir votre destination entre Montréal, Dakar, Bruxelles ou Hanoï. Vous me posez des questions sur ces villes (météo, activités, budget, etc.) pour vous décider.
+J'ai mis une annonce car j'ai besoin de quelqu'un pour accompagner mes enfants à l'école. Vous avez répondu et nous avons un rendez-vous. Vous me demandez des informations sur le poste (horaires, école, responsabilités, etc.).
+J'organise un festival de cinéma francophone. Vous êtes en vacances dans ma ville où nous nous sommes croisés. Vous me demandez des informations sur le festival pour savoir si vous allez y assister (dates, programme, horaires, tarifs, etc.).
+Je suis chargé(e) de l'accueil dans un centre de loisirs. Vous voulez vous inscrire à une activité (sport, dessin, sculpture, etc.). Vous me demandez des informations sur les cours proposés (tarifs, heures, matériel à prévoir, etc.).
+Je viens de rejoindre l'équipe et nous nous rencontrons pour la première fois. Vous me posez des questions pour mieux me connaître (poste, situation familiale, loisirs, etc.).
+Je suis un(e) voisin(e). Vous êtes nouvellement installé(e) au Canada et vous voulez faire de nouvelles rencontres. Vous me posez des questions sur les moyens de se faire des amis (endroits, activités, événements, etc.).
+Je suis installé(e) au Canada mais je vais changer de logement, alors je mets mes affaires en vente. Vous venez d'arriver au Canada et vous cherchez des meubles pour votre logement. Vous me demandez des informations sur les objets à vendre (meubles, électroménager, prix, état, etc.).
+Nous sommes amis(e)s. J'ai fêté mon anniversaire récemment, mais vous n'avez pas pu être présent(e). Vous me demandez des informations sur le déroulement de la fête (activités, invités, cadeaux, ambiance, etc.).
+Je suis un(e) collègue. Je vous offre deux billets pour un spectacle parce que je ne peux finalement pas y assister. Vous me posez des questions pour savoir si ce spectacle peut vous intéresser (date, endroit, type de spectacle, etc.).
+Je suis un(e) voisin(e). Je vais bientôt partir vivre à l'étranger et je veux vendre mes meubles (table, chaises, télévision, canapé, etc.) avant mon départ. Vous me posez des questions pour obtenir des informations sur ces meubles (prix, état, taille, etc.).
+Je suis un(e) voisin(e). Vous venez d'arriver au Québec et vous voulez prendre un rendez-vous chez un médecin. Vous me posez des questions pour avoir des informations sur les médecins de la ville (adresse, prix, spécialités, etc.).
+Je travaille dans un bureau de tourisme au Québec. Vous voulez visiter un parc à thème (aquarium, zoo, réserve naturelle, etc.). Vous me posez des questions pour avoir des informations (horaires, prix, restaurants, etc.).
+Je suis employé(e) dans une agence de location de voitures au Québec. Vous voulez louer une voiture pour vos vacances. Vous me posez des questions pour obtenir des informations (prix, conditions de location, documents nécessaires, etc.).
+Je suis votre collègue. Vous venez d'intégrer l'entreprise et vous voulez mieux la connaître. Vous souhaitez obtenir des détails sur l'organisation, l'ambiance, la cantine, etc.
+Je suis un(e) ami(e) et je vous propose de venir à une célébration. Vous êtes nouvellement arrivé(e) au Québec. Vous me demandez des précisions sur l'organisation (horaire, cadeau, habits, etc.).
+Je suis à la réception du club de sport près de chez vous. Vous souhaitez pratiquer une activité mais vous n'avez pas encore choisi. Vous me demandez des informations sur les sports disponibles (horaires, tarifs, équipement, etc.).
+Je suis à la réception d'un musée. Vous voulez venir le découvrir avec vos amis. Vous me demandez des informations pour préparer la visite (horaires, tarifs, visites guidées, etc.).
+Nous travaillons ensemble. Vous voulez organiser un week-end et je vous recommande une ville que je connais. Vous me demandez des informations (logement, restaurants, sites à découvrir, etc.).
+Je suis un(e) ami(e) francophone. Vous avez pour mission de préparer un article à propos d'un spectacle pour le bulletin de votre association culturelle francophone. Vous voulez trouver des idées et vous m'interrogez sur les spectacles que j'ai aimés (coût, type, lieu, etc.).
+Je suis un(e) collègue et je connais bien la ville de Montréal. Vous allez y séjourner une semaine pour des raisons professionnelles. Vous me demandez des précisions sur les transports publics (heures, prix, organisation, etc.).
+Je suis votre enseignant de français. Notre école de langues met en place un jeu pour les étudiants. Vous me demandez des informations pour en savoir davantage sur son organisation (règles, prix, modalités, etc.).
+Je suis votre supérieur. Notre entreprise vous offre une opportunité de travail à l'étranger. Avant de prendre votre décision, vous désirez en savoir davantage. Vous m'interrogez sur les détails du poste (missions, salaire, bénéfices, etc.).
+Vous souhaitez faire une sortie ce soir, mais vous ne savez pas encore quoi faire. Nous en discutons entre amis et vous me posez des questions pour choisir une activité (endroit, transport, prix, etc.).
+
+# 2026-04 Avril 2026 (50 nouvelles consignes)
+Je suis membre d'une association pour la défense des animaux. Je vous invite à y participer. Vous me posez des questions pour obtenir plus d'informations (activités, actions, public visé, etc.).
+Je suis un(e) collègue. Je viens de regarder un film au cinéma. Vous me demandez des informations pour savoir si ce film peut vous plaire (histoire, acteurs, horaires, etc.).
+Je suis un(e) nouveau collègue. J'ai habité au Québec et je travaille actuellement ici. Vous me posez des questions sur mon expérience professionnel (études, premiers emplois, expérience à l'étranger, difficultés, etc.).
+Je suis employé(e) dans une agence immobilière. Vous venez de vous installer au Québec et vous cherchez un appartement. Vous me posez des questions pour vous aider à trouver un logement (procédures, quartier, logement, etc.).
+Je suis employé(e) à la bibliothèque. Vous voulez devenir membre. Vous me posez des questions sur le fonctionnement (inscription, horaires, activités, etc.).
+Je suis un(e) ami(e). Je déménage le week-end prochain. Vous allez m'aider et vous me demandez des informations pour organiser la journée (heure, lieu, transport, etc.).
+Je suis un(e) ami(e). J'utilise régulièrement une plateforme en ligne qui organise des sorties en groupe. Vous êtes intéressé(e) et vous me posez des questions pour en savoir plus (inscription, participants, activités, etc.).
+Je suis un(e) ami(e). Vous souhaitez offrir un cadeau à mon enfant pour son anniversaire. Vous me posez des questions pour choisir le bon cadeau (jeux, habitudes, préférences, etc.).
+Je suis employé(e) dans un restaurant. Vous voulez préparer un dîner avec vos collègues. Vous me posez des questions sur lieu (menu, prix, ambiance, etc.).
+Je suis employé(e) dans une agence immobilière au Canada. Vous cherchez un appartement. Vous me posez des questions pour vous renseigner (prix, conditions, procédures, etc.).
+Pour vos cours de français, vous effectuez une enquête concernant les activités d'un jeune étudiant originaire d'un pays francophone. Je joue le rôle de cet étudiant et vous celui de l'enquêteur. Vous me posez différentes questions.
+Je suis employé dans une librairie qui propose un jeu destiné au public. Vous me demandez des informations (inscription, contenu, utilité, etc.) pour savoir si vous souhaitez participer.
+Je suis un(e) ami(e) canadien(ne) et je participe à une activité artistique (danse, musique, théâtre, etc.). Vous êtes intéressé(e) et aimeriez la pratiquer aussi. Vous me demandez des renseignements (lieu, intérêt, horaires, etc.).
+Je suis un(e) ami(e) francophone. Vous envisagez de venir vivre dans ma ville et souhaitez des informations pour trouver un logement (procédures, lieux, coût, etc.).
+Je suis un(e) ami(e) francophone. Vous voulez choisir un endroit pour voyager et souhaitez connaître les pays que j'ai visités. Vous me posez des questions pour en savoir plus (activités, météo, prix, etc.).
+Je suis un(e) ami(e) et je participe régulièrement à des voyages organisés. Vous voulez essayer ce type de vacances. Vous me demandez des conseils pour préparer votre voyage (destination, budget, activités, etc.).
+Je suis un(e) ami(e). J'apprends des cours de dessin dans une école. Vous souhaitez en savoir plus et vous me posez des questions pour obtenir des informations (prix, l'école, enseignants, horaires, etc.).
+Je suis un(e) ami(e) et vous venez d'arriver dans ma ville. Vous voulez profiter de votre week-end et vous me posez des questions pour découvrir les endroits (quartiers vivants, activités à faire, lieux à visiter, etc.).
+Je suis un(e) ami(e). Vous avez envie de passer un week-end dans une ville que je connais bien. Afin de préparer votre séjour, vous me demandez des informations sur cette ville (lieux à visiter, climat, activités, hébergement, etc.).
+Je suis employé(e) à l'accueil d'une bibliothèque. Vous voulez devenir membre et vous me posez des questions pour comprendre son fonctionnement (inscription, conditions de prêt, horaires, etc.).
+Je suis un(e) voisin(e). Vous venez de vous installer dans l'immeuble et nous nous rencontrons dans l'ascenseur. Vous me demandez des informations (voisins, ambiance, etc).
+Je suis un(e) voisin(e). Je dois sortir demain soir et vous acceptez de vous occuper de mon enfant. Vous me posez des questions pour connaître ses goûts et ses habitudes.
+Je suis un(e) voisin(e). Vous venez d'arriver à Montréal et vous cherchez des endroits pour faire vos achats. Vous me posez des questions sur les possibilités (commerces, produits, prix).
+Je travaille dans une agence de voyages qui propose des séjours pour apprendre des langues. Vous souhaitez en savoir plus et vous me posez des questions pour vous renseigner (lieux, tarifs, organisateurs).
+Je travaille à la réception de la maison des associations. Vous voulez vous inscrire et vous me posez des questions sur les activités disponibles (cours, horaires, prix, etc.).
+Je suis votre collègue de travail. J'aimerais trouver un partenaire pour faire du sport. Vous êtes curieux(se) et vous me demandez des précisions sur ce sport (genre d'activité, heures, niveau, etc.).
+Je suis un(e) voisin(e) et nos enfants sont copains. Je vous suggère que votre enfant nous accompagne pendant nos vacances. Vous me demandez des renseignements avant de dire oui (dates, destination, activités, etc.).
+Je suis un(e) voisin(e) et je fais du bénévolat dans une association qui protège l'environnement. Vous êtes intéressé(e) à y participer et vous me demandez des précisions (activités, heures, membres, etc.).
+Je suis employé(e) dans une agence de voyages spécialisée dans les excursions d'une journée. Vous souhaitez en savoir plus et vous me demandez des précisions (prix, programme, destinations, etc.).
+Je suis employé(e) à la réception d'un musée. Vous voulez organiser une visite en famille et vous me demandez des précisions (horaires, expositions, tarifs, etc.).
+Je suis un(e) ami(e) et je m'en vais en vacances pour un moment. Je vous confie la surveillance de mon appartement durant ce temps. Vous me demandez des précisions (dates, choses à faire, instructions, etc.).
+Je suis un(e) ami(e) et je me suis installé(e) au Québec il y a deux ans. Vous souhaitez vivre à l'étranger et vous me demandez des renseignements sur mon expérience (adaptation, obstacles, changements de mode de vie, etc.).
+Je suis un(e) voisin(e) et j'enseigne le piano dans une école de musique du quartier. Vous souhaitez prendre des cours et vous me demandez des informations sur l'établissement (types de cours, prix, horaires, etc.).
+Je suis un(e) voisin(e) et j'anime des activités sportives dans une association du quartier. Vous voulez rejoindre mes séances et vous me demandez des informations sur les entraînements (conditions, discipline, horaires, etc.).
+Vous avez l'intention de découvrir une région du Québec. Vous venez à l'office du tourisme pour vous informer sur les options d'hébergement (catégories, localisation, tarifs, etc.). Je suis la personne qui vous renseigne.
+Je suis agent immobilier et vous souhaitez acheter un appartement et une offre vous intéresse. Vous me demandez alors des précisions sur le bien (superficie, coût, quartier, services à proximité, etc.).
+Je suis parent d'un enfant de l'école. Vous cherchez une activité pour vos enfants après les cours. Vous me demandez des précisions sur les options disponibles près de l'école (type d'activité, prix, horaires, encadrement, etc.).
+Je suis un(e) ami(e) engagé(e) dans une association qui offre des repas aux personnes sans abri. Vous souhaitez vous engager à votre tour et vous me demandez des informations sur l'association (règles, missions, horaires, etc.).
+Je suis un(e) ancien(ne) collègue et j'ai récemment commencé un nouvel emploi. Vous envisagez de changer de travail et vous me demandez des informations sur ma société (tâches, environnement, avantages, etc.).
+Nous partageons le même immeuble. Je vous propose de garder mon enfant pendant le week-end. Vous êtes d'accord et vous m'interrogez sur les détails pratiques (temps de garde, repas, sorties, etc.).
+Je suis un(e) ami(e). Mon anniversaire arrive bientôt, vous souhaitez organiser une fête et vous m'interrogez sur les détails (endroit, heures, invités, ambiance, etc.).
+Je suis un(e) ami(e). Je désire continuer mes études au Canada. Vous me demandez des informations pour en savoir plus sur mon projet (ville, spécialité, buts, etc.).
+Je suis un(e) ami(e). J'ai des objets lourds à transporter et aucun véhicule pour le faire. Vous me demandez des précisions pour m'aider à organiser cela (nature d'objets, distance, date, etc.).
+Je suis un(e) voisin(e). Je peux vous recommander quelqu'un qui s'occupe des enfants à domicile. Vous souhaitez en savoir plus et me demandez des renseignements sur cette personne (prix, disponibilité, compétences, etc.).
+Je suis employé(e) à l'office de tourisme canadien. Vous voulez passer un week-end relaxant et vous me demandez des recommandations (sorties, endroits à découvrir, déplacements, etc.).
+Je suis parent d'un élève et nos enfants fréquentent la même école. Vous assistez à la fête de l'école pour la première fois et vous me demandez des informations sur l'événement (programme, horaires, animations, etc.).
+Je suis un(e) ami(e) et je vis dans une grande ville. Vous souhaitez louer un logement ici. Vous me demandez des informations (offres disponibles, prix, quartier, etc.).
+Je suis employé(e) dans un club de sport. Vous souhaitez vous inscrire à une activité physique. Vous me demandez des renseignements pour faire votre choix (sports disponibles, horaires, coût, etc.).
+Je suis employé(e) dans une agence de voyages. Vous voulez planifier vos vacances et vous me demandez des informations (coût, destinations, activités, etc.).
+Je suis employé(e) à la ludothèque de votre ville. Vous souhaitez adhérer et vous me posez des questions (horaires, prix, jeux disponibles, etc.).
+
+# 2026-05 Mai 2026 (50 nouvelles consignes)
+Je suis l'assistant(e) de votre docteur. Il est en congé et vous me demandez des informations précises sur le praticien qui le remplace (nom, horaires, durée de remplacement etc.).
+Je suis un(e) ami(e) à vous. J'ai été récemment engagé(e) par une société implantée dans la périphérie de Toronto. Vous me sollicitez pour obtenir des renseignements sur mon nouveau poste (mes coéquipiers, les bureaux, les bénéfices, les événements organisés, etc.).
+Je suis un(e) ami(e) à vous. Je dispose d'une expérience significative en blogage. Vous souhaitez lancer un site personnel en prévision de votre futur séjour au Canada et vous me sollicitez pour des recommandations (organisation, fréquence de publication, type de contenus, etc.).
+Je suis un(e) ami(e) à vous. Vous souhaitez planifier un séjour au Canada afin de célébrer l'anniversaire de votre conjoint(e) et vous me posez des questions (destinations, activités, coûts, etc.).
+Vous déménagez pour vous établir au Canada et vous cherchez une place en colocation. Je vous propose mon appartement. Vous souhaitez obtenir des informations pour comprendre l'organisation de cette cohabitation (pièces communes, montant du loyer, colocataires, etc.).
+Je loue une chambre dans mon appartement. Vous avez consulté mon annonce et venez visiter le logement. Vous me demandez des informations sur la chambre et la location (prix, équipement, vie en colocation, etc.).
+Je suis un(e) ami(e). Je vous propose de venir à l'inauguration d'un restaurant. Vous me demandez des informations sur l'événement (tenue, repas, programme, participants, etc.).
+Je suis un(e) collègue. Je ne pourrai pas aller récupérer mes parents à l'aéroport ce week-end. Vous proposez de m'aider et vous me demandez des informations pour organiser leur arrivée (date, heure, vol, etc.).
+Je suis un(e) collègue. Je vends des meubles et j'ai mis une annonce. Vous souhaitez acheter et vous me demandez des informations sur les objets (état, dimensions, coût, etc.).
+Je suis un(e) voisin(e). Vous venez de vous installer dans l'immeuble. Vous me demandez des informations sur le quartier (commerces, loisirs, activités sportives, etc.).
+Je suis un(e) ami(e). J'ai pris part à une émission de télévision. Vous souhaitez en savoir davantage. Vous me posez des questions sur cette aventure (inscription, organisation, intérêt, etc.).
+Je suis un(e) ami(e). Vous souhaitez déménager dans ma ville. Vous me demandez des informations afin de trouver un quartier adapté à votre situation (atmosphère, coût des loyers, services disponibles, etc.).
+Je suis votre voisin(e). J'anime des activités sportives dans un centre communautaire. Vous aimeriez découvrir cette activité. Vous me posez des questions sur son fonctionnement (types de séances, horaires, participants, etc.).
+Je suis employé(e) dans une agence de location de vélos au Canada. Vous aimeriez visiter la ville pendant votre séjour. Vous me posez des questions pour obtenir des informations (modèles proposés, conditions de location, prix, etc.).
+Je suis conseiller(ère) dans une agence de tourisme. Vous envisagez de faire une croisière au Canada. Vous me demandez des renseignements sur les offres disponibles (nombre de jours, prix, loisirs à bord, etc.).
+Je suis un(e) ami(e) français(e). Vous voulez passer l'été en France, mais vous ne savez pas encore quelle ville choisir. Vous me demandez des informations pour les comparer (temps, activités, transports, etc.) et choisir la meilleure destination.
+Je suis un(e) ami(e). Je souhaite trouver un appartement à louer. Vous essayez de m'aider et vous me demandez des informations (quartier, budget, superficie, etc.).
+Je suis un(e) collègue. J'ai participé à une formation du soir à l'université pendant une année. Vous souhaitez en savoir plus et vous me posez des questions sur ces cours (enseignants, horaires, tarifs, etc.).
+Je suis employé(e) dans une agence de voyages. Vous pensez partir en vacances au Canada. Vous me demandez des informations pour comparer les offres (destinations, prix, prestations incluses, etc.).
+Je suis employé(e) dans la réception d'un centre culturel et sportif à Ottawa. Vous êtes nouveau dans le quartier et vous voulez vous inscrire à des activités. Vous me demandez des renseignements (sports, horaires, tarifs, etc.).
+Je suis le gérant d'un restaurant et je recrute un(e) employé(e). Vous souhaitez postuler et vous me demandez des informations (poste proposé, horaires, salaire, etc.).
+Je suis un(e) ami(e) et je participe à des cours de pâtisserie depuis un certain temps. Vous êtes intéressé(e) et vous me demandez des renseignements (coût, endroit, recettes apprises, etc.).
+Je suis employé(e) dans une agence de voyages. Vous souhaitez préparer vos vacances et vous me demandez des renseignements (lieux à visiter, hébergement, coût, etc.).
+Je suis employé(e) à l'accueil d'un centre de loisirs. Vous voulez inscrire votre enfant à un atelier et vous me demandez des renseignements (horaires, prix, activités proposées, etc.).
+Je suis un(e) voisin(e), je fais appel à quelqu'un pour m'aider à la maison (ménage, jardin, petits travaux, etc.). Vous êtes intéressé(e) et vous me demandez des informations (tâches, tarifs, horaires, etc.).
+Je suis votre ami(e). Je m'installe à l'étranger et je ne peux pas transporter toutes mes affaires. J'ai mis certains objets en vente. Vous voulez en savoir plus et vous me posez des questions sur les articles à vendre (meubles, objets, tarifs, etc.).
+Je suis votre ami(e). Vous recevrez prochainement des amis qui ne connaissent pas votre ville. Vous me posez des questions pour les aider à organiser leur séjour (restaurants, visites, sorties, etc.).
+Je suis votre collègue. J'ai participé à un mariage ce week-end. Vous voulez savoir comment s'est déroulée la cérémonie (repas, lieu, ambiance, etc.).
+Je suis votre collègue. J'ai réalisé un tour touristique au Canada. Vous voulez faire la même expérience l'été prochain et me posez des questions sur le voyage (coût, étapes, temps, etc.).
+Je vis dans votre quartier. Je vais partir en vacances une semaine et j'ai besoin que quelqu'un garde mon chien. Vous souhaitez m'aider et vous me demandez des informations (durée, soins, paiement, etc.).
+Je suis un(e) ami(e). Je voudrais préparer une sortie familiale pour dimanche prochain. Vous acceptez de m'aider et vous me demandez des informations pour bien préparer cette sortie (destination, loisirs, budget, transport, etc.).
+Je suis un(e) ami(e) et je réside au Canada. Vous prévoyez de vous installer prochainement ici. Vous me demandez des informations concernant les transports (types de transport, coût, horaires, rapidité, etc.).
+Je suis un(e) voisin(e). J'ai mis une annonce dans la résidence pour vendre un meuble. Vous souhaitez l'acheter et vous me demandez des informations (état du meuble, prix, transport, date, etc.).
+Vous êtes arrivé(e) récemment au Canada. Je suis un(e) ami(e) et je vous accueille chez moi pour quelques jours. Vous me posez des questions pour trouver et louer un logement (prix du loyer, quartiers, formalités, etc.).
+Vous passez quelques jours dans un hôtel. Je suis employé(e) à l'accueil. Vous me demandez des informations pour bien organiser votre séjour (petit-déjeuner, Wi-Fi, déplacements, activités à faire, etc.).
+Je suis votre ami(e). Vous cherchez un emploi et vous avez un entretien prochainement, vous me demandez comment le réussir (tenue, comportement, préparation, etc.).
+Je suis votre voisin(e). Je m'absente en vacances et je cherche quelqu'un pour s'occuper de mon animal. Vous voulez en savoir plus avant d'accepter (dates, soins, règles, etc.).
+Je travaille à l'office de tourisme. Vous souhaitez planifier un week-end à prix réduit et vous me demandez des suggestions (activités, lieux à visiter, transports, etc.).
+Je travaille à l'accueil d'un club sportif de la ville. Vous envisagez de vous inscrire et vous me posez des questions (horaires, types de cours, tarifs, etc.).
+Nous sommes amis et vous envisagez de vous installer au Canada. Je vous suggère de vivre avec moi en colocation à Toronto. Vous me demandez des informations pour décider si c'est une bonne solution pour vous (logement, quartier, routine, etc.).
+Je suis à l'accueil d'un centre sportif. Vous souhaitez vous inscrire et vous me posez des questions pour vous informer (activités sportives, horaires, tarifs, etc.).
+Je suis un(e) voisin(e). Je suis chauffeur et je propose de partager mes trajets en voiture. Vous êtes intéressé(e) et vous me posez des questions sur ce système (prix, heures, fonctionnement, etc.).
+Je suis employé(e) à l'accueil d'un hôtel. Vous souhaitez faire une réservation. Vous me posez des questions, et je vous fournis des renseignements (prix, catégorie de chambre, petit-déjeuner, etc.).
+Je travaille comme chef cuisinier/cheffe cuisinière à domicile. Vous souhaitez préparer un repas en famille. Vous me posez des questions sur ce que je peux offrir (menus, équipement, prix, etc.).
+Je suis employé(e) à l'accueil d'une école de langues. Vous souhaitez vous inscrire à un cours. Vous me posez des questions (programmes, horaires, tarifs, etc.), et je vous fournis des renseignements.
+Je suis à la recherche d'un emploi de garde d'enfants. Vous cherchez une personne pour garder votre enfant après les cours. Vous me posez des questions afin de décider si vous allez m'embaucher (horaires, expérience, prix, etc.).
+Je suis un(e) ami(e) et je viens de passer un excellent séjour au Canada. Vous aimeriez faire pareil. Vous me posez des questions sur ce voyage (endroits visités, loisirs, prix, etc.).
+Je suis un(e) ami(e). Je prends souvent part à des activités artistiques proposées par la mairie (danse, musique, cinéma, etc.). Vous êtes intéressé(e). Vous me posez des questions sur les cours, les tarifs, les horaires, etc.
+Je suis un(e) ami(e). J'ai une boutique. Vous rêvez d'avoir votre propre magasin. Vous me posez des questions sur mon travail (jours d'ouverture, articles proposés, clientèle, etc.).
+Je suis employé(e) dans un magasin de déguisements. Vous avez besoin d'un costume pour une soirée. Vous me posez des questions (types de tenues, règles de location, prix, etc.).
+
+# 2026-06 Juin 2026 (10 nouvelles consignes)
+Je suis votre collègue. Je participe à un club de jeux de société. Vous souhaitez en savoir plus et me demandez des renseignements (lieu, prix, heures, ambiance, etc.).
+Je suis votre collègue. Je prépare une soirée pour célébrer ma retraite et vous êtes invité(e). Vous voulez en savoir plus (date, lieu, invités, programme, etc.).
+Je suis un(e) voisin(e). J'organise des activités de jardinage dans le quartier. Vous êtes intéressé(e) et vous me demandez des informations (coût, organisation, activités proposées, etc.).
+Je suis employé(e) à la bibliothèque municipale. Vous voulez emprunter des documents et vous me posez des questions sur la procédure (durée, quantité autorisée, conditions, etc.).
+Je suis à la réception de la piscine municipale. Vous souhaitez prendre des leçons de natation et me demandez des renseignements (prix, horaires, accès, etc.).
+Je suis un(e) collègue. J'organise souvent des sorties de jogging en groupe. Vous souhaitez y participer et vous me posez des questions pour obtenir des informations (itinéraire, horaires, équipement, niveau, etc.).
+Je suis employé(e) au service des activités de votre nouvelle ville. Vous cherchez une activité pour faire de nouvelles connaissances. Vous me posez des questions afin d'obtenir des renseignements (type d'activité, horaires, participants, etc.).
+Je suis employé(e) dans un restaurant. Vous envisagez d'y organiser une fête d'anniversaire familiale. Vous me posez des questions pour obtenir des renseignements (capacité d'accueil, menus proposés, tarifs, modalités de réservation, etc.).
+Je suis employé(e) dans un magasin de téléphones. Vous cherchez un premier smartphone pour un enfant. Vous me posez des questions afin d'obtenir des informations sur les produits disponibles (appareils, accessoires, prix, etc.).
+Je suis employé(e) à l'accueil d'un parc de divertissement. Vous souhaitez y passer une journée et vous me posez des questions pour vous renseigner (tarifs, heures d'ouverture, activités, services, etc.).
